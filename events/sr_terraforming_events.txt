@@ -1,0 +1,108 @@
+namespace = sr_terraforming
+
+country_event = {
+	id = sr_terraforming.1000
+	title = "srt_terraforming_window"
+	desc = "l14"
+	location = event_target:terraforming_planet
+	show_sound = event_conversation #ToDo
+
+	picture_event_data = {
+		portrait = event_target:caravaneer_home_country
+		room = caravaneer_home_room
+		planet_background = pc_barren_cold
+	}
+
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "sr_terraforming_window"
+
+	immediate = {
+		event_target:terraforming_planet = {
+			generate_terraforming_values = yes
+		}
+	}
+
+	#	Custom Close
+	# option = {
+	# 	name = "sp1"
+	# 	# custom_gui = "sr_terraforming_window_op_close"
+	# }
+
+	# Radiation
+	option = {
+		name = "sr_terraforming.window.planet.radiation"
+		custom_gui = "sr_terraforming_window_radiation"
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_radiation_icon_low"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = { check_variable = { which = radiation value <= 5.0 } }
+		}
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_radiation_icon_medium"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = {
+				AND = {
+					check_variable = { which = radiation value > 5.0 }
+					check_variable = { which = radiation value <= 25.0 }
+				}
+			}
+		}
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_radiation_icon_high"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = { check_variable = { which = radiation value > 25.0 } }
+		}
+	}
+
+	# Gravity
+	option = {
+		name = "srt.window.planet.gravity"
+		custom_gui = "sr_terraforming_window_gravity"
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_gravity_icon_low"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = { check_variable = { which = gravity value < 0.75 } }
+		}
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_gravity_icon_medium"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = {
+				AND = {
+					check_variable = { which = gravity value >= 0.75 }
+					check_variable = { which = gravity value <= 1.25 }
+				}
+			}
+		}
+	}
+
+	option = {
+		custom_gui = "sr_terraforming_window_gravity_icon_high"
+		trigger = {
+			exists = event_target:terraforming_planet
+			event_target:terraforming_planet = { check_variable = { which = gravity value > 1.25 } }
+		}
+	}
+
+	# Clean up
+	after = {
+		hidden_effect = {
+			remove_country_flag = sr_terraforming_window_open
+		}
+	}
+}

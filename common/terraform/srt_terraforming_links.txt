@@ -1,0 +1,27 @@
+### Tier 1 Links ###
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_decrease_radiation_increase_ozone_layer"
+
+  energy = 500
+  duration = 90
+
+  effect = {
+    from = {
+      change_pc = pc_barren_cold
+
+      subtract_variable = { which = "radiation" value = 1.0 }
+
+      while = {
+        limit = {
+          check_variable = { which = "radiation" value <= 0 }
+        }
+        change_variable = { which = "radiation" value = 0.32 } # Just a random increment
+      }
+    }
+  }
+
+	ai_weight = { # ToDo
+		weight = 0
+	}
+}

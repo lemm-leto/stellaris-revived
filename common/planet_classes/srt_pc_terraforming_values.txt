@@ -1,0 +1,9 @@
+pc_decrease_radiation_increase_ozone_layer = {
+	entity = "barren_planet"
+	entity_scale = @planet_standard_scale
+	icon_frame = 33
+
+	spawn_odds = 0
+
+	colonizable = no
+}

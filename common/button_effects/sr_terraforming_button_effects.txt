@@ -1,0 +1,43 @@
+sr_terraforming_planet_radiation_effect = {
+	potential = { exists = event_target:terraforming_planet }
+	effect = {
+    if = {
+      limit = { event_target:terraforming_planet = { check_variable = { which = radiation value <= 5.0 } } }
+      custom_tooltip = "sr_terraforming.window.planet.radiation.low.tt"
+		} else_if = {
+      limit = {
+        event_target:terraforming_planet = {
+          AND = {
+            check_variable = { which = radiation value > 5.0 }
+            check_variable = { which = radiation value <= 25.0 }
+          }
+        }
+      }
+      custom_tooltip = "sr_terraforming.window.planet.radiation.medium.tt"
+    } else = {
+      custom_tooltip = "sr_terraforming.window.planet.radiation.high.tt"
+    }
+  }
+}
+
+srt_planet_gravity_effect = {
+  potential = { exists = event_target:terraforming_planet }
+	effect = {
+    if = {
+      limit = { event_target:terraforming_planet = { check_variable = { which = gravity value < 0.75 } } }
+      custom_tooltip = "srt.window.planet.gravity.low.tt"
+		} else_if = {
+      limit = {
+        event_target:terraforming_planet = {
+          AND = {
+            check_variable = { which = gravity value >= 0.75 }
+					  check_variable = { which = gravity value <= 1.25 }
+          }
+        }
+      }
+      custom_tooltip = "srt.window.planet.gravity.medium.tt"
+    } else = {
+      custom_tooltip = "srt.window.planet.gravity.high.tt"
+    }
+  }
+}

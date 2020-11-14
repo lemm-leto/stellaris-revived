@@ -1,0 +1,28 @@
+﻿l_russian:
+  trait_primatoid:0 "Приматоид"
+  trait_primatoid_desc:0 "§LПриматоиды — класс позвоночных животных, основной отличительной особенностью которых является наличие свободных верхних конечностей. Такой путь эволюции позволяет адаптироваться к изменения окружающей среды и обуславливает быстрый темп воспроизведения популяции. Однако, сложное строение организма и его требовательность накладывают отпечаток - время жизни приматов скоротечно относительно других видов.§!\n"
+  trait_primatoid_effect:0 "Предпочитают континентальные и близкие к ним типы миров.\n\n$MOD_POP_GROWTH_SPEED$: §G+25%§!\n$mod_planet_jobs_engineering_research_produces_mult$: §G+15%§!\n$mod_planet_pops_consumer_goods_upkeep_mult$: §R+10%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_continental$: §G100%§!\n$pc_savannah$: §G80%§!\n$pc_tropical$: §G80%§!\n$pc_alpine$: §H40%§!\n$pc_arid$: §H40%§!\n$pc_tundra$: §H40%§!\n$pc_ocean$: §R10%§!\n$pc_arctic$: §R10%§!\n$pc_desert$: §R10%§!"
+
+  trait_oceanid:0 "Океанид"
+  trait_oceanid_desc:0 "§LОкеаниды - продукт эволюции, протекавшей и достигшей разумности в глубинах океана. Жизнь океанидов скоротечна в силу дефецита ресурсов под поверхностью воды. Подводный образ жизни также предполагает к более тесному сосуществованию со своими сородичами.§!\n"
+  trait_oceanid_effect:0 "Предпочитают океанический и континентальные типы миров.\n\n$MOD_POP_HAPPINESS$: §G+15%§!\n$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n$MOD_POP_ENVIRONMENT_TOLERANCE$: §R-10%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_ocean$: §G100%§!\n$pc_continental$: §G100%§!\n$pc_tropical$: §H40%§!\n$pc_arctic$: §H40%§!\n$pc_tundra$: §R10%§!\n$pc_arid$: §R10%§!\n$pc_desert$: §R10%§!\n$pc_savannah$: §R10%§!\n$pc_alpine$: §R10%§!"
+
+  trait_reptiloid:0 "Рептилоид"
+  trait_reptiloid_desc:0 "§LРептилоиды - хладнокровные создания, берущие свое начало от ящер и рептилий. Предпочитают индивидуализм, что часто становится причиной различных политических потрясений. Вместе с тем, наличие чешуи, панциря или просто толстой шкуры делает из рептилий идеальных воинов.§!\n"
+  trait_reptiloid_effect:0 "Предпочитают пустынные и близкие к ним типы миров.\n\n$MOD_ARMY_DAMAGE_MULT$: §G+50%§!\n$mod_planet_jobs_alloys_produces_mult$: §G+15%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$: §R-80%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_continental$: §H40%§!\n$pc_ocean$: §R10%§!\n$pc_tundra$: §R10%§!\n$pc_alpine$: §R10%§!\n$pc_tropical$: §R10%§!\n$pc_arctic$: §R10%§!"
+
+  trait_avian:0 "Птицоид"
+  trait_avian_desc:0 "§LПтицоиды - группа теплокровных животных, произошедших от птиц. Живут, как правило, большими стаями. Обратная сторона такого образа жизни - повышенная нужда в общении и культурном времяпрепровождении.§!\n"
+  trait_avian_effect:0 "Предпочитают любые виды миров с большой площадью поверхности и достаточной температурой.\n\n$MOD_POP_HOUSING_USAGE_MULT$: §G-50%§!\n$mod_planet_jobs_food_produces_mult$: §G+15%§!\n$MOD_POP_AMENITIES_USAGE_MULT$: §R+50%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_continental$: §G100%§!\n$pc_tropical$: §G100%§!\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_alpine$: §H40%§!\n$pc_ocean$: §H40%§!\n$pc_tundra$: §R10%§!\n$pc_arctic$: §R10%§!"
+
+  trait_insectoid:0 "Инсектоид"
+  trait_insectoid_desc:0 "§LНасекомые — класс беспозвоночных членистоногих животных. Необычайное разнообразие форм насекомых является их поразительной особенностью. Недолгий срок жизни насекомых и повышенная скорость метаболизма приводит к дополнительным затратам на содержание населения.§!\n"
+  trait_insectoid_effect:0 "Предпочитают любые виды миров, кроме холодных.\n\n$MOD_POP_GROWTH_SPEED$: §G+50%§!\n$mod_planet_jobs_minerals_produces_mult$: §G+15%§!\n$mod_planet_pops_upkeep_mult$: §R+50%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_continental$: §G100%§!\n$pc_tropical$: §G100%§!\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_ocean$: §G100%§!\n$pc_alpine$: §H40%§!\n$pc_tundra$: §R10%§!\n$pc_arctic$: §R10%§!"
+
+  trait_plasmoid:0 "Плазмоид"
+  trait_plasmoid_desc:0 "§LЭкзотическая форма жизни, способная существовать только на поверхности звезд. Их постижение за гранью возможного для большинства цивилизаций.§!\n"
+  trait_plasmoid_effect:0 "Предпочитают только звезды.\n\n$mod_planet_jobs_energy_produces_mult$ §G+500%§!\n$mod_planet_jobs_specialist_produces_mult$ §G+200%§!\n$MOD_POP_GROWTH_SPEED$ §R-80%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_b_star$ §G100%§!\n$pc_a_star$ §G100%§!\n$pc_f_star$ §G100%§!\n$pc_g_star$ §G100%§!\n$pc_k_star$ §G100%§!\n$pc_m_star$ §G100%§!\n$pc_m_giant_star$ §G100%§!"
+
+  trait_plantoid:0 "Плантоиды"
+  trait_plantoid_desc:0 "§LПлантоиды — класс живых существ, чья эволюция берет свое начало от растительной среды своей планеты. Медленный метаболизм и малоподвижный образ жизни позволяет плантоидам жить столетиями. Фотосинтетические способности дают преимущества плантоидам и позволяют вырабатывать больше энергии.§!\n"
+  trait_plantoid_effect:0 "Предпочитают тропические и близкие к ним типы миров.\n\n$MOD_POP_GROWTH_SPEED$: §R-10%§!\n$mod_country_energy_produces_mult$: §G+15%§!\n$mod_pc_tropical_habitability$: §G100%§!\n$mod_pc_arid_habitability$: §G90%§!\n$mod_pc_tundra_habitability$: §G90%§!\n$mod_pc_continental_habitability$: §H50%§!\n$mod_pc_savannah_habitability$: §H50%§!\n$mod_pc_alpine_habitability$: §H50%§!\n$mod_pc_ocean_habitability$: §R10%§!\n$mod_pc_arctic_habitability$: §R10%§!\n$mod_pc_desert_habitability$: §R10%§!"

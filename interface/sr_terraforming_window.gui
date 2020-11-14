@@ -1,0 +1,383 @@
+guiTypes = {
+	### OPTIONS ###
+
+	@opt_X1 = 50
+
+	### RADIATION ###
+	containerWindowType = {
+		name = "sr_terraforming_window_radiation"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			size = { x = 559 y = 30 }
+			format = center
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_radiation_icon_low"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_blue_strip"
+			position = { x = 0 y = 7 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_radiation_icon_medium"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_yellow_strip"
+			position = { x = 0 y = 5 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_radiation_icon_high"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_red_strip"
+			position = { x = 0 y = 7 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	### Gravity ###
+	containerWindowType = {
+		name = "sr_terraforming_window_gravity"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			size = { x = 559 y = 30 }
+			format = center
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_gravity_icon_low"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_red_strip"
+			position = { x = 0 y = 7 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_gravity_icon_medium"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_blue_strip"
+			position = { x = 0 y = 5 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "sr_terraforming_window_gravity_icon_high"
+		position = { x=0 y=0 }
+		size = { width = 559 height = 30 }
+		moveable = no
+
+		iconType = {
+			name = "option_icon"
+			spriteType = "GFX_srt_red_strip"
+			position = { x = 0 y = 7 }
+			alwaysTransparent = yes
+			orientation = center_up
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 0 y = 0 }
+			format = left
+			font = "cg_16b"
+			alwaysTransparent = yes
+		}
+	}
+
+	### WINDOW ###
+	@scr_W = 850
+	@scr_H = 730
+	@scr_O = 75
+
+	containerWindowType = {
+		name = "sr_terraforming_window"
+		orientation = center
+		origo = center
+		moveable = yes
+		size = { width = 559 height = 680 }
+
+		background = { name = "background" quadTextureSprite ="GFX_tile_outliner_bg" }
+		iconType = { name = "empire_header_line" quadTextureSprite = "GFX_line_medium" position = { x = 6 y = 22 } alwaysTransparent = yes }
+
+		buttonType = {
+			name = "focus_button"
+			position = { x = -114 y = 12 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_fleetview_focus"
+			buttonFont = "cg_16b"
+			shortcut = "q"
+		}
+
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x= -1142 y = -1112 }
+			Orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+			actionShortcut = "cancel"
+		}
+
+		### PORTRAIT ###
+
+		containerWindowType = {
+			name = "portrait"
+			position = { x = 10 y = 57 }
+			size = { width = 964 height = 350 }
+			clipping = yes
+
+			iconType = {
+				name = "system_background"
+				spriteType = "GFX_srt_window_portrait"
+				position = { x = -10 y = 0 }
+			}
+
+			effectButtonType = {
+				name = "system_desc"
+				quadTextureSprite = "GFX_invisible"
+				orientation = upper_right
+				position = { x = -324 y = 16 }
+				size = { x = 200 y = 32 }
+				effect = "irm_tt_system_type"
+			}
+
+			iconType = { name = "portrait"	spriteType = "GFX_portrait_character"	position = { x = -1000 y = -1000 }	scale = 0.32	alwaysTransparent = yes } # leader hide
+
+			iconType = { name = "black_frame" spriteType = "GFX_planetview_black_frame" position = { x = -4 y = -5} alwaysTransparent = yes }
+			iconType = { name = "stripes_1" spriteType = "GFX_planetview_stripes_1" position = { x = -10 y = 2 } alwaysTransparent = yes }
+			iconType = { name = "city_frame" spriteType = "GFX_city_frame" position = { x = -6 y = -5 } alwaysTransparent = yes }
+		}
+
+		### BASIC VALUES ###
+		@col1_W = 547
+		@cell_W = 537
+		@cell_Y = 48
+
+		containerWindowType = {
+			name = "srt_basic_values_info"
+			position = { x = 0 y = 240 }
+			size = { width = @col1_W height = 600 }
+			clipping = yes
+
+			iconType = {
+				name = "srt_hex_bg"
+				spriteType = "GFX_hex_bg"
+				position = { x = 26 y = -12 }
+				alwaysTransparent = no
+			}
+
+			iconType = {
+				name = "srt_empire_header_line"
+				quadTextureSprite = "GFX_line_long"
+				position = { x = 46 y = 30 }
+				alwaysTransparent = no
+			}
+
+			iconType = {
+				name = "srt_basic_values_icon"
+				quadTextureSprite = "GFX_topbar_species_button"
+				position = { x = 0 y = 6 }
+			}
+
+			instantTextBoxType = {
+				name = "srt_basic_values"
+				font = "malgun_goth_24"
+				orientation = upper_left
+				position = { x = 52 y = 7 }
+				format = left
+				text = "sr_terraforming.window.planet.basic_values"
+				alwaysTransparent = no
+			}
+
+			containerWindowType = {
+				name = "sr_terraforming_radiation"
+				position = { x = 10 y = 60 }
+
+				effectButtonType = {
+					name = "sr_terraforming_radiation_button"
+					quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+					position = { x = 0 y = 0 }
+					size = { x = @cell_W y = @cell_Y }
+					effect = "sr_terraforming_planet_radiation_effect"
+				}
+				iconType = {
+					name = "sr_terraforming_radiation_icon"
+					quadTextureSprite = "GFX_empire_capital"
+					position = { x = 4 y = 8 }
+					scale = 1
+					alwaysTransparent = yes
+				}
+			}
+
+			containerWindowType = {
+				name = "sr_terraforming_gravity"
+				position = { x = 10 y = 120 }
+
+				effectButtonType = {
+					name = "sr_terraforming_gravity_button"
+					quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+					position = { x = 0 y = 0 }
+					size = { x = @cell_W y = @cell_Y }
+					effect = "srt_planet_gravity_effect"
+				}
+				iconType = {
+					name = "sr_terraforming_gravity_icon"
+					quadTextureSprite = "GFX_empire_capital"
+					position = { x = 4 y = 8 }
+					scale = 1
+					alwaysTransparent = yes
+				}
+			}
+
+		}
+
+		### EVENT DIPLO ###
+
+		containerWindowType = {
+			name = "EVENT_DIPLO"
+			position = { x = 0 y = 0 }
+			size = { width=563 height=280 }
+			moveable = no
+
+			instantTextBoxType={
+				name = "action_title"
+				font = "malgun_goth_24"
+				position = { x = 20 y = 5 }
+				maxWidth = 520
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType={ name = "action_desc" font = "malgun_goth_24" position = { x = -1000 y = -1000 } }
+
+			listboxType = {
+				name = "option_list"
+				orientation = upper_left
+				size = { x=@scr_W y=900 }
+				position = { x = 0 y = 300 }
+				alwaysTransparent = yes
+			}
+		}
+
+		### HIDE ###
+		instantTextBoxType = { name = "heading" font = "malgun_goth_24" text = "DIPLOMACY" position = { x = -1000 y = -1000 } }
+		instantTextBoxType = { name = "alien_message" font = "cg_16b" position = { x = -1000 y = -1000 } }
+		buttonType = { name = "alien_message_background" size = { x = 485 y = 240 } position = { x = -1000 y = -1000 } spriteType = "GFX_tiles_dark_area_cut_8" alwaysTransparent = yes }
+		buttonType = { name = "confirm_button" quadTextureSprite = "GFX_standard_button_142_34_button" position = { x= -1000 y = -1000  } font = "cg_16b" }
+		buttonType = { name = "empire_flag"	quadTextureSprite = "GFX_empire_flag_128_trader"	position = { x = -1000 y = -1000 }	orientation = UPPER_LEFT }
+		instantTextBoxType = { name = "empire_name" font = "malgun_goth_24" position = { x = -1000 y = -1000 } }
+		instantTextBoxType={ name = "empire_government_type" font = "cg_16b" position = { x = -1000 y = -1000 } }
+		instantTextBoxType = { name = "empire_personality_type" font = "cg_16b" position = { x = -1000 y = -1000 } }
+		OverlappingElementsBoxType = { name = "empire_ethics_icons" position = { x = -1000 y = -1000 } }
+		iconType = { name = "empire_info_bg"	spriteType = "GFX_diplomacy_dark_fade_bg"	position = { x = -1000 y = -1000 }	alwaysTransparent = yes }
+		containerWindowType = { name = "leader_details"	position = { x = -1000 y = -1000 }	containerWindowType = { name = "empire_traits_box" background = { name = "ethics_bg" spriteType = "GFX_tiles_dark_area_cut_8" } }	instantTextBoxType = { name = "empire_traits_label" font = "cg_16b" }	overlappingElementsBoxType = { name = "leader_traits" }	instantTextBoxType = { name = "leader_name" font = "cg_16b" }	instantTextBoxType = { name = "leader_species" font = "cg_16b" } }
+		containerWindowType = { name = "portrait_background"	position = { x = -1000 y = -1000 } clipping = yes	iconType = { name = "event_picture" spriteType = "GFX_diplomacy_portrait_frame" position = { x = -1000 y = -1000 } }	iconType = { name = "portrait" position = { x = -1000 y = -1000 } spriteType = "GFX_portrait_character" }	}
+		containerWindowType = {	name = "opinion_window"	position = { x = -1000 y = -1000 }	background = { name = "opinion_bg" spriteType = "GFX_tiled_window_transparent" }	iconType = { name = "their_opinion_icon" spriteType = "GFX_diplomacy_opinion" }	instantTextBoxType = { name = "their_opinion" font = "cg_16b" }	}
+	}
+}

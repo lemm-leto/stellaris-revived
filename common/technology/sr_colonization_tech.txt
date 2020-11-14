@@ -1,0 +1,35 @@
+tech_plazmoid_colonization = {
+	cost = 0
+	area = physics
+	tier = 0
+	category = { particles }
+  start_tech = yes
+
+  potential = {
+    is_plasmoid_empire = yes
+  }
+}
+
+tech_organics_colonization = {
+	cost = 0
+	area = physics
+	tier = 0
+	category = { particles }
+  start_tech = yes
+
+  potential = {
+    is_organic_empire = yes
+  }
+}
+
+tech_extreme_colonization = {
+	cost = 0
+	area = physics
+	tier = 0
+	category = { particles }
+  start_tech = yes
+
+  potential = {
+    is_organic_empire = yes
+  }
+}

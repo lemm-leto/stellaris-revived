@@ -1,0 +1,142 @@
+terraforming_station_base = {
+  entity = "construction_platform_entity"
+	construction_entity = "construction_platform_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = no
+	entity_offset = { x = -10 y = -10 }
+  build_time = 1
+
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 500
+			influence = 200
+		}
+	}
+
+	prerequisites = { "tech_terrestrial_sculpting" }
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+
+		custom_tooltip = {
+			fail_text = "requires_technology_terrestrial_sculpting"
+			from = { has_technology = tech_terrestrial_sculpting }
+		}
+
+		custom_tooltip = {
+			fail_text = "requires_no_terraforming_in_progress"
+			from = { NOT = { has_country_flag = terraforming_in_progress } }
+		}
+	}
+
+	placement_rules = {
+		planet_possible = {
+
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+
+			custom_tooltip = {
+				fail_text = "requires_no_existing_megastructure"
+				NOR = {
+					has_planet_flag = megastructure
+					has_planet_flag = has_megastructure
+					solar_system = {
+						has_star_flag = ring_world_built
+					}
+				}
+			}
+
+			custom_tooltip = {
+				fail_text = "requires_no_orbital_station"
+				has_orbital_station = no
+			}
+
+			custom_tooltip = {
+				fail_text = "requires_not_star"
+				is_star = no
+			}
+
+			custom_tooltip = {
+				fail_text = "requires_suitable_world"
+				OR = {
+					is_planet_class = pc_nascent
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_frozen
+					is_planet_class = pc_molten
+					is_planet_class = pc_toxic
+					AND = {
+						from = { has_technology = tech_ecological_adaptation }
+						OR = {
+							is_planet_class = pc_dry
+							is_planet_class = pc_wet
+							is_planet_class = pc_cold
+						}
+					}
+					AND = {
+						from = { has_technology = tech_climate_restoration }
+						OR = {
+							is_planet_class = pc_arid
+							is_planet_class = pc_desert
+							is_planet_class = pc_savannah
+							is_planet_class = pc_ocean
+							is_planet_class = pc_continental
+							is_planet_class = pc_tropical
+							is_planet_class = pc_alpine
+							is_planet_class = pc_tundra
+							is_planet_class = pc_arctic
+						}
+					}
+					AND = {
+						from = { has_technology = tech_gas_giant_terraforming }
+						is_planet_class = pc_gas_giant
+						NOT = { has_planet_flag = built_core_igniter }
+					}
+				}
+			}
+		}
+	}
+
+	# root = system
+	# from = country
+	ai_weight = {
+		factor = 0
+	}
+
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+		create_ship_design = {
+			design = "NAME_Terraforming_Station"
+		}
+		create_fleet = {
+			effect = {
+					set_owner = from
+					create_ship = {
+						name = "NAME_Terraforming_Station"
+						design = last_created_design
+						graphical_culture = from
+						prefix = no
+					}
+					set_location = fromfrom.planet
+			}
+		}
+
+		last_created_fleet = {
+			set_mission = climate_support
+		}
+
+		remove_megastructure = fromfrom
+
+		fromfrom.planet = {
+			set_variable = { which = has_radiation value = 1 }
+		}
+  }
+}

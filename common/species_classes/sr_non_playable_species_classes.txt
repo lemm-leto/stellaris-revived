@@ -1,0 +1,182 @@
+PRE_MAM = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"pre_mam6"
+		"pre_mam13"
+	}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	uplifted_into = "MAM"
+	uplifted_portraits =
+	{
+		"mam6"
+		"mam13"
+	}
+}
+
+PRE_REP = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"pre_rep09"
+		"pre_rep12"
+	}
+
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "reptilian_pops_move"
+	uplifted_into = "REP"
+	uplifted_portraits =
+	{
+		"rep9"
+		"rep12"
+	}
+}
+
+PRE_AVI = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"pre_avi1"
+		"pre_avi12"
+	}
+
+	graphical_culture = avian_01
+	move_pop_sound_effect = "avian_pops_move"
+	uplifted_into = "AVI"
+	uplifted_portraits =
+	{
+		"avi1"
+		"avi12"
+	}
+}
+
+PRE_ART = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"pre_art1"
+		"pre_art11"
+		"pre_art12"
+		"pre_art13"
+		"pre_art14"
+		"pre_art15"
+	}
+
+	graphical_culture = arthropoid_01
+	move_pop_sound_effect = "arthopoid_pops_move"
+	uplifted_into = "ART"
+	uplifted_portraits = {
+		"art1"
+		"art11"
+		"art12"
+		"art13"
+		"art14"
+		"art15"
+	}
+}
+
+PRE_MOL = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"pre_mol1"
+		"pre_mol3"
+	}
+
+	graphical_culture = molluscoid_01
+	move_pop_sound_effect = "molluscoid_pops_move"
+	uplifted_into = "MOL"
+	uplifted_portraits = {
+		"mol1"
+		"mol3"
+	}
+}
+
+PRE_FUN = {
+	archetype = PRESAPIENT
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"pre_fun9"
+		"pre_fun13"
+	}
+
+	graphical_culture = fungoid_01
+	move_pop_sound_effect = "fungoid_pops_move"
+	uplifted_into = "FUN"
+	uplifted_portraits = {
+		"fun9"
+		"fun13"
+	}
+}
+
+AI = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"hum_robot_red"
+	}
+
+	graphical_culture = ai_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	resources = {}
+}
+
+SWARM = {
+	archetype = OTHER
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"swarm"
+	}
+
+	graphical_culture = swarm_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+EXD = {
+	archetype = OTHER
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"exd1"
+		"exd2"		# No textures
+		"exd3"		# No textures
+	}
+
+	graphical_culture = extra_dimensional_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

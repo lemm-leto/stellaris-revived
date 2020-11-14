@@ -1,0 +1,11 @@
+is_plasmoid_empire = {
+  owner_species = { has_trait = trait_plasmoid }
+}
+
+is_organic_empire = {
+  NOT = {
+    owner_species = {
+      has_trait = trait_plasmoid
+    }
+  }
+}
