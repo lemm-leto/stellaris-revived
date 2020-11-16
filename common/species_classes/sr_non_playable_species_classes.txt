@@ -11,10 +11,10 @@ PRE_MAM = {
 
 	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
-	uplifted_into = "MAM"
+	uplifted_into = "PRIMATOID"
 	uplifted_portraits =
 	{
-		"mam6"
+		"mam5"
 		"mam13"
 	}
 }
@@ -32,7 +32,7 @@ PRE_REP = {
 
 	graphical_culture = reptilian_01
 	move_pop_sound_effect = "reptilian_pops_move"
-	uplifted_into = "REP"
+	uplifted_into = "REPTILOID"
 	uplifted_portraits =
 	{
 		"rep9"
@@ -53,7 +53,7 @@ PRE_AVI = {
 
 	graphical_culture = avian_01
 	move_pop_sound_effect = "avian_pops_move"
-	uplifted_into = "AVI"
+	uplifted_into = "AVIAN"
 	uplifted_portraits =
 	{
 		"avi1"
@@ -78,13 +78,13 @@ PRE_ART = {
 
 	graphical_culture = arthropoid_01
 	move_pop_sound_effect = "arthopoid_pops_move"
-	uplifted_into = "ART"
+	uplifted_into = "INSECTOID"
 	uplifted_portraits = {
 		"art1"
 		"art11"
 		"art12"
 		"art13"
-		"art14"
+		"art12"
 		"art15"
 	}
 }
@@ -102,7 +102,7 @@ PRE_MOL = {
 
 	graphical_culture = molluscoid_01
 	move_pop_sound_effect = "molluscoid_pops_move"
-	uplifted_into = "MOL"
+	uplifted_into = "OCEANID"
 	uplifted_portraits = {
 		"mol1"
 		"mol3"
@@ -124,7 +124,7 @@ PRE_FUN = {
 
 	graphical_culture = fungoid_01
 	move_pop_sound_effect = "fungoid_pops_move"
-	uplifted_into = "FUN"
+	uplifted_into = "PLANTOID"
 	uplifted_portraits = {
 		"fun9"
 		"fun13"
@@ -179,4 +179,191 @@ EXD = {
 
 	graphical_culture = extra_dimensional_01
 	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+# Non-playable species classes to workaround events & initializers
+
+PLANT = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	custom_portraits = {
+		randomized = { host_has_dlc = "Ancient Relics Story Pack" }
+		playable = { local_has_dlc = "Ancient Relics Story Pack"	}
+		portraits = {
+			"pla16_baol"
+		}
+	}
+
+	graphical_culture = plantoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_plantoid"
+}
+
+FUN = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"fun4"
+		"fun15"
+	}
+
+	graphical_culture = fungoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_plantoid"
+}
+
+MOL = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	custom_portraits = {#add additional portraits when customizing species
+		randomized = { host_has_dlc = "Leviathans Story Pack" }
+		playable = { local_has_dlc = "Leviathans Story Pack" }
+		portraits = {
+			"mol17"
+		}
+	}
+
+	graphical_culture = molluscoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_oceanid"
+}
+
+HUM = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = yes
+
+	portraits = {
+		"human"
+		"humanoid_02"
+		"humanoid_03"
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_primatoid"
+}
+
+AVI = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = yes
+
+	portraits = {
+		"pre_avi1"
+		"pre_avi12"
+	}
+
+	graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_avian"
+}
+
+MAM = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = yes
+
+	portraits = {
+		"mam4"
+		"mam8"
+	}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_primatoid"
+}
+
+ART = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"pre_art11"
+		"art13"
+	}
+
+	custom_portraits = {#add additional portraits when customizing species
+		randomized = {
+			OR = {
+				host_has_dlc = "Creatures of the Void Portrait Pack"
+				host_has_dlc = "Anniversary Portraits"
+			}
+		}
+		playable = {
+			OR = {
+				local_has_dlc = "Creatures of the Void Portrait Pack"
+				local_has_dlc = "Anniversary Portraits"
+			}
+		}
+		portraits = {
+			"art17"
+		}
+	}
+
+	graphical_culture = arthropoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_insectoid"
+}
+
+REP = {
+	archetype = CARBONOID
+
+	playable = { always = no }
+	randomized = no
+
+	gender = yes
+
+	portraits = {
+		"rep15"
+		"rep12"
+	}
+
+	custom_portraits = {#add additional portraits when customizing species
+		randomized = { host_has_dlc = "Leviathans Story Pack" }
+		playable = { local_has_dlc = "Leviathans Story Pack" }
+		portraits = {
+			"rep16"
+		}
+	}
+
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait = "trait_reptiloid"
 }

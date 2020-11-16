@@ -1,0 +1,1723 @@
+﻿PRIMATOID1 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			T'Tanak T'Tuda T'Timonok T'Dimik T'Derikam D'Dana D'Vormat D'Kirmik T'Kana T'Tamik D'Tirak T'Komot D'Valam T'Ligam D'Tunak T'Kolbak D'Tuma T'Tollok Y'Tharak Y'Gora Y'Falsek Y'Kono Y'Jargam Y'Lambak Y'Noro Y'Loram Y'Valdim Y'Soram D'Dirim D'Moro D'Farak T'Timin T'Vorg T'Lirmak D'Jolsik Y'Bamta Y'Barra D'Soto T'Ralsak D'Orom D'Oh D'Irim T'Ylgar T'Torga T'Ugana Y'Lesmag Y'Sorom Y'Parga T'Harik T'Sirom Y'Glara D'Naka T'Miri T'Sirma T'Taco D'Targa D'Moro D'Irfa D'Pollog D'Virbo T'Nara T'Migor D'Anara D'Aram T'Talok Y'Ario Y'Maggro D'Varik D'Orang D'Rila T'Tyrik T'Terell T'Tynnia T'Nerok D'Allas T'Vojak T'Nir D'Damma D'Penek D'Irio D'Tarikon D'Saba D'Eviko T'Blirak T'Kanor Y'Pana Y'Viram Y'Kanas Y'Sarik Y'Panjik T'Klea Y'Vardos Y'Caram D'Buris D'Banna D'Kuru D'Marov D'Sagri T'Bomka T'Saris
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Korrim Starfleet" "Rivén Starfleet" "Fortana Starfleet" "Pollimin Starfleet" "Gorodo Starfleet" "Forfan Starfleet" "Cardana Starfleet" "Horoto Starfleet" "Disini Starfleet" "Varnala Starfleet" "Cannala Starfleet" "Shimini Starfleet" "Martano Starfleet" "Fanti Starfleet" "Grungoni Starfleet"
+		}
+		sequential_name = "%O% Starfleet"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defensive Column"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defensive Column"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Correctional Column"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Column"
+		}
+
+		clone_army = {
+			sequential_name = "Molded Troops %R%"
+		}
+
+		robotic_army = {
+			sequential_name = "Robotic Infantry %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "Robotic Protectors %R%"
+		}
+
+		psionic_army = {
+			sequential_name = "Psionic Infantry %R%"
+		}
+
+		xenomorph_army = {
+			sequential_name = "Xenomorph Hive %R%"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Modified Troopers"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Column"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Robotic Garrison"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Korrim" "Caldan's First" "Rivén's Burrow" "Rattia" "Fortana" "Pollimin" "Firren" "Carimal" "Mehrnana" "Finton" "Rorien's Grove" "Fortalia" "Biroi" "Varnia" "Cardilia" "Kormli" "Darpo's Communion" "Dissadia" "Ultia's Shelter" "Mani's Den" "Firtle's Web" "Pottle's Pantry" "Mortin's Marrow" "Tourivale" "Droitandir" "Lavelkor" "Collonia's Homestead" "Uthian's Shrine" "Forfion" "Carnaloa" "Ridlan's Refuge" "Hortle's Haven" "Vilcot's Pursuit" "Ultan" "Baordo" "Nagrim" "Furdest" "Noilan" "Yrdur" "Taminth" "Gordan" "Grongari" "Balitana" "Palitine" "Tillie's Topaz" "Emmrie's Emerald" "Gildern's Garnet" "Roddle's Ruby" "Shondana's Saphire" "Philon's Port" "Charion's Crystal" "Diona's Diamond"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names_male = {
+				Tig Ser Vak Mor Gan Pud Cal Vir Bur Tan Mik Gor Oro Dim Ban Gar Sok Vak Tok Pok Tik Sar Vub Mak Bor
+			}
+			first_names_female = {
+				Tigi Seri Vaki Mori Gani Pudi Cali Viri Buri Tani Miki Gori Oroi Dimi Bani Gari Soki Vaki Toki Poki Tiki Sari Vubi Maki Bori
+			}
+
+			# Always combined with a first name
+			second_names = {
+				J'Khanna J'Kir J'Dallot J'Ghor J'Bassim B'Donag B'Than B'Scorak B'Eren B'Torak D'Dhenn D'Kut D'Kara B'Sirim B'Korab B'Scul J'Dumak J'Dir
+			}
+
+			regnal_first_names = {
+				J'Khanna J'Kir J'Dallot J'Ghor J'Bassim B'Donag
+			}
+
+			regnal_second_names = {
+				Sakir
+			}
+		}
+	}
+}
+
+PRIMATOID2 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			Urgion Datarrion Lurrion Nargion Astarion Peragion Selemarion Lysargion Lusmargion Hemberarion Eshnenarion Satharion Sulugarion Antargion Bessemargion Vilargion Ysmargion Ytharion Berekarion Comporgion Cennergion Callustion Hethenion Daforgion Nifargion Cibbanion Evanion Umselanion Usselargion Sukuragion Deterabion Dargion Shanarion Tirindion Kasmalarion Sedrinion Hodronumion Hasarion Pakharion Gatharion Pondoranion Vussagion Diramion Fidraggion Hallamion Bathradurion Janarion Pinatarion Jhunustarion Sacradarion Muntadarion Volmanarion Pedrinamion Oldaragion Kargion Winithion Lakarion Dukrumurion Nastarion Nisorgion Thagarion Kordurion Kadramurion Condarion Cifritharion Rebrinthion Cathradarion Cimbarion Duthrularion Entherabion Redevellion Pentarigion Bantarion Bijinarion Valdanarion Ithisarion Tolarion Chambadarion Faldevarion Nimbadarion Zadarion Beseldur Ganandur Vilkasordur Jamdur Porandur Bakandur Itraldur Varandur Jarmakdur Sandur Kirmandur Tondur Pasdur Livandur Ryndur Hiramdur Ynamdur Camdur Cabandur Jinndur Darasdur Divimdur Avamdur Athirimdur Ascarimdur Ijimdur Wimdur Trandur Evamdur Enildur Ecandur Timdur Packandur Joldur Rangdur Rominadur Pivamdur Maldur Makandur Nakondur Binamdur Kaldur Kondur Uramdur Ubrildur Rebbendur Kramdur Konagdur
+			Etaradur
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Task Force Boska" "Task Force Utaris" "Task Force Gaddlar" "Task Force Mirasma" "Task Force Yodora" "Task Force Kampas"
+		}
+		sequential_name = "%O% Task Force"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defensive Regulars"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Attack Dragoons"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Attack Dragoons"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Attack Dragoons"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defensive Regulars"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Attack Dragoons"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Battle Thralls"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Warrior Clones"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Force"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Battle Droid Legion"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Defensive Droid Legion"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psionic Cadre"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Destroyer Brood"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Augmented Vanguard"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Regulars"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Droids"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Gandara Yaldira Mirida Bekonda Pildara Eldetha Arganira Athisa Bondoga Oldara Birga Jallida Terdaga Tirimba Dantariga Umara Ferdera Nagrama Nidira Molgarima Varba Lappra Ligira Tentramoda Tavkaleba Paragima Firintarogga Kampira
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim Jargim Birm Raldirm Feldirm Pendirm Suldirm Bakrig Kunrig Sarim Durim Vadrig Sukadrig Pudrig Vabrig Goridrig
+			}
+
+			# Always combined with a first name
+			second_names = {
+				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag" "den Sukar" "den Armok" "den Vakor" "den Subir" "den Vatoris" "den Telnik" "den Vagors" "den Aramik" "den Pathir" "den Harak" "den Boknar"
+			}
+
+			regnal_first_names = {
+				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim
+			}
+
+			regnal_second_names = {
+				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag"
+			}
+		}
+	}
+}
+
+PRIMATOID3 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			Seper'Elegion Seper'Setnassel Seper'Hundramel Seper'Grenalion Seper'Fundroleth Seper'Sagredioth Seper'Curenrod Seper'Tulethendral Seper'Huvendrog Seper'Vyliged Seper'Tarudog Seper'Calendol Seper'Essunad Seper'Hugaderol Seper'Aldinor Seper'Cerunthon Seper'Massagreth Seper'Tuandok Seper'Nossundem Seper'Duacedron Seper'Karob Seper'Arogo Seper'Vaylor Seper'Tirb Seper'Eskag Seper'Borog Seper'Masol Vuki'Targ Vuki'Boron Vuki'Salpossa Vuki'Patora Vuki'Argas Vuki'Holagor Vuki'Spako Vuki'Raman Vuki'Sotra Vuki'Vado Vuki'Uram Vuki'Elagar Vuki'Ennak Vuki'Tarba Vuki'Irios Vuki'Satrak Vuki'Endur Vuki'Ulator Vuki'Spaddok Vuki'Kitnak Vuki'Pokra Vuki'Higran Vuki'Farab Vuki'Storg
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Assault Corps" "First Order Corps" "Strike Corps" "Stellar Corps" "Exo Corps" "Void Corps" "Aether Corps" "Horizon Corps" "Battle Corps" "Galactic Corps" "Astral Corps"
+		}
+		sequential_name = "%O% Extraorbital Corps"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Army"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Army"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Division"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Division"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robot Division"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robot Garrison"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psionic Army"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Division"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Warrior Division"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Army"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Robot Army"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Safalon Lancord Drogena Yoergen Pendalor Tyntregal Camburen Cemlanth Suboramon Cumelod Condeus Genith Belores Agstur Fridgalen Annuend Sadolic Talienoc Angleruth Cranodeth Colbath Sturgos Vagalod Yirka Basturon Penthokka Ibilass Isika Corealla Gisiru Gaborina Avanna Avasur Fridgga Epensur
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales Suclien Ganarth Thoraul Merould Galedur Sassodem Cluthar Guldorn Yodegud Sassomun Colaut Derom
+			}
+
+			# Always combined with a first name
+			second_names = {
+				"cur'Padarn" "cur'Vandom" "cur'Hussel" "cur'Yuhal" "cur'Fargeth" "cur'Yalim" "dol'Fulm" "dol'Luch" "dol'Gath" "dol'Harne" "dol'Gilue" "dol'Thrad" "had'Tond" "had'Sald" "had'Marn" "had'Ugrit" "had'Fuleth" "had'Rolunt" "ov'Dren" "ov'Gut"
+			}
+
+			regnal_first_names = {
+				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales
+			}
+
+			regnal_second_names = {
+				cur'Padarn
+			}
+		}
+	}
+}
+
+PRIMATOID4 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			Ensaluga Enspero Ensbala Ensgor Ensgodal Ensfalm Ensbruge Enspolda Ensmagid Ensulom Ensyal Ensum Enswal Enskladu Ensinma Enslogu Enspandar Ensknum Ensyim Ensyuga Ensyuldar Ensym Ensdullu Ensaps Enskhad Enskhel Enskhom Enskhy Enskhelm Enskhuld Yankol Yanelde Yanlom Yanfulgur Yanfumeln Yankattal Yankhomu Yanyu Yanyimen Yanlugol Yanluyal Yansbur Yanred Yanaremme Yanagols Yanhedlem Yanfaru Yanalurok Yankhnum Yanturad Yandarli Yantomme Yangolda Yanfarun Trundel Trunar Trunyad Trunfalkh Trungu Trulakh Trutrago Trupilad Truper Trulorled Trunimme Trula Trukhel Truflamme Truflad Trudermen Trudoker Trudon Trune Pafov Pafluga Pafore Paflomme Paflorkh Pafend Pafdath Pafabneth Pafgula Pafrent Pafulin Pafliore Pafased Pafaged Pafremme Pafmagid Pafulum Pafgor Pafspero Pafaluga Pafkhnum Pafyu Pafkattal Melbruge Melpolda Melmagid Melulom Melyal Melum Melwal Melkladu Melinma Melogu Melpandar Melkhnum Melyim Melyuga Melyudar Melym Meldullu Melaps Melkhad Melkhel Melkhom Melkhy Melkhelm Melkhuld Melkol Melelde Mellom Melfulgur Melfumeln
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Wave"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% World Sentinels"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Predators"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Predators"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Predators"
+		}
+
+		defense_army = {
+			sequential_name = "%O% World Sentinels"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Predators"
+		}
+
+		slave_army = {
+			sequential_name = "Fodder %CCC%"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Identifighters"
+		}
+
+		undead_army = {
+			sequential_name = "Dread Fodder %CCC%"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Mechamaulers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Metal Defenders"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Mind-Preyers"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Scurrying Horrors"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Supermen"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Sentinels"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Metal Sentinels"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Aberonth Paldenar Berong Fullament Pulask Korond Ledarn Dolerun Falishena Bennam Muladrok Stuga Avequod Khagarel Thronema Unitolm Sonoref Futorem Galakhun Lakups Battilo Erolaquo Olbutmea Barelod Paldoreth Lupodek Hemma Fammen Sadoluren Algaremo Pogalu Kasakho Pegans Kularna Lamod Dolane Erdalk Thummo Gutan Terasokh Valopun Unilem Guteram Khinelu Burul Bammun Mebarun Kemp Plarud Fimmold Gutregn Telgam Megrol Malgen Khnumme Gatod Pedlomun Sethradeth Khemnod Lukapol Usabell Bokusel Serudma Sagnem Alrest Ikhaget Mathol Natulkh Aronged Alommen Lommenad Sugalan Koroluna Meladurin Dulrakhem Hattimod Geranth
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names_male = {
+				Tor Per Fal Mil Kon Wan Yim Yulk Yon Rel Trod Doln Nome Tefe Lede Potel Khel Gafu Meron Pules
+			}
+
+			first_names_female = {
+				Yan Mel Fan Ala Kham Hem Por Kol Yel Hure Elad Kiy Ufu Yefa Yinlu Aner Ratu Hema Goli Khir
+			}
+
+			# Always combined with a first name
+			second_names = {
+				"up Nal" "up Fol" "up Abna" "up Lor" "up Dem" "up Yal" "up Khnu" "den Pon" "den Lim" "den Fum" "den Ulto" "den Haro" "den Mede" "tal Kuw" "tal Par" "tal Oln" "tal Sep" "tal Yag" "tal Gun" "tal Oth"
+			}
+
+			regnal_first_names_female = {
+				Yan Mel Fan Ala Kham Hem Por Kol Yel Hure Elad Kiy Ufu Yefa Yinlu Aner Ratu Hema Goli Khir
+			}
+
+			regnal_first_names_male = {
+				Tor Per Fal Mil Kon Wan Yim Yulk Yon Rel Trod Doln Nome Tefe Lede Potel Khel Gafu Meron Pules
+			}
+
+			regnal_second_names = {
+				"ron Fera" "ron Avel"
+			}
+		}
+	}
+}
+
+PRIMATOID5 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			Replar Implar Suplar Viplar Roplar Deplar Dirplar Illiplar Ranplar Ronplar Pulplar Taplar Fiplar Ereplar Sisplar Nomplar Jonplar Tilplar Davplar Konplar Kavplar Kinplar Doplar Falplar Uriplar Unplar Molplar Narplar Nitplar Sarplar Banplar Binplar Bosplar Parplar Lisplar Larplar Lunplar Lirplar Lakplar Lykplar Inplar Implar Itaplar Iriplar Isplar Rokaplar Preplar Utaplar Felplar Fonplar Maplar Miplar Evplar Eriplar Enplar Ekaplar Etaniplar Esplar Ratrex Bontrex Ertrex Sirtrex Evtrex Kirtrex Sontrex Sektrex Birtrex Kortrex Rutrex Retrex Lomtrex Litrex Nitrex Neltrex Naktrex Intrex Iltrex Iritrex Raltrex Matrex Mitrex Titrex Tartrex Tibeltrex Tuntrex Ditrex Datrex Dontrex Duntrex Diftrex Ultrex Untrex Uritrex Ontrex Oratrex Obitrex Okitrex Ibatrex Batrex Aketrex Avotrex
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Expeditionary Fleet"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Ground Shield"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Ground Shield"
+		}
+
+		assault_army = {
+			sequential_name = "%O% War Guild"
+		}
+
+		slave_army = {
+			sequential_name = "%O% War Peons"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Fighting Clones"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Peons"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robotic Lancers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Protectors"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Warlock Company"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Death Flock"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Star Knights"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Watch"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Drones"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Valdus Kornas Iribla Sarat Seldis Pakon Erell Ultar Bonath Koldar Ekonir Fendir Rilir Rathyr Rillis Pishar Kethon Veriban Pathar Jarus Nathka Rossell Makora Nith Oramath Sithran Terrib Tannag Siribon Konada Jinnir Sarish Kathon Inathon Erathon
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names_male = {
+				Rosh Vash Sash Besh Pash Nish Kesh Ilsh Orsh Ersh Fash Tosh Yrsh Desh Jash Rish Aosh
+			}
+
+			first_names_female = {
+				Abia Tona Suna Rhoa Pela Vika Bera Otia Fira Irva Wita Nara Yria Toba Daka Dika Pova
+			}
+
+			# Always combined with a first name
+			second_names = {
+				na-Folken na-Siben na-Seter na-Kiter na-Ilben na-Woter na-Filvan na-Febor na-Feljen na-Podan na-Sutar na-Ledir na-Ilper na-Karan na-Ladar na-Forkan na-Tilpen na-Tukor na-Povon na-Kirper na-Ibban na-Wegan na-Solpan na-Eldgan na-Redgan na-Telkan
+			}
+
+			regnal_first_names_female = {
+				Abia Tona Suna Rhoa Pela Vika Bera
+			}
+
+			regnal_first_names_male = {
+				Rosh Vash Sash Besh Pash Nish Kesh
+			}
+
+			regnal_second_names = {
+				na-Tukan
+			}
+		}
+	}
+}
+
+PRIMATOID6 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			"Jal Kensemma" "Jal Bokanum" "Jal Imkamma" "Jal Progmat" "Jal Tatalon" "Jal Bak" "Jal Irraduna" "Jal Korpok" "Jal Hissimia" "Jal Lak" "Jal Pershmat" "Jal Immakun" "Jal Dorossa" "Jal Teerak" "Jal Pok" "Jal Muk" "Jal Marathol" "Jal Vorgas" "Jal Iknum" "Jal Porton" "Jal Likum" "Jal Voifun" "Jal Tuk" "Jal Lorfun" "Jal Perfun" "Jal Ennik" "Jal Tortus" "Jal Turran" "Jal Radan" "Jal Losk" "Jal Uk" "Jal Vak" "Jal Restok" "Jal Dramon" "Jal Pimmiron" "Jal Irdon" "Jal Wadon" "Jal Vudon" "Jal Lurrmon" "Jal Ickma" "Jal Trassom" "Jal Nurmon" "Jal Nigam" "Jal Rok" "Jal Vokja" "Jal Jekon" "Jal Torbak" "Jal Nisk" "Jal Triken" "Jal Vokal" "Jal Sikra" "Jal Turus" "Jal Jiklan" "Jal Sik" "Jal Irken" "Jal Tenki" "Jal Oka" "Jal Tokkom" "Jal Vikrim" "Jal Jidar" "Jal Bonton" "Jal Sotork" "Jal Tesk" "Jal Pintar" "Jal Everk" "Jal Erk" "Jal Bavak" "Jal Itik" "Jal Kolpo" "Jal Vikisk" "Jal Siba" "Jal Nurgil" "Jal Olesk" "Jal Obassa" "Jal Toroll" "Kal Supon" "Kal Vimon" "Kal Tumon" "Kal Purlon" "Kal Urilon" "Kal Kumpuk" "Kal Valruk" "Kal Imon" "Kal Upon" "Kal Poinun" "Kal Lak" "Kal Tarmon" "Kal Feidon" "Kal Morradon" "Irsk Mul" "Irsk Torshka" "Irsk Hessint" "Irsk Mong" "Irsk Pollun" "Irsk Lodam" "Irsk Gungar" "Irsk Garan" "Irsk Patal" "Irsk Bovam" "Irsk Tul" "Irsk Vul" "Irsk Bul" "Irsk Porskan" "Irsk Totollan" "Irsk Lorbask" "Irsk Hinnat" "Irsk Tumala" "Trok Rul" "Trok Lorram" "Trok Pishkot" "Trok Hanata" "Trok Petroisal" "Trok Ytall" "Trok Hoffal" "Trok Bontosk" "Trok Pellator" "Trok Rong" "Trok Cong" "Trok Sorong" "Trok Hattat" "Trok Viam" "Trok Offzul"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Joint Expeditionary Fleet" "Strategic Readiness Fleet" "Tactical Response Fleet" "Rapid Strike Fleet" "Forward Defense Fleet"
+		}
+		sequential_name = "%O% Stellar Fleet"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Colonial Watch"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Group"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Group"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Group"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Colonial Watch"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Group"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Penal Corps"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Tankbred Regulars"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Corps"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Battle Drone Wing"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Battle Drone Emplacements"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Ops Command"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Shock Swarm"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Purebloods"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Watch"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Drones"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			 "Virik Mog" "Kadmana Mog" "Torrik Mog" "Indata Mog" "Ilast Mog" "Pithaj Mog" "Kulman Mog" "Pondak Mog" "Vallaj Mog" "Kosta Mog" "Roknim Mog" "Vi Talas" "Vi Sumat" "Vi Toram" "Vi Kaskan" "Vi Simni" "Vi Sullug" "Vi Postam" "Vi Tillik" "Vi Pellor" "Vi Valam" "Vi Makal" "Vi Oram"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Valk Bellom" "Valk Kruskan" "Valk Masted" "Valk Goram" "Valk Silegg" "Valk Kloster" "Valk Bdurk" "Valk Kunor" "Valk Limteg" "Valk Klasur" "Valk Buregg" "Valk Ordekan" "Valk Mog" "Valk Toram" "Valk Kaskan" "Valk Talas" "Valk Sumat" "Valk Sullug" "Valk Postam" "Valk Tillik" "Valk Pellor" "Valk Pellor" "Valk Valam"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Malh Kradme" "Malh Mirok" "Malh Sirken" "Malh Teles" "Malh Gupok" "Malh Pendak" "Malh Limkar" "Malh Gottam" "Malh Lellir" "Malh Glessor" "Malh Furkalh" "Malh Marold" "Malh Grikes" "Malh Tolokum" "Malh Toledurk" "Malh Voriseg" "Malh Sigrevot" "Malh Tureng"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Grun Pestid" "Grun Taklan" "Grun Viskod" "Grun Vugus" "Grun Trogak" "Grun Milak" "Grun Malkun" "Grun Tamulk" "Grun Esgik" "Grun Asteg" "Grun Dolask" "Grun Serim" "Grun Lugils" "Grun Korav" "Grun Salkag" "Grun Gamalh" "Grun Dronek" "Grun Tromlok" "Grun Doravek" "Grun Sirkavog" "Grun Kruksalh"
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Merg Ilmas Fon Japra Vikal Monak Perak Rald Jurg Sapra Junak Vimas Tupra Kon Vuld Ganak Fadra Gapra
+			}
+
+			# Always combined with a first name
+			second_names = {
+				Toros Vigon Tysala Vis Vagas Inik Va Tor Wek Pok Vun Kap Nik Fen Taras Vagras Mikon
+			}
+
+			regnal_first_names = {
+				Merg Ilmas Fon Japra Vikal Monak Perak Rald
+			}
+
+			regnal_second_names = {
+				Toros Vigon Tysala
+			}
+		}
+	}
+}
+
+PRIMATOID7 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			"Khutma the Great" "Rhun the Unyielding" "Kashnak the Patient" "Roktar the Brave" "Suulnar the Stalwart" "Khebb the Fierce" "Lasnem the Unforgiving" "Mendrack the Cunning" "Yndan the Strong" "Pandack the Wise" "Ialness the Superior" "Anaban the Impervious" "Galato the Just" "Hempest the Fearless" "Utak the Unexpected" "Jhana the Bold" "Hitaab the Silent" "Rhebnar the Cruel" "Tetran the Vile" "Elesna the Fortunate" "Berek the Clever" "Porsam the Shadow" "Lur the Unpredictable" "Mantar the Devious" "Ashnu the Sober" "Perek the Magnanimous" "Holt the Magnificent" "Jesslur the Steadfast" "Ombek the Stout" "Bynth the Firm" "Goron the Shining" "Hhomev the Courageous" "Donabb the Resolute" "Selrak the Dependable" "Farassa the Spirited" "Tork the Determined" "Tipuk the Earnest" "Urbek the Unhesitant" "Illvagh the Tenacious" "Faju the Stubborn" "Khabbash the Furious" "Appan the Joyless" "Ketrill the Bright" "Lessaja the Ruinous" "Issa the Judgmental" "Letham the Decisive" "Rotha the Invincible" "Foss the Quick" "Jolkeg the Agile" "Tetregg the Nimble" "Ghuum the Merciful" "Rothinka the Enlightened" "Khamba the Merciless" "Linntyl the Sharp" "Onakbal the Able" "Hoftaht the Avenger" "Menesik the Blessed" "Rothnak the Brash" "Lahvon the Impudent" "Rhass the Conqueror" "Ihlmac the Crusader" "Johvon the Executioner" "Pahni the Glorious" "Esslon the Good" "Untabb the Grim" "Nehdaban the Holy" "Nothan the Imperious" "Galathor the Hunter" "Garal the Liberator" "Innik the Martyr" "Avathim the Mighty" "Jimmab the Powerful" "Comboc the Proud" "Varkhim the Prudent" "Konsha the Redeemer" "Kadmun the Restorer" "Khaagul the Righteous" "Yhlat the Savior" "Hahjum the Gallant" "Falatir the Valiant" "Fahvim the Victorious" "Listhim the Warrior" "Bathun the Champion" "Hihmal the Scourge" "Tatharon the Dominator" "Dorlan the Tyrant" "Karvulan the Damned" "Cyssak the Dignified" "Veltassa the Ordained" "Ossana the Founder" "Usal the Builder" "Hissnak the Fair" "Elemano the Prodigal" "Etheron the Unifier" "Othana the Benign" "Olymac the Learned" "Tiltar the Young" "Timaphon the Implacable" "Veldik the Merry" "Jussannon the Hermit" "Irevan the Bitter" "Russu the Sour" "Remol the Abandoned" "Petrack the Solitary" "Thaloth the Justiciar" "Asmacin the Gracious" "Taralla the Graceful" "Eskeman the Blue" "Muntat the Yellow" "Ratalla the Red" "Tulakin the White" "Effkar the Black" "Lisamont the Green" "Lomatik the Butcher" "Ralpakin the Defender" "Jhulla the Protector" "Jhutana the Elder" "Donog the Apogee" "Dassmath the Fighter" "Dathana the Mystic" "Darmull the Mysterious" "Ulbanok the Equitable" "Bathar the Amicable" "Bemalon the Distrustful" "Hannakon the Sacrificer" "Haghonon the Watchful" "Hephanir the Savage" "Erkmal the Provident" "Suthnar the Provider" "Monnobak the Sentinel" "Seleng the Venerable" "Salaas the Revered" "Suthmar the Hardy" "Yllmassa the Reformer" "Tessma the Monstrous" "Borok the Affable" "Khamtha the Illustrious" "Kamkak the Celebrated" "Damghalla the Heroic" "Jaffab the Devoted" "Mitgapp the Humble" "Gaffimul the Impetuous" "Ussnak the Vigilant" "Petrobon the Contender" "Pagallum the Loyal" "Peshnab the Faithful" "Itrambun the Whirlwind" "Takjam the Memorable" "Takkram the Lawgiver" "Fylima the Lawful" "Petessa the Symbol" "Elsam the Slighted" "Cognat the Slayer" "Carackon the Guardian" "Nimpac the Observer" "Illajon the Astute" "Gimalbon the Perceptive" "Rommackin the Sly" "Polonar the Insidious" "Campramar the Pernicious" "Limpok the Baneful" "Ruthjara the Icon" "Limathar the Majestic" "Kajana the Swift" "Rukimar the Renowned" "Patana the Distinguished" "Hishma the Brooding" "Korgi the Unstable" "Kodram the Suave" "Donjab the Tactician"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			Il-Koth Daskall Mongath Sipii Narsul Vithar Kermel Saggor Gasna Dirama Bolkoth Erenth Ethill Kushana Joddam Korgas Ismir Centhor Piroc Pulnar Mol-Vikh Ter-Math Ythamm Hessendroc Shoshona Damghalla Salaas Mitgapp Linntyl Yllmassa Illajon Jesslur Gimalbon Konsha Bathun Khaagul
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Suthnar's Armada" "Ralpakin's Armada" "Hissnak's Armada" "Galathor's Armada" "Olymac's Armada" "Perek's Armada"
+		}
+		sequential_name = "%O% Armada"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Ground Shield"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% War Guild"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Ground Shield"
+		}
+
+		assault_army = {
+			sequential_name = "%O% War Guild"
+		}
+
+		slave_army = {
+			sequential_name = "%O% War Peons"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Fighting Clones"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Peons"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robotic Lancers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Protectors"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Warlock Company"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Death Flock"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Star Knights"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Shield"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Robotic Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Karba's Landing" "Mondak's Retreat" "Madragon's Stronghold" "Siltam's Fortress" "Bontargi's Citadel" "Odranka's Holding" "Pirgak's Freehold"
+				"Lastargavin's Shelter" "Indig's Refuge" "Hadrigga's Bastion" "Yltar's Bulwark" "Tetlar's Palace" "Garbanog's Dwelling" "Ultrak's Point"
+				"Kortol's Station" "Findirban's Outpost" "Darmug's Frontier" "Dologga's Spring" "Irjamma's Treasure" "Kojogg's Keep"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names_male = {
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat Limathar Elemano Khebb Tetran Ketrill Rhass Linntyl Haghonon Darmull Ralpakin Campramar Monnobak Hannakon Darmug Ghuum Jaffab Thaloth Shirip Rhethan Jonnar Esthonir Mikab Veldanur Dorokin Sebakhir Corron Tirran Shibbal Lathir Veltass Karb Jondru
+			}
+			full_names_female = {
+				Falatira Hephanira Timaphona Listhima Jesslura Yndana Kashnaka Bemalona Cognati Limathara Elemani Khebba Tetrana Ketrilla Rhassa Linntyla Haghonona Darmulla Ralpakini Campramara Monnobaki Hannakona Darmuga Ghuumi Jaffaba Thalotha Shiripa Rhethana Jonnara Esthonira Mikaba Veldanura Dorokina Sebakhira Corrona Tirrana Shibbala Lathira Veltassa Karba Jondra
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat
+			}
+
+			regnal_second_names = {
+				d'Vhakk
+			}
+		}
+	}
+}
+
+PRIMATOID8 = {
+	category = "Primatoid"
+	ship_names = {
+
+		generic = {
+			"Kha Thannatis" "Kha Bonntis" "Kha Rabtis" "Kha Muntis" "Kha Surtis" "Kha Bentis" "Kha Juntis" "Kha Buvinis"  "Kha Erantis" "Kha Arannis" "Kha Rhentis" "Kha Vaknis" "Kha Tibaris" "Kha Evendis" "Kha Uribis" "Kha Furanis" "Kha Ridanis" "Kha Seranis" "Kha Deranis" "Kha Dihanis" "Kha Rylanis" "Kha Rubis" "Kha Itnis" "Kha Yranis" "An Vebis" "An Turakis" "An Bevakis" "An Noranis" "An Syrutis" "An Vakiris" "An Cithanis" "An Brokunis" "An Oboris" "An Hirekulis" "An Giranis" "An Gursakis" "An Gavanonis" "An Garallis" "An Ubanis" "An Kharakis" "An Felgiris" "An Stupanis" "An Jiranis" "An Jaburis" "An Jirigalis" "An Ditiris" "An Navidis" "Dar Epiris" "Dar Hitiris" "Dar Lydiris" "Dar Torobanis" "Dar Isklanduris" "Dar Iberinnis" "Dar Tygharis" "Dar Tolvonis" "Dar Kermisaris"  "Dar Sotoris" "Dar Kabolis" "Dar Filiris" "Dar Epesuris" "Dar Evtidanis" "Dar Mysaris" "Dar Majedonis"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Star Order"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defensive Column"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defensive Column"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Invader Column"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Correctional Column"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Column"
+		}
+
+		clone_army = {
+			sequential_name = "Molded Troops %R%"
+		}
+
+		robotic_army = {
+			sequential_name = "Robotic Infantry %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "Robotic Protectors %R%"
+		}
+
+		psionic_army = {
+			sequential_name = "Psionic Infantry %R%"
+		}
+
+		xenomorph_army = {
+			sequential_name = "Xenomorph Hive %R%"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Modified Troopers"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Column"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Robotic Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Vatnik Colony" "Srakir Colony" "Bossnikar Colony" "Elbekann Colony" "Pugrannon Colony" "Delnik Colony" "Tyrkab Colony" "Uranna Colony" "Etris Colony" "Kelnik Colony" "Kurbidanna Colony" "Falnik Colony" "Suprag Colony" "New Selestaris" "New Ovkir" "New Turbak" "New Palob" "New Rioradin" "New Bhertag" "Siskvi Mandate" "Helkiran Mandate" "Enthras Mandate" "Ephiri Mandate" "Pharus Mandate" "Posranu Mandate"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				"Sagu," "Thub," "Sene," "Migg," "Bora," "Jagg," "Imat," "Matu," "Sebu," "Enim," "Jaka," "Veti," "Kori," "Ekir," "Satu," "Pock," "Murk," "Velk," "Mirk," "Tabu," "Srak," "Mubi," "Itha," "Utha," "Vurp," "Utra," "Baga," "Bick," "Bock," "Nock," "Letu," "Larb," "Tabo," "Tibb," "Terk," "Jurk," "Jark," "Vinn," "Derk," "Dack," "Debe," "Saka," "Polt," "Nagg," "Korb," "Kald," "Tigg," "Otra," "Udil," "Adel," "Amik," "Brok," "Anak," "Kild," "Trag," "Vaki," "Ukna," "Abil," "Inki," "Idel," "Inck," "Brok," "Milv," "Makn," "Reti," "Rakn," "Roba," "Skeg," "Fald," "Feti," "Fori," "Fura," "Sagg," "Ster," "Noga," "Kreb," "Tagg," "Tigg," "Muri," "Utin," "Ulba," "Siga," "Larg," "Gori," "Gabb," "Gitu," "Gack," "Goll,"
+			}
+
+			# Always combined with a first name
+			second_names_male = {
+				"son of Sagu" "son of Thub" "son of Sene" "son of Migg" "son of Bora" "son of Jagg" "son of Imat" "son of Matu" "son of Sebu" "son of Enim" "son of Jaka" "son of Veti" "son of Kori" "son of Ekir" "son of Satu" "son of Pock" "son of Murk" "son of Velk" "son of Mirk" "son of Tabu" "son of Srak" "son of Mubi" "son of Itha" "son of Utha" "son of Vurp" "son of Utra" "son of Baga" "son of Bick" "son of Bock" "son of Nock" "son of Letu" "son of Larb" "son of Tabi" "son of Tibb" "son of Terk" "son of Jurk" "son of Jark" "son of Vinn" "son of Derk" "son of Dack" "son of Debe" "son of Saka" "son of Polt" "son of Nagg" "son of Korb" "son of Kald" "son of Tigg" "son of Otra" "son of Udil" "son of Adel" "son of Amik" "son of Brok" "son of Anak" "son of Kild" "son of Trag" "son of Vaki" "son of Ukna" "son of Abil" "son of Inki" "son of Idel" "son of Inck" "son of Brok" "son of Milv" "son of Makn" "son of Reti" "son of Rakn" "son of Roba" "son of Skeg" "son of Fald" "son of Feti" "son of Fori" "son of Fura" "son of Sagg" "son of Ster" "son of Noga" "son of Kreb" "son of Tagg" "son of Tigg" "son of Muri" "son of Utin" "son of Ulba" "son of Siga" "son of Larg" "son of Gori" "son of Gabb" "son of Gitu" "son of Gack" "son of Goll"
+			}
+
+			second_names_female = {
+				"daughter of Sagu" "daughter of Thub" "daughter of Sene" "daughter of Migg" "daughter of Bora" "daughter of Jagg" "daughter of Imat" "daughter of Matu" "daughter of Sebu" "daughter of Enim" "daughter of Jaka" "daughter of Veti" "daughter of Kori" "daughter of Ekir" "daughter of Satu" "daughter of Pock" "daughter of Murk" "daughter of Velk" "daughter of Mirk" "daughter of Tabu" "daughter of Srak" "daughter of Mubi" "daughter of Itha" "daughter of Utha" "daughter of Vurp" "daughter of Utra" "daughter of Baga" "daughter of Bick" "daughter of Bock" "daughter of Nock" "daughter of Letu" "daughter of Larb" "daughter of Tabi" "daughter of Tibb" "daughter of Terk" "daughter of Jurk" "daughter of Jark" "daughter of Vinn" "daughter of Derk" "daughter of Dack" "daughter of Debe" "daughter of Saka" "daughter of Polt" "daughter of Nagg" "daughter of Korb" "daughter of Kald" "daughter of Tigg" "daughter of Otra" "daughter of Udil" "daughter of Adel" "daughter of Amik" "daughter of Brok" "daughter of Anak" "daughter of Kild" "daughter of Trag" "daughter of Vaki" "daughter of Ukna" "daughter of Abil" "daughter of Inki" "daughter of Idel" "daughter of Inck" "daughter of Brok" "daughter of Milv" "daughter of Makn" "daughter of Reti" "daughter of Rakn" "daughter of Roba" "daughter of Skeg" "daughter of Fald" "daughter of Feti" "daughter of Fori" "daughter of Fura" "daughter of Sagg" "daughter of Ster" "daughter of Noga" "daughter of Kreb" "daughter of Tagg" "daughter of Tigg" "daughter of Muri" "daughter of Utin" "daughter of Ulba" "daughter of Siga" "daughter of Larg" "daughter of Gori" "daughter of Gabb" "daughter of Gitu" "daughter of Gack" "daughter of Goll"
+			}
+
+			regnal_first_names = {
+				Sagu Thub Sene Migg Bora Jagg Imat
+			}
+
+			regnal_second_names = {
+				"scion of Urug"
+			}
+		}
+	}
+}

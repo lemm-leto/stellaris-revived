@@ -32,28 +32,21 @@ trait_primatoid = {
 		planet_pops_consumer_goods_upkeep_mult = 0.10
 
     # Main habitability
-    pc_continental_habitability = 1.0
-    pc_savannah_habitability = 0.8
-    pc_tropical_habitability = 0.8
+		pc_continental_habitability = 1.0
 
-    # Secondary habitability
-    pc_alpine_habitability = 0.4
-    pc_arid_habitability = 0.4
-    pc_tundra_habitability = 0.4
+		# Secondary habitability
+    pc_savannah_habitability = 0.75
+    pc_tropical_habitability = 0.75
 
     # Tertiary habitability
-    pc_ocean_habitability = 0.1
-    pc_arctic_habitability = 0.1
-    pc_desert_habitability = 0.1
+    pc_alpine_habitability = 0.5
+    pc_arid_habitability = 0.5
+    pc_tundra_habitability = 0.5
 
-		# No habitability
-		pc_b_star_habitability = -2.0
-		pc_a_star_habitability = -2.0
-		pc_f_star_habitability = -2.0
-		pc_g_star_habitability = -2.0
-		pc_k_star_habitability = -2.0
-		pc_m_star_habitability = -2.0
-		pc_m_giant_star_habitability = -2.0
+    # Rare habitability
+    pc_ocean_habitability = 0.25
+    pc_arctic_habitability = 0.25
+    pc_desert_habitability = 0.25
 	}
 }
 
@@ -380,12 +373,12 @@ trait_extremophile = {
     pop_growth_speed = -0.8
 
 		# Main habitability
-		pc_molten = 1.0
-		pc_barren = 1.0
-		pc_barren_cold = 1.0
-		pc_toxic = 1.0
-		pc_frozen = 1.0
-		pc_nuked = 1.0
+		pc_molten_habitability = 1.0
+		pc_barren_habitability = 1.0
+		pc_barren_cold_habitability = 1.0
+		pc_toxic_habitability = 1.0
+		pc_frozen_habitability = 1.0
+		pc_nuked_habitability = 1.0
 
 		# Secondary habitability
 
@@ -455,9 +448,5 @@ trait_plantoid = {
     pc_ocean_habitability = 0.1
     pc_arctic_habitability = 0.1
     pc_desert_habitability = 0.1
-	}
-
-	has_secondary_species = {
-		title = civic_syncretic_evolution_secondary_species
 	}
 }

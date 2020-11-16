@@ -1,0 +1,52 @@
+default = {
+	name = ""
+	adjective = ""
+	ship_prefix = "ISS"
+
+	default = yes
+
+	species = {
+		class = "PRIMATOID"
+		portrait = "human"
+		name_list = "PRIMATOID1"
+		trait = "trait_primatoid"
+	}
+	room = "default_room"
+
+	authority = "auth_democratic"
+	government = "gov_despotic_empire"
+	origin = "origin_default"
+
+	planet_name = ""
+	system_name = ""
+	planet_class = "pc_gaia"
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon= {
+			category = "pointy"
+			file = "flag_pointy_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = ""
+		gender = female
+		portrait = "human_female_04"
+		texture = 0
+		hair = 0
+		clothes = 4
+		leader_class = ruler
+	}
+}

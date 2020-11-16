@@ -1,14 +1,4 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_ap_star_shaper"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_star_shaper.dds"
-		alwaystransparent = yes
-	}
-
-	spriteType = {
-		name = "GFX_ship_part_gaia_enforcer"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_gaia_enforcer.dds"
-	}
 
 	spriteType = {
 		name = "GFX_srt_blue_strip"

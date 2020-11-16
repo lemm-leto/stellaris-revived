@@ -3,7 +3,7 @@ namespace = sr_terraforming
 country_event = {
 	id = sr_terraforming.1000
 	title = "srt_terraforming_window"
-	desc = "l14"
+	desc = "OK"
 	location = event_target:terraforming_planet
 	show_sound = event_conversation #ToDo
 

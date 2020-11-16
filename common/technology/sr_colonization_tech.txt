@@ -6,11 +6,11 @@ tech_plazmoid_colonization = {
   start_tech = yes
 
   potential = {
-    is_plasmoid_empire = yes
+    owner_species = { has_trait = trait_plasmoid }
   }
 }
 
-tech_organics_colonization = {
+tech_organic_colonization = {
 	cost = 0
 	area = physics
 	tier = 0
@@ -18,7 +18,7 @@ tech_organics_colonization = {
   start_tech = yes
 
   potential = {
-    is_organic_empire = yes
+    owner_species = { has_trait = trait_primatoid }
   }
 }
 
@@ -30,6 +30,6 @@ tech_extreme_colonization = {
   start_tech = yes
 
   potential = {
-    is_organic_empire = yes
+    owner_species = { has_trait = trait_plasmoid }
   }
 }

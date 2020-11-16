@@ -1,0 +1,49 @@
+namespace = sr_game_start
+
+# Change starting colony type based on trait selected
+country_event = {
+  id = sr_game_start.1000
+  hide_window = yes
+  is_triggered_only = yes
+
+  immediate = {
+    if = {
+      limit = {
+        owner_species = { has_trait = trait_primatoid }
+        NOR = {
+          owner = { has_origin = origin_life_seeded }
+          owner = { has_origin = origin_post_apocalyptic }
+          owner = { has_origin = origin_remnants }
+          owner = { has_origin = origin_shattered_ring }
+          owner = { has_origin = origin_void_dwellers }
+        }
+      }
+      capital_scope = {
+        change_pc = pc_continental
+
+        remove_all_buildings = yes
+
+        generate_start_deposits_and_blockers = yes
+        generate_start_buildings_and_districts = yes
+
+        if = {
+          limit = { owner = { has_origin = origin_mechanists } }
+          add_building = building_robot_assembly_plant
+          add_district_and_planet_size_if_needed_effect = {
+            district = district_generator
+          }
+        }
+
+        if = {
+          limit = {
+            owner = {
+              has_origin = origin_necrophage
+              NOT = { has_civic = civic_fanatic_purifiers } #purges them instead
+            }
+          }
+          add_building = building_necrophage_elevation_chamber
+        }
+      }
+    }
+  }
+}
