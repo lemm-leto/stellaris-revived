@@ -9,7 +9,7 @@
 
   trait_reptiloid:0 "Рептилоид"
   trait_reptiloid_desc:0 "§LРептилоиды - хладнокровные создания, берущие свое начало от ящер и рептилий. Предпочитают индивидуализм, что часто становится причиной различных политических потрясений. Вместе с тем, наличие чешуи, панциря или просто толстой шкуры делает из рептилий идеальных воинов.§!\n"
-  trait_reptiloid_effect:0 "Предпочитают пустынные и близкие к ним типы миров.\n\n$MOD_ARMY_DAMAGE_MULT$: §G+50%§!\n$mod_planet_jobs_alloys_produces_mult$: §G+15%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$: §R-80%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_continental$: §H40%§!\n$pc_ocean$: §R10%§!\n$pc_tundra$: §R10%§!\n$pc_alpine$: §R10%§!\n$pc_tropical$: §R10%§!\n$pc_arctic$: §R10%§!"
+  trait_reptiloid_effect:0 "Предпочитают пустынные миры.\n\n$MOD_ARMY_DAMAGE_MULT$ §G+20%§!\n$mod_planet_jobs_alloys_produces_mult$ §G+15%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ §R-15%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_desert$ §G100%§!\n$pc_arid$ §G75%§!\n$pc_savannah$ §G75%§!\n$pc_continental$ §H50%§!\n$pc_ocean$ §H50%§!\n$pc_tropical$ §H50%§!\n$pc_tundra$ §R10%§!\n$pc_alpine$ §R10%§!\n$pc_arctic$ §R10%§!"
 
   trait_avian:0 "Птицоид"
   trait_avian_desc:0 "§LПтицоиды - группа теплокровных животных, произошедших от птиц. Живут, как правило, большими стаями. Обратная сторона такого образа жизни - повышенная нужда в общении и культурном времяпрепровождении.§!\n"

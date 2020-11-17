@@ -145,6 +145,8 @@ REPTILOID = {
 	graphical_culture = reptilian_01
 	move_pop_sound_effect = "reptilian_pops_move"
 
+  use_climate_preference = no
+
 	resources = {}
 
 	trait = "trait_reptiloid"
