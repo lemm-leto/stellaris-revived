@@ -1,0 +1,59 @@
+tech_starbase_medium_hangar_bay = {
+  cost = @tier2cost1
+  area = engineering
+  tier = 2
+  ai_update_type = military
+  category = { voidcraft }
+  prerequisites = { "tech_starbase_2" }
+  weight = @tier2weight1
+
+  weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_starbase_heavy_hangar_bay = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	ai_update_type = military
+	category = { voidcraft }
+	prerequisites = { "tech_starbase_4" }
+	weight = @tier4weight1
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

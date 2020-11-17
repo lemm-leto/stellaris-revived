@@ -3,6 +3,5 @@ tags={
 	"Overhaul"
 	"Terraforming"
 }
-name="SR: Terraforming"
+name="Stellaris Reborn"
 supported_version="2.8.0"
-remote_file_id="2089781433"

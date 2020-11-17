@@ -1,0 +1,17 @@
+﻿l_russian:
+  sm_medium_hangar_bay:0 "Средний ангарный отсек"
+  sm_medium_hangar_bay_desc:0 "Добавляет на космическую базу четыре ангара для штурмовиков.\n"
+  sm_heavy_hangar_bay:0 "Тяжелый ангарный отсек"
+  sm_heavy_hangar_bay_desc:0 "Добавляет на космическую базу шестнадцать ангаров для штурмовиков.\n"
+
+  tech_starbase_medium_hangar_bay:0 "Средний ангарный отсек"
+  tech_starbase_medium_hangar_bay_desc:0 "Благодаря минитиарюзации компонентов дополнительные ангарные отсеки могут быть построены на звездной базе."
+  tech_starbase_heavy_hangar_bay:0 "Тяжелый ангарный отсек"
+  tech_starbase_heavy_hangar_bay_desc:0 "$tech_starbase_medium_hangar_bay$"
+
+  SR_STARBASE_FISSION_REACTOR:0 "$STARBASE_FISSION_REACTOR$"
+  SR_STARBASE_FUSION_REACTOR:0 "$STARBASE_FUSION_REACTOR$"
+  SR_STARBASE_COLD_FUSION_REACTOR:0 "$STARBASE_COLD_FUSION_REACTOR$"
+  SR_STARBASE_ANTIMATTER_REACTOR:0 "$STARBASE_ANTIMATTER_REACTOR$"
+  SR_STARBASE_ZERO_POINT_REACTOR:0 "$STARBASE_ZERO_POINT_REACTOR$"
+  SR_STARBASE_DARK_MATTER_REACTOR:0 "$STARBASE_DARK_MATTER_REACTOR$"

@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_starbase_medium_hangar_bay"
+		texturefile = "gfx/interface/icons/modules/sb_medium_hangar_bay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_starbase_heavy_hangar_bay"
+		texturefile = "gfx/interface/icons/modules/sb_heavy_hangar_bay.dds"
+	}
+}

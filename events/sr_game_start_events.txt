@@ -9,7 +9,6 @@ country_event = {
   immediate = {
     if = {
       limit = {
-        owner_species = { has_trait = trait_primatoid }
         NOR = {
           owner = { has_origin = origin_life_seeded }
           owner = { has_origin = origin_post_apocalyptic }
@@ -19,7 +18,8 @@ country_event = {
         }
       }
       capital_scope = {
-        change_pc = pc_continental
+        if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
+        else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
 
         remove_all_buildings = yes
 
@@ -38,7 +38,7 @@ country_event = {
           limit = {
             owner = {
               has_origin = origin_necrophage
-              NOT = { has_civic = civic_fanatic_purifiers } #purges them instead
+              NOT = { has_civic = civic_fanatic_purifiers }
             }
           }
           add_building = building_necrophage_elevation_chamber
