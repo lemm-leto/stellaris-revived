@@ -33,7 +33,7 @@ voor = {
 	origin = "origin_default"
 
 	planet_name = PRESCRIPTED_planet_name_voor
-	planet_class = "pc_arctic"
+	planet_class = "pc_continental"
 	system_name = PRESCRIPTED_system_name_voor
 	initializer = ""
 

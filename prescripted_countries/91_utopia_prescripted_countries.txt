@@ -38,7 +38,7 @@ xanid = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_xanid"
 
 	planet_name = "PRESCRIPTED_planet_name_xanid"
-	planet_class = "pc_arid"
+	planet_class = "pc_desert"
 	system_name = "PRESCRIPTED_system_name_xanid"
 	initializer = ""
 
@@ -112,7 +112,7 @@ lokken = {
 	authority = "auth_democratic"
 	government = "gov_rational_consensus"
 	planet_name = "PRESCRIPTED_planet_name_lokken"
-	planet_class = "pc_arid"
+	planet_class = "pc_desert"
 	system_name = "PRESCRIPTED_system_name_lokken"
 	initializer = ""
 	graphical_culture = "reptilian_01"

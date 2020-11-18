@@ -77,6 +77,7 @@ trait_oceanid = {
 	custom_tooltip = trait_oceanid_effect
 
 	modifier = {
+		leader_age = -25
 		# Buff
 		pop_happiness = 0.25
 		pop_housing_usage_mult = -0.15
@@ -129,6 +130,7 @@ trait_reptiloid = {
 	custom_tooltip = trait_reptiloid_effect
 
 	modifier = {
+		leader_age = -15
 		# Buff
 		army_damage_mult = 0.25
 		planet_jobs_alloys_produces_mult = 0.15
@@ -182,34 +184,27 @@ trait_avian = {
 
 	modifier = {
 		# Buff
-		pop_housing_usage_mult = -0.5
+		pop_housing_usage_mult = -0.25
 		planet_jobs_food_produces_mult = 0.15
 		# Debuff
 		pop_amenities_usage_mult = 0.15
 
 		# Main habitability
-    pc_continental_habitability = 1.0
     pc_tropical_habitability = 1.0
-    pc_arid_habitability = 1.0
-    pc_desert_habitability = 1.0
-    pc_savannah_habitability = 1.0
 
 		# Secondary habitability
-		pc_alpine_habitability = 0.4
-    pc_ocean_habitability = 0.4
+    pc_continental_habitability = 0.75
+		pc_savannah_habitability = 0.75
 
 		# Tertiary habitability
+    pc_arid_habitability = 0.5
+    pc_desert_habitability = 0.5
+    pc_ocean_habitability = 0.5
+
+		# Rare habitability
+		pc_alpine_habitability = 0.1
 		pc_tundra_habitability = 0.1
     pc_arctic_habitability = 0.1
-
-		# No habitability
-		pc_b_star_habitability = -2.0
-		pc_a_star_habitability = -2.0
-		pc_f_star_habitability = -2.0
-		pc_g_star_habitability = -2.0
-		pc_k_star_habitability = -2.0
-		pc_m_star_habitability = -2.0
-		pc_m_giant_star_habitability = -2.0
 	}
 }
 

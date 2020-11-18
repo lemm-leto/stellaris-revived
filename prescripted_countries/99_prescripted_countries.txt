@@ -77,7 +77,7 @@ yondar = {
 		name = "PRESCRIPTED_species_name_yondar"
 		plural = "PRESCRIPTED_species_plural_yondar"
 		adjective = "PRESCRIPTED_species_adjective_yondar"
-		name_list = "AVI1"
+		name_list = "AVIAN1"
 		trait = "trait_avian"
 		trait = "trait_conformists"
 		trait = "trait_natural_physicists"
@@ -87,7 +87,7 @@ yondar = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_yondar"
 
 	planet_name = "PRESCRIPTED_planet_name_yondar"
-	planet_class = "pc_alpine"
+	planet_class = "pc_tropical"
 	system_name = "PRESCRIPTED_system_name_yondar"
 
 	room = "personality_evangelizing_zealots_room"
@@ -154,7 +154,7 @@ iferyx = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_iferyx"
 
 	planet_name = "PRESCRIPTED_planet_name_iferyx"
-	planet_class = "pc_tundra"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_iferyx"
 
 	room = "personality_peaceful_traders_room"
@@ -229,7 +229,7 @@ glebsig = {
 	origin = "origin_default"
 
 	planet_name = "PRESCRIPTED_planet_name_glebsig"
-	planet_class ="pc_alpine"
+	planet_class ="pc_ocean"
 	system_name = "PRESCRIPTED_system_name_glebsig"
 	initializer = ""
 	graphical_culture = "molluscoid_01"
@@ -350,7 +350,7 @@ scyldari = {
 	ship_prefix = "PRESCRIPTED_ship_prefix_scyldari"
 
 	planet_name = "PRESCRIPTED_planet_name_scyldari"
-	planet_class = "pc_ocean"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_scyldari"
 
 	room = "personality_spiritual_seekers_room"

@@ -13,7 +13,7 @@
 
   trait_avian:0 "Птицоид"
   trait_avian_desc:0 "§LПтицоиды - группа теплокровных животных, произошедших от птиц. Живут, как правило, большими стаями. Обратная сторона такого образа жизни - повышенная нужда в общении и культурном времяпрепровождении.§!\n"
-  trait_avian_effect:0 "Предпочитают любые виды миров с большой площадью поверхности и достаточной температурой.\n\n$MOD_POP_HOUSING_USAGE_MULT$: §G-50%§!\n$mod_planet_jobs_food_produces_mult$: §G+15%§!\n$MOD_POP_AMENITIES_USAGE_MULT$: §R+50%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_continental$: §G100%§!\n$pc_tropical$: §G100%§!\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_alpine$: §H40%§!\n$pc_ocean$: §H40%§!\n$pc_tundra$: §R10%§!\n$pc_arctic$: §R10%§!"
+  trait_avian_effect:0 "Предпочитают тропические миры.\n\n$MOD_POP_HOUSING_USAGE_MULT$ §G-25%§!\n$mod_planet_jobs_food_produces_mult$ §G+15%§!\n$MOD_POP_AMENITIES_USAGE_MULT$ §R+15%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_tropical$ §G100%§!\n$pc_continental$ §G75%§!\n$pc_savannah$ §G75%§!\n$pc_arid$ §H50%§!\n$pc_desert$ §H50%§!\n$pc_ocean$ §H50%§!\n$pc_alpine$ §R10%§!\n$pc_tundra$ §R10%§!\n$pc_arctic$ §R10%§!"
 
   trait_insectoid:0 "Инсектоид"
   trait_insectoid_desc:0 "§LНасекомые — класс беспозвоночных членистоногих животных. Необычайное разнообразие форм насекомых является их поразительной особенностью. Недолгий срок жизни насекомых и повышенная скорость метаболизма приводит к дополнительным затратам на содержание населения.§!\n"

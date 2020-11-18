@@ -1,0 +1,902 @@
+﻿AVIAN1 = {
+	category = "Avian"
+	ship_names = {
+
+		generic = {
+			"Soaring Hatchling" "Fighting Hatchling" "Nimble Hatchling" "Defiant Hatchling" "Resilient Hatchling" "Furious Hatchling" "Confident Hatchling" "Clever Hatchling" "Cunning Hatchling" "Prodigal Hatchling" "Jubilant Hatchling" "Impudent Hatchling" "Crazy Hatchling" "Observant Hatchling" "Vengeful Hatchling" "Spiteful Hatchling" "Vindictive Hatchling" "Restless Hatchling" "Ravenous Hatchling" "Ruthless Hatchling" "Brave Hatchling" "Fearless Hatchling" "Jovial Hatchling" "Indignant Hatchling" "Sly Hatchling" "Silly Hatchling" "Happy Hatchling" "Unstable Hatchling" "Prudent Hatchling" "Solitary Hatchling" "Perceptive Hatchling" "Unpredictable Hatchling" "Impetuous Hatchling" "Baneful Hatchling" "Devious Hatchling" "Graceful Hatchling" "Unyielding Hatchling" "Patient Hatchling" "Stalwart Hatchling" "Fierce Hatchling" "Unforgiving Hatchling" "Impervious Hatchling" "Lucky Hatchling" "Courageous Hatchling" "Brash Hatchling" "Impertinent Hatchling" "Dependable Hatchling" "Spirited Hatchling" "Wild Hatchling" "Vivacious Hatchling" "Ardent Hatchling" "Vigorous Hatchling" "Mettlesome Hatchling" "Lively Hatchling" "Brisk Hatchling" "Animated Hatchling" "Tenacious Hatchling" "Pertinacious Hatchling" "Stubborn Hatchling" "Resolute Hatchling" "Obstinate Hatchling" "Obdurate Hatchling" "Ferocious Hatchling" "Frenzied Hatchling" "Tempestuous Hatchling" "Turbulent Hatchling" "Reckless Hatchling" "Savage Hatchling" "Unrestrained Hatchling" "Riotous Hatchling" "Insane Hatchling" "Boisterous Hatchling" "Rowdy Hatchling" "Clamorous Hatchling" "Persistent Hatchling" "Vehement Hatchling" "Zealous Hatchling" "Passionate Hatchling" "Rapacious Hatchling" "Valiant Hatchling" "Dauntless Hatchling" "Stout Hatchling" "Unkempt Hatchling" "Ungroomed Hatchling" "Deranged Hatchling" "Demented Hatchling" "Impatient Hatchling" "Nonconforming Hatchling" "Imprudent Hatchling" "Rash Hatchling" "Heedless Hatchling" "Oblivious Hatchling" "Violent Hatchling" "Undomesticated Hatchling" "Feral Hatchling" "Wayward Hatchling" "Capricious Hatchling" "Volatile Hatchling" "Mercurial Hatchling" "Sprightly Hatchling" "Blithe Hatchling" "Merry Hatchling" "Joyous Hatchling" "Cheerful Hatchling" "Buoyant Hatchling" "Invigorated Hatchling" "Mirthful Hatchling" "Spry Hatchling" "Alert Hatchling" "Headstrong Hatchling" "Unruly Hatchling" "Refractory Hatchling" "Eccentric Hatchling" "Erratic Hatchling" "Peculiar Hatchling" "Deviant Hatchling" "Testy Hatchling" "Cross Hatchling" "Irascible Hatchling" "Choleric Hatchling" "Wrathful Hatchling" "Brusque Hatchling" "Gruff Hatchling" "Surly Hatchling" "Uncivil Hatchling" "Crabby Hatchling" "Sullen Hatchling" "Splenetic Hatchling" "Ominous Hatchling" "Gloomy Hatchling" "Dour Hatchling" "Imperious Hatchling" "Haughty Hatchling" "Proud Hatchling" "Scornful Hatchling" "Contemptuous Hatchling" "Supercilious Hatchling" "Singing Hatchling" "Attentive Hatchling" "Watchful Hatchling" "Impish Hatchling"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			V'Taka K'Mirom "M'Iskar Ro" S'Porak S'Kothan J'Kal Yeerel Yaaskan L'Dorak Bwiik Kraanak J'Vorok M'Sarok S'Tirani V'Irimak S'Tarok M'Isoram "D'Panok Ro" "V'Bami Ro" Yaruuk Bwaaki Koruuk K'Tanek S'Kiro D'Daduro J'Kilar S'Rarako V'Korun "V'Turi Ro"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Gilded Star Flock" "Plumed Star Flock" "Revered Star Flock" "Honored Star Flock" "Soaring Star Flock" "Perched Star Flock" "Y'Sarka Star Flock" "U'Ruusu Star Flock" "S'Sarona Star Flock" "T'Tsona Star Flock" "Y'Trana Star Flock" "S'Itanis Star Flock" "Y'Ysonni Star Flock"
+		}
+		sequential_name = "%O% Star Flock"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Security Wing"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Spaceborne"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Spaceborne"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Spaceborne"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Security Wing"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Spaceborne"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Servile Army"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Front"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Army"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Machine Column"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Machine Sentinels"
+		}
+
+		psionic_army = {
+			sequential_name = "Telepathic Order %R%"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Herd"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Death Commando"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Wing"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Machines"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				S'Prekeel J'Khanal S'Narkeel K'Karom "S'Kerin Vak" "Soska V'Ta" S'Bakri Yeethkri Bwaakar V'Vidir V'Ra M'Rak'Vo K'Karaal V'Bindak Yeerok Kraak Deekri T'Tra C'Knoor S'Pemkru Bwreek T'Valdra K'Vra'Kok J'Mideer Jyylkir S'Vrak T'Sondek Paaltok M'Ruut C'Viirb T'Bukred D'Vraadir K'Mhakreer V'Tyykre Vakwaark Kwaarik K'Rosok S'Narabu Briik B'Nuraka "Vetin V'Ta" "Y'Tari Vak" Pitirii Taakir Brangakii
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak T'Anaark Reebik P'Kida D'Kheera K'Reel T'Rootik Skeerid P'Dykna Haatrek Y'Ridaak Y'Heeka Kurukaa Sikirooka Y'Hree B'Nookar Skreeki T'Marik D'Sariik K'Nuurak S'Kuurik L'Matreek Raakur Sakeeri Yuruuk T'Kiiri T'Maku B'Rhii B'Kuura L'Kiri P'Kakuur P'Konori R'Tariik Koorivi R'Tanoka R'Tanik Haakanu Haabik Kaabik Eerabik Saakubik
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak
+			}
+
+			regnal_second_names = {
+				Koriik
+			}
+		}
+	}
+}
+
+AVIAN2 = {
+	category = "Avian"
+	ship_names = {
+		generic = {
+			"Soaring Plumage" "Fighting Plumage" "Nimble Plumage" "Defiant Plumage" "Resilient Plumage" "Furious Plumage" "Confident Plumage" "Clever Plumage" "Cunning Plumage" "Prodigal Plumage" "Jubilant Plumage" "Impudent Plumage" "Crazy Plumage" "Observant Plumage" "Vengeful Plumage" "Spiteful Plumage" "Vindictive Plumage" "Restless Plumage" "Ravenous Plumage" "Ruthless Plumage" "Brave Plumage" "Fearless Plumage" "Jovial Plumage" "Indignant Plumage" "Sly Plumage" "Silly Plumage" "Happy Plumage" "Unstable Plumage" "Prudent Plumage" "Solitary Plumage" "Perceptive Plumage" "Unpredictable Plumage" "Impetuous Plumage" "Baneful Plumage" "Devious Plumage" "Graceful Plumage" "Unyielding Plumage" "Patient Plumage" "Stalwart Plumage" "Fierce Plumage" "Unforgiving Plumage" "Impervious Plumage" "Lucky Plumage" "Courageous Plumage" "Brash Plumage" "Impertinent Plumage" "Dependable Plumage" "Spirited Plumage" "Wild Plumage" "Vivacious Plumage" "Ardent Plumage" "Vigorous Plumage" "Mettlesome Plumage" "Lively Plumage" "Brisk Plumage" "Animated Plumage" "Tenacious Plumage" "Pertinacious Plumage" "Stubborn Plumage" "Resolute Plumage" "Obstinate Plumage" "Obdurate Plumage" "Ferocious Plumage" "Frenzied Plumage" "Tempestuous Plumage" "Turbulent Plumage" "Reckless Plumage" "Savage Plumage" "Unrestrained Plumage" "Riotous Plumage" "Insane Plumage" "Boisterous Plumage" "Rowdy Plumage" "Clamorous Plumage" "Persistent Plumage" "Vehement Plumage" "Zealous Plumage" "Passionate Plumage" "Rapacious Plumage" "Valiant Plumage" "Dauntless Plumage" "Stout Plumage" "Unkempt Plumage" "Ungroomed Plumage" "Deranged Plumage" "Demented Plumage" "Impatient Plumage" "Nonconforming Plumage" "Imprudent Plumage" "Rash Plumage" "Heedless Plumage" "Oblivious Plumage" "Violent Plumage" "Undomesticated Plumage" "Feral Plumage" "Wayward Plumage" "Capricious Plumage" "Volatile Plumage" "Mercurial Plumage" "Sprightly Plumage" "Blithe Plumage" "Merry Plumage" "Joyous Plumage" "Cheerful Plumage" "Buoyant Plumage" "Invigorated Plumage" "Mirthful Plumage" "Spry Plumage" "Alert Plumage" "Headstrong Plumage" "Unruly Plumage" "Refractory Plumage" "Eccentric Plumage" "Erratic Plumage" "Peculiar Plumage" "Deviant Plumage" "Testy Plumage" "Cross Plumage" "Irascible Plumage" "Choleric Plumage" "Wrathful Plumage" "Brusque Plumage" "Gruff Plumage" "Surly Plumage" "Uncivil Plumage" "Crabby Plumage"  "Sullen Plumage" "Splenetic Plumage" "Ominous Plumage" "Gloomy Plumage" "Dour Plumage" "Imperious Plumage" "Haughty Plumage" "Proud Plumage" "Scornful Plumage" "Contemptuous Plumage" "Supercilious Plumage" "Singing Plumage" "Attentive Plumage" "Watchful Plumage" "Impish Plumage"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			Q'Dreeg Q'Polk Q'Doqur Q'Bewk Q'Rekoth Q'Jarok Q'Vakir Q'Surki Q'Daqa Q'Vatanu Q'Mitik Q'Sabor Q'Rimiko Q'Sbak Q'Darku Q'Parik Q'Vaku Q'Potok Q'Jibbi
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Dalurkot Stellar Rectrix" "Tordalit Stellar Rectrix" "Quadatia Stellar Rectrix" "Saqrosta Stellar Rectrix" "Eekaratia Stellar Rectrix" "Kittoral Stellar Rectrix" "Buteqos Stellar Rectrix" "Yattori Stellar Rectrix" "Qruannia Stellar Rectrix" "Tiqisk Stellar Rectrix" "Loqarak Stellar Rectrix" "Fannoq Stellar Rectrix" "Giruus Stellar Rectrix"
+		}
+		sequential_name = "%O% Stellar Rectrix"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Wing"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Wing"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Wing"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Wing"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Wing"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Wing"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Warriors"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Assault Copies"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Force"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Droid Force"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Droid Defenses"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi Wing"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Wing"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Ascension Wing"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Wing"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Droid Occupation Force"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Qufant Koltren Karakt Ryygd Praadyk Bukraal Qrueen Klaht Lajkut Jiindet Poqats Kraajl Ruuq Yeedru Eetrak Stujk Baakrot Qaadlud Sondeeq Eekryt Tikeq Kitrel Butoq Qudater Saqraat Yatru
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak Kryydur Tryykad Dluuret Klotrast Tabhuk Qotryyk Lytalk Bhudlakras Tuyledek Dalurkot Bahakum Triik Yavak Tuutalk Lokorik Baduraki Qoviik Qotaar Tibakh Hiikar Kataag Qobruuk Lakitrak
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak
+			}
+
+			regnal_second_names = {
+				Kirvus
+			}
+		}
+	}
+}
+
+AVIAN3 = {
+	category = "Avian"
+	ship_names = {
+
+		corvette = {
+			Sharp Quick Frenzy Bloodstain Scar Gore Maim Maul Wound Hurt Slash Scratch Cut Mutilate Injury Crippler Disfigure Griever Deformer Piercer Scream Screech Shriek Howl Cry Soar Ascend Rise Escalate Fly Drift Float Glide Swoop Pounce Sweep Dive
+		}
+
+		destroyer = {
+			"Sharp Claw" "Quick Claw" "Frenzied Claw" "Bloodstained Claw" "Scarring Claw" "Gory Claw" "Grisly Claw" "Maiming Claw" "Mauling Claw" "Wounding Claw" "Slashing Claw" "Scratching Claw" "Cutting Claw" "Mutilating Claw" "Injuring Claw" "Crippling Claw" "Disfiguring Claw" "Grieving Claw" "Deforming Claw" "Piercing Claw"
+		}
+
+		cruiser = {
+			"Sharp Beak" "Quick Beak" "Frenzied Beak" "Bloodstained Beak" "Scarring Beak" "Gory Beak" "Grisly Beak" "Maiming Beak" "Mauling Beak" "Wounding Beak" "Slashing Beak" "Scratching Beak" "Cutting Beak" "Mutilating Beak" "Injuring Beak" "Crippling Beak" "Disfiguring Beak" "Grieving Beak" "Deforming Beak" "Piercing Beak"
+		}
+
+		battleship = {
+			"Glorious Massacre" "Glorious Bloodbath" "Glorious Carnage" "Glorious Slaughter" "Glorious Bloodshed" "Gorgeous Massacre" "Gorgeous Bloodbath" "Gorgeous Carnage" "Gorgeous Slaughter" "Gorgeous Bloodshed" "Inspiring Massacre" "Inspiring Bloodbath" "Inspiring Carnage" "Inspiring Slaughter" "Inspiring Bloodshed" "Delightful Massacre" "Delightful Bloodbath" "Delightful Carnage" "Delightful Slaughter" "Delightful Bloodshed"
+		}
+
+		titan = {
+			"Majestic Havoc" "Majestic Carnage" "Majestic Slaughter" "Majestic Bloodbath" "Majestic Mayhem"
+ 		}
+
+		colossus = {
+			"Egg of Death" "Egg of Destruction" "Egg of Oblivion" "Egg of Ruination"
+		}
+
+		juggernaut = {
+			"Exalted Breaker" "Exalted Laceration" "Exalted Rending" "Exalted Ripper" "Exalted Rivening" "Exalted Ruin"
+		}
+
+		constructor = {
+			"Nest Maker" "Nest Builder" "Nest Creator" "Nest Producer" "Nest Manufacturer" "Roost Maker" "Roost Builder" "Roost Creator" "Roost Producer" "Roost Manufacturer"
+		}
+
+		colonizer = {
+			"Eggcarrier I" "Eggcarrier II" "Eggcarrier III" "Eggcarrier IV" "Eggcarrier V" "Eggcarrier VI" "Eggcarrier VII" "Eggcarrier VIII" "Eggcarrier IX" "Eggcarrier X" "Eggcarrier XI" "Eggcarrier XII" "Eggcarrier XIII" "Eggcarrier XIV" "Eggcarrier XV" "Eggcarrier XVI" "Eggcarrier XVII" "Eggcarrier XVIII" "Eggcarrier XIX" "Eggcarrier XX"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Eggcarrier I" "Eggcarrier II" "Eggcarrier III" "Eggcarrier IV" "Eggcarrier V" "Eggcarrier VI" "Eggcarrier VII" "Eggcarrier VIII" "Eggcarrier IX" "Eggcarrier X" "Eggcarrier XI" "Eggcarrier XII" "Eggcarrier XIII" "Eggcarrier XIV" "Eggcarrier XV" "Eggcarrier XVI" "Eggcarrier XVII" "Eggcarrier XVIII" "Eggcarrier XIX" "Eggcarrier XX"
+		}
+
+		science = {
+			"Inner Eye" "Third Eye" "Viewing Eye" "Examining Eye" "Analysing Eye" "Contemplating Eye" "Considering Eye" "Evaluating Eye" "Thinking Eye" "Appraising Eye" "Assessing Eye"  "Classifying Eye" "Estimating Eye" "Determening Eye" "Inspecting Eye" "Studying Eye" "Investigating Eye" "Probing Eye" "Observing Eye"
+		}
+
+		transport = {
+			"Death Bringer" "Doom Bringer" "Destruction Bringer" "Ruination Bringer"
+		}
+
+		military_station_small = {
+			"Sharp Talon" "Quick Talon" "Frenzied Talon" "Bloodstained Talon" "Scarring Talon" "Gory Talon" "Grisly Talon" "Maiming Talon" "Mauling Talon" "Wounding Talon" "Slashing Talon" "Scratching Talon" "Cutting Talon" "Mutilating Talon" "Injuring Talon" "Crippling Talon" "Disfiguring Talon" "Grieving Talon" "Deforming Talon" "Piercing Talon"
+		}
+
+		ion_cannon = {
+			"Doom Perch" "Judgment Perch" "Ruin Perch" "Death Perch" "Calamity Perch"
+		}
+
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			Sharp Quick Frenzy Bloodstain Scar Gore Maim Maul Wound Hurt Slash Scratch Cut Mutilate Injury Crippler Disfigure Griever Deformer Piercer Scream Screech Shriek Howl Cry Soar Ascend Rise Escalate Fly Drift Float Glide Swoop Pounce Sweep Dive "Sharp Claw" "Quick Claw" "Frenzied Claw" "Bloodstained Claw" "Scarring Claw" "Gory Claw" "Grisly Claw" "Maiming Claw" "Mauling Claw" "Wounding Claw" "Slashing Claw" "Scratching Claw" "Cutting Claw" "Mutilating Claw" "Injuring Claw" "Crippling Claw" "Disfiguring Claw" "Grieving Claw" "Deforming Claw" "Piercing Claw"
+		}
+		large_ship_fallen_empire = {
+			"Glorious Massacre" "Glorious Bloodbath" "Glorious Carnage" "Glorious Slaughter" "Glorious Bloodshed" "Gorgeous Massacre" "Gorgeous Bloodbath" "Gorgeous Carnage" "Gorgeous Slaughter" "Gorgeous Bloodshed" "Inspiring Massacre" "Inspiring Bloodbath" "Inspiring Carnage" "Inspiring Slaughter" "Inspiring Bloodshed" "Delightful Massacre" "Delightful Bloodbath" "Delightful Carnage" "Delightful Slaughter" "Delightful Bloodshed"
+		}
+		massive_ship_fallen_empire = {
+			"Majestic Havoc" "Majestic Carnage" "Majestic Slaughter" "Majestic Bloodbath" "Majestic Mayhem"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Murder of Fidgit" "Murder of Trast" "Murder of Croo" "Murder of Carcan" "Murder of Tripato" "Murder of Foosh" "Murder of Urya" "Murder of Larii" "Murder of Cawica" "Murder of Foroo" "Murder of Try'tara" "Murder of Rickit" "Murder of Barraw" "Murder of Ca'tawa"
+		}
+		sequential_name = "%O% Murder"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Flock"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Flock"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Flock"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Flock"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Flock"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Flock"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Bonded Army"
+		}
+
+		clone_army = {
+			sequential_name = "Replica Forces %R%"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Flock"
+		}
+
+		robotic_army = {
+			sequential_name = "Droid Forces %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "Droid Defense Forces %R%"
+		}
+
+
+		psionic_army = {
+			sequential_name = "%O% Soaring Minds"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Flock"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Mutation Flock"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Flock"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "Droid Occupation Forces %R%"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Trast" "Fidgit" "Micaw" "Craw't" "Caw'taan" "Krachaw's Nest" "Frackaw's Eyrie" "Rickichi's Roost" "Lirchi's Nest" "Croo's Cocoon" "Carcana" "Frippit" "Whoo'tar" "Fashaaw" "Chyy'ta" "Fyyrt" "Drakoo" "Foshoo's Rest" "Ury" "Travuu" "Kloo" "Claive" "Biribit" "Rooki" "Tripitit" "Trobbi" "Trittita" "Foosh'ro" "Urytry"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+			    "Claws of"
+				"Beak of"
+				"Wings of"
+				"Feathers of"
+				"Plume of"
+				"Eyes of"
+			}
+
+			# Always combined with a first name
+			second_names = {
+				White Grey Black Burgundy Red Blue Indigo Cyan Yellow Orange Ivory Ebony Purple Brown Teal Green Aquamarine Khaki Magenta Gold Silver
+				Bronze Honeydew Lavender Maroon Olive
+			}
+
+			regnal_first_names = {
+				"Black Wing" "White Wing" "Red Wing" "Star Wing" "Sky Wing" "Cloud Wing"
+			}
+
+			regnal_second_names = {
+				Extak
+			}
+		}
+	}
+}
+
+AVIAN4 = {
+	category = "Avian"
+	ship_names = {
+
+		corvette = {
+			"Crimson Cuatrel" "Bloodied Acamu" "Crowned Stigri" "Gloomy Osrik" "Night Gruu" "Circinae" "Red Qreek" "Black Qreek" "Winter Pitria" "Circling Deathbird" "Grim Tenu" "Midnight Tenu" "Swooping Aptryx" "Black Tenu" "Boreal Gruu" "Spurtalon" "Ruby Sarak" "Dusky Sarak" "Screaming Kea" "Accipiter" "Dark Harrier" "Wicked Harrier" "Butcher Shrike" "Scarlet Stigri" "Plumed Acamu" "Dire Pitria" "Highcrest Strix" "Feral Shrike" "Striking Aptryx" "Ashen Gruu" "Cloudy Qreek" "Umber Osrik" "Amber Stigri" "Gray Acamu" "Rising Stigri" "Bird of Prey" "Sharpbill" "Sharpclaw Rukk" "Thickbilled Strix" "Carrion Crow" "Hooded Crow" "Razorclaw Rukk" "Redclaw Cuatrel" "Striking Circina" "Shrieking Harrier" "Sky Acamu" "Greatplume" "Bloodeye Pitria" "Fantail Shrike" "Windbound Acamu" "Gustwing Karyu" "Galeblown Pitria" "Soaring Kea" "Skybound Strix" "Fiery Strix" "Sooty Circina" "Longtalon Tenu" "Sharpwing Aptryx" "Starfeather Stigri" "Darkcrest Aptryx" "Sharpeye Qreek" "Slashing Shrike" "Hewclaw Rukk" "Splitbeak Harrier" "Razorbeak Aptryx" "Ripclaw Rukk" "Windwing Kea" "Whitetail Osrik" "Golden Stigri" "Horned Gruu" "Baneclaw Kea" "Northwind Harrier" "Pale Sarak" "Heartless Strix" "Felltalon Cuatrel" "War Acamu" "Wailing Gruu" "Fastflight Pitria" "Keelbilled Shrike" "Viletongue Yra"
+		}
+
+		destroyer = {
+			"Crimson Cuatrel" "Bloodied Acamu" "Crowned Stigri" "Gloomy Osrik" "Night Gruu" "Circinae" "Red Qreek" "Black Qreek" "Winter Pitria" "Circling Deathbird" "Grim Tenu" "Midnight Tenu" "Swooping Aptryx" "Black Tenu" "Boreal Gruu" "Spurtalon" "Ruby Sarak" "Dusky Sarak" "Screaming Kea" "Accipiter" "Dark Harrier" "Wicked Harrier" "Butcher Shrike" "Scarlet Stigri" "Plumed Acamu" "Dire Pitria" "Highcrest Strix" "Feral Shrike" "Striking Aptryx" "Ashen Gruu" "Cloudy Qreek" "Umber Osrik" "Amber Stigri" "Gray Acamu" "Rising Stigri" "Bird of Prey" "Sharpbill" "Sharpclaw Rukk" "Thickbilled Strix" "Carrion Crow" "Hooded Crow" "Razorclaw Rukk" "Redclaw Cuatrel" "Striking Circina" "Shrieking Harrier" "Sky Acamu" "Greatplume" "Bloodeye Pitria" "Fantail Shrike" "Windbound Acamu" "Gustwing Karyu" "Galeblown Pitria" "Soaring Kea" "Skybound Strix" "Fiery Strix" "Sooty Circina" "Longtalon Tenu" "Sharpwing Aptryx" "Starfeather Stigri" "Darkcrest Aptryx" "Sharpeye Qreek" "Slashing Shrike" "Hewclaw Rukk" "Splitbeak Harrier" "Razorbeak Aptryx" "Ripclaw Rukk" "Windwing Kea" "Whitetail Osrik" "Golden Stigri" "Horned Gruu" "Baneclaw Kea" "Northwind Harrier" "Pale Sarak" "Heartless Strix" "Felltalon Cuatrel" "War Acamu" "Wailing Gruu" "Fastflight Pitria" "Keelbilled Shrike" "Viletongue Yra"
+		}
+
+		cruiser = {
+			"Crimson Cuatrel" "Bloodied Acamu" "Crowned Stigri" "Gloomy Osrik" "Night Gruu" "Circinae" "Red Qreek" "Black Qreek" "Winter Pitria" "Circling Deathbird" "Grim Tenu" "Midnight Tenu" "Swooping Aptryx" "Black Tenu" "Boreal Gruu" "Spurtalon" "Ruby Sarak" "Dusky Sarak" "Screaming Kea" "Accipiter" "Dark Harrier" "Wicked Harrier" "Butcher Shrike" "Scarlet Stigri" "Plumed Acamu" "Dire Pitria" "Highcrest Strix" "Feral Shrike" "Striking Aptryx" "Ashen Gruu" "Cloudy Qreek" "Umber Osrik" "Amber Stigri" "Gray Acamu" "Rising Stigri" "Bird of Prey" "Sharpbill" "Sharpclaw Rukk" "Thickbilled Strix" "Carrion Crow" "Hooded Qreek" "Razorclaw Rukk" "Redclaw Cuatrel" "Striking Circina" "Shrieking Harrier" "Sky Acamu" "Greatplume" "Bloodeye Pitria" "Fantail Shrike" "Windbound Acamu" "Gustwing Karyu" "Galeblown Pitria" "Soaring Kea" "Skybound Strix" "Fiery Strix" "Sooty Circina" "Longtalon Tenu" "Sharpwing Aptryx" "Starfeather Stigri" "Darkcrest Aptryx" "Sharpeye Qreek" "Slashing Shrike" "Hewclaw Rukk" "Splitbeak Harrier" "Razorbeak Aptryx" "Ripclaw Rukk" "Windwing Kea" "Whitetail Osrik" "Golden Stigri" "Horned Gruu" "Baneclaw Kea" "Northwind Harrier" "Pale Sarak" "Heartless Strix" "Felltalon Cuatrel" "War Acamu" "Wailing Gruu" "Fastflight Pitria" "Keelbilled Shrike" "Viletongue Yra"
+		}
+
+		battleship = {
+			"Crimson Cuatrel" "Bloodied Acamu" "Crowned Stigri" "Gloomy Osrik" "NightGruu" "Circinae" "Red Qreek" "Black Qreek" "Winter Pitria" "Circling Deathbird" "Grim Tenu" "Midnight Tenu" "Swooping Acamu" "Black Tenu" "Boreal Gruu" "Spurtalon" "Ruby Sarak" "Dusky Sarak" "Screaming Kea" "Accipiter" "Dark Harrier" "Wicked Harrier" "Butcher Shrike" "Scarlet Stigri" "Plumed Acamu" "Dire Pitria" "Highcrest Strix" "Feral Shrike" "Striking Aptryx" "Ashen Gruu" "Cloudy Qreek" "Umber Osrik" "Amber Stigri" "Gray Acamu" "Rising Stigri" "Bird of Prey" "Sharpbill" "Sharpclaw Rukk" "Thickbilled Strix" "Carrion Crow" "Hooded Qreek" "Razorclaw Rukk" "Redclaw Cuatrel" "Striking Circina" "Shrieking Harrier" "Sky Acamu" "Greatplume" "Bloodeye Pitria" "Fantail Shrike" "Windbound Aptryx" "Gustwing Karyu" "Galeblown Pitria" "Soaring Kea" "Skybound Strix" "Fiery Strix" "Sooty Circina" "Longtalon Tenu" "Sharpwing Aptryx" "Starfeather Stigri" "Darkcrest Aptryx" "Sharpeye Qreek" "Slashing Shrike" "Hewclaw Rukk" "Splitbeak Harrier" "Razorbeak Aptryx" "Ripclaw Rukk" "Windwing Kea" "Whitetail Osrik" "Golden Stigri" "Horned Gruu" "Baneclaw Kea" "Northwind Harrier" "Pale Sarak" "Heartless Strix" "Felltalon Cuatrel" "War Acamu" "Wailing Gruu" "Fastflight Pitria" "Keelbilled Shrike" "Viletongue Yra"
+		}
+
+		titan = {
+			"Raging Whirlwind" "Tornado" "Cyclone" "Tempest" "Ceaseless Storm" "Thunderbird" "Firebird"
+ 		}
+
+		colossus = {
+			"Deathclaw" "Last Breath" "Final Flight"
+		}
+
+		juggernaut = {
+			"Raging Tumult" "Razor Typhoon" "Seething Squall" "Stormbringer" "Unceasing Storm" "Unstoppable Gale"
+		}
+
+		constructor = {
+			"Breezeblown Enakk" "Gusty Laiu" "Diamond Qaquik" "Gliding Rrao" "Blue Noru" "Darkling Mimru" "Wandering Blackbird" "Cackling Occu" "Swiftwing Darter" "Stormy Nerit" "Blushing Songbird" "Cloudsong Darter" "Leafy Warbler" "Fairy Worui" "Flitting Kral" "Laughing Lapu" "Fluttering Petrel" "Perching Lyrak" "Broadwing Rostru" "Singing Gau" "Black Sirix"
+		}
+
+		colonizer = {
+			"Breezeblown Enakk" "Gusty Laiu" "Diamond Qaquik" "Gliding Rrao" "Blue Noru" "Darkling Mimru" "Wandering Blackbird" "Cackling Occu" "Swiftwing Darter" "Stormy Nerit" "Blushing Songbird" "Cloudsong Darter" "Leafy Warbler" "Fairy Worui" "Flitting Kral" "Laughing Lapu" "Fluttering Petrel" "Perching Lyrak" "Broadwing Rostru" "Singing Gau" "Black Sirix"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Breezeblown Enakk" "Gusty Laiu" "Diamond Qaquik" "Gliding Rrao" "Blue Noru" "Darkling Mimru" "Wandering Blackbird" "Cackling Occu" "Swiftwing Darter" "Stormy Nerit" "Blushing Songbird" "Cloudsong Darter" "Leafy Warbler" "Fairy Worui" "Flitting Kral" "Laughing Lapu" "Fluttering Petrel" "Perching Lyrak" "Broadwing Rostru" "Singing Gau" "Black Sirix"
+		}
+
+		science = {
+			"Breezeblown Enakk" "Gusty Laiu" "Diamond Qaquik" "Gliding Rrao" "Blue Noru" "Darkling Mimru" "Wandering Blackbird" "Cackling Occu" "Swiftwing Darter" "Stormy Nerit" "Blushing Songbird" "Cloudsong Darter" "Leafy Warbler" "Fairy Worui" "Flitting Kral" "Laughing Lapu" "Fluttering Petrel" "Perching Lyrak" "Broadwing Rostru" "Singing Gau" "Black Sirix"
+		}
+
+		transport = {
+			"Breezeblown Enakk" "Gusty Laiu" "Diamond Qaquik" "Gliding Rrao" "Blue Noru" "Darkling Mimru" "Wandering Blackbird" "Cackling Occu" "Swiftwing Darter" "Stormy Nerit" "Blushing Songbird" "Cloudsong Darter" "Leafy Warbler" "Fairy Worui" "Flitting Kral" "Laughing Lapu" "Fluttering Petrel" "Perching Lyrak" "Broadwing Rostru" "Singing Gau" "Black Sirix"
+		}
+
+		military_station_small = {
+			"Broodguard" "Nestwatcher" "Roostward" "Vigilant Kaseek" "Tetheek Warden" "Keeper Ocot" "Sharptalon Sentinel"
+		}
+
+		ion_cannon = {
+			"Skybreaker" "Skyender" "Tireless" "Broodmother" "Roostkeeper"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Cloudburst Voidwings" "Skyfall Voidwings" "Galesurge Voidwings" "Mistral Voidwings" "Shadelurk Voidwings" "Nighthunt Voidwings" "Starplume Voidwings" "Windstorm Voidwings" "Coldsquall Voidwings" "Wildclaw Voidwings"
+		}
+		sequential_name = "%O% Voidwings"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Broodwatchers"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Paratroopers"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Paratroopers"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Paratroopers"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Broodwatchers"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Paratroopers"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Shackled Troopers"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Cloned Infantry"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Troopers"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Mechanized Advancers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Mechanized Broodwatchers"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Winged Psions"
+		}
+
+		xenomorph_army = {
+			sequential_name = "Xenoswarm %R%"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Perfected Infantry"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Broodwatchers"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Mechanized Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Void Brood" "Star Nest" "Starry Perch" "Wandering Nest" "Astral Aerie" "Heavenly Aerie" "Starflung Roost" "Hallowed Haunt" "Stellar Broodnest"	"Zirik Perch" "Kokok's Nest" "Ikaro Brood" "Ukhu Aerie" "Kamak Perch" "Paru Roost" "Qoriqo's Haunt" "Broodnest Huana" "Syrti Aerie" "Keak Roost" "Kisak Aerie" "Opoke Roost" "Broodnest Sora" "Veeri's Haunt" "Tiruk Perch" "Arit's Nest" "Icolo Aerie" "Tasu Brood" "Visu's Haunt" "Mimak Brood" "Nootka's Nest" "Magog Perch" "Yoquol's Nest" "Truro's Haunt" "Ina Aerie" "Haro Roost" "Valiku's Haunt" "Broodnest Lipari"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+
+			   "Datri" "Ibyk" "Strigi" "Koraci" "Cari" "Laniu" "Sparviu" "Physeta" "Harpia" "Mikvu" "Elanu" "Kathari" "Ekru" "Korii" "Seeir" "Karaka" "Kaiqu" "Aracari" "Iora" "Kagu" "Lowii" "Atrata" "Nekarae" "Kaukae" "Paru" "Pityria" "Estrili" "Vireok" "Urocyn" "Thraupi" "Corcora" "Artam" "Cemok" "Meli" "Parda" "Dika" "Reepi" "Akkan" "Kerthii" "Malur" "Tateek" "Aegli" "Bati" "Kokakk" "Kriree" "Akrok" "Pyko" "Cakaw" "Gralla" "Tyri" "Titru" "Sapi" "Euryla" "Konopo" "Pipri" "Atriko" "Sseri" "Artiko" "Pikno" "Kolluri" "Nikat" "Kaleek" "Kawikk" "Pachii" "Cassram" "Stiryi" "Ereni" "Sareek" "Cuix" "Lapoa" "Hugin" "Munin"
+			}
+
+			# Always combined with a first name
+			second_names = {
+				"Pssa" "Curassow" "Copassar" "Manokk" "Rokk" "Lamassu" "Minokaw" "Yalungur" "Yukonna" "Zduhak" "Gama" "Ayun" "Arkan" "Adzeha" "Simu" "Rokka" "Sarimanok" "Alkonos" "Turul" "Zu" "Tenju" "Gandab" "Erunda" "Hras" "Velgr" "Enaki" "Caladri" "Khol" "Makhan" "Umkoa" "Umloti" "Amato" "Isanda" "Makeki" "Modyadi" "Kulu" "Tekane" "Nama" "Curra" "Imvu" "Inyathi" "Umalu" "Kanda" "Skyna" "Wakesu" "Alvie" "Nahatl" "Mayatl" "Peyot" "Tecolot" "Sakati" "Huacalli" "Kwarachi" "Aca" "Aik" "Caqui" "Kolot" "Huale" "Ika" "Oquik" "Izit" "Miqui" "Mococo" "Nacayo" "Onehua" "Popoka" "Teot" "Nahua"
+			}
+
+			regnal_first_names = {
+				"Shimmerplume" "Onyxfeather" "Rubyclaw" "Crystalclaw" "Glimmerwing" "Goldbeak" "Gemwing" "Berylwing" "Opalplume" "Pearlfeather" "Diamondwing" "Emeraldplume" "Moonclaw" "Sunplume"
+			}
+
+			regnal_second_names = {
+				"Aruk"
+			}
+		}
+	}
+}

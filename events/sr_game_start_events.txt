@@ -20,7 +20,8 @@ country_event = {
       capital_scope = {
         if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
         else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
-        else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_ocean }
+        else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
+        else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
 
         remove_all_buildings = yes
 
