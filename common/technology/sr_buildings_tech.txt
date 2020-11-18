@@ -1,0 +1,94 @@
+tech_quantum_compressor = {
+  cost = @tier3cost1
+  area = physics
+  tier = 3
+  category = { particles }
+  prerequisites = {
+		"tech_exotic_gases"
+		"tech_volatile_motes"
+    "tech_rare_crystals"
+  }
+  weight = @tier3weight1
+
+  weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_quantum_compressor_2 = {
+  cost = @tier4cost1
+  area = physics
+  tier = 4
+  category = { particles }
+  prerequisites = {
+		"tech_quantum_compressor"
+  }
+  weight = @tier4weight1
+
+  weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_quantum_compressor_3 = {
+  cost = @tier5cost1
+  area = physics
+  tier = 5
+  category = { particles }
+  prerequisites = {
+		"tech_quantum_compressor_2"
+  }
+  weight = @tier5weight1
+
+  weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}

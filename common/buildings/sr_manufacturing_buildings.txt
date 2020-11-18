@@ -1,0 +1,591 @@
+building_quantum_compressor = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		building_basic_income_check = yes
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+      is_ai = yes
+      OR = {
+			  has_monthly_income = {
+  				resource = exotic_gases
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = volatile_motes
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = rare_crystals
+				  value > 10
+        }
+      }
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_gas_refiner_add = 1
+			job_chemist_add = 1
+			job_translucer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_gas_refiner_drone_add = 1
+			job_chemist_drone_add = 1
+			job_translucer_drone_add = 1
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	upgrades = {
+		"building_quantum_compressor_2"
+	}
+
+	prerequisites = {
+    "tech_quantum_compressor"
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_gas_refiner_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_gas_refiner_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_chemist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_chemist_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_translucer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_translucer_drone_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+    exotic_gases = 1
+    volatile_motes = 1
+    rare_crystals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_quantum_compressor_2 = {
+	base_buildtime = @b3_time
+
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		building_basic_income_check = yes
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+		buildings_upgrade_allow = yes
+	}
+
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+      is_ai = yes
+      OR = {
+			  has_monthly_income = {
+  				resource = exotic_gases
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = volatile_motes
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = rare_crystals
+				  value > 10
+        }
+      }
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_gas_refiner_add = 2
+			job_chemist_add = 2
+			job_translucer_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_gas_refiner_drone_add = 2
+			job_chemist_drone_add = 2
+			job_translucer_drone_add = 2
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 3000
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+
+	upgrades = {
+		"building_quantum_compressor_3"
+	}
+
+	prerequisites = {
+    "tech_quantum_compressor_2"
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_gas_refiner_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_gas_refiner_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_chemist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_chemist_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_translucer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_translucer_drone_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+    exotic_gases = 1
+    volatile_motes = 1
+    rare_crystals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_quantum_compressor_3 = {
+	base_buildtime = @b4_time
+
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		building_basic_income_check = yes
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+		buildings_upgrade_allow = yes
+	}
+
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+		owner = {
+      is_ai = yes
+      OR = {
+			  has_monthly_income = {
+  				resource = exotic_gases
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = volatile_motes
+				  value > 10
+        }
+			  has_monthly_income = {
+  				resource = rare_crystals
+				  value > 10
+        }
+      }
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_gas_refiner_add = 3
+			job_chemist_add = 3
+			job_translucer_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_gas_refiner_drone_add = 3
+			job_chemist_drone_add = 3
+			job_translucer_drone_add = 3
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 4500
+		}
+		upkeep = {
+			energy = 30
+		}
+	}
+
+	prerequisites = {
+    "tech_quantum_compressor_3"
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_gas_refiner_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_gas_refiner_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_chemist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_chemist_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_translucer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_translucer_drone_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 50
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 5
+				}
+			}
+			buildings_build_building = yes
+		}
+		modifier = {
+			weight = 200
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+    exotic_gases = 1
+    volatile_motes = 1
+    rare_crystals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}

@@ -1,9 +1,9 @@
-@starbase_power_1 = 3300
-@starbase_power_2 = 4350
-@starbase_power_3 = 5700
-@starbase_power_4 = 7500
-@starbase_power_5 = 9600
-@starbase_power_6 = 12600
+@starbase_power_1 = 4400
+@starbase_power_2 = 5800
+@starbase_power_3 = 7600
+@starbase_power_4 = 9000
+@starbase_power_5 = 12800
+@starbase_power_6 = 16800
 
 utility_component_template = {
 	key = "SR_STARBASE_FISSION_REACTOR"

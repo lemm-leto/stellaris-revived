@@ -35,7 +35,7 @@ medium_hangar_bay = {
 heavy_hangar_bay = {
 	icon = "GFX_starbase_heavy_hangar_bay"
 	section = "HEAVY_HANGAR_STARBASE_SECTION"
-	construction_days = 1
+	construction_days = 720
 
 	potential = {
 		exists = owner
@@ -64,4 +64,84 @@ heavy_hangar_bay = {
 	}
 
 	show_in_tech = "tech_starbase_heavy_hangar_bay"
+}
+
+medium_battery = {
+  icon = "GFX_starbase_medium_battery"
+  section = "MEDIUM_BATTERY_STARBASE_SECTION"
+  construction_days = 360
+
+  potential = {
+    exists = owner
+    owner = { has_technology = tech_starbase_medium_battery }
+  }
+
+  resources = {
+    category = starbase_modules
+    cost = {
+      alloys = 500
+    }
+
+    upkeep = {
+      energy = 5
+    }
+  }
+
+  ai_build_outside_chokepoint = yes
+  ai_weight = {
+    weight = 10
+    modifier = {
+      factor = 2
+      exists = owner
+      owner = {
+        OR = {
+          is_preferred_weapons = weapon_type_energy
+          is_preferred_weapons = weapon_type_kinetic
+          is_preferred_weapons = weapon_type_explosive
+        }
+      }
+    }
+  }
+
+  show_in_tech = "tech_starbase_medium_battery"
+}
+
+heavy_battery = {
+  icon = "GFX_starbase_heavy_battery"
+  section = "HEAVY_BATTERY_STARBASE_SECTION"
+  construction_days = 720
+
+  potential = {
+    exists = owner
+    owner = { has_technology = tech_starbase_heavy_battery }
+  }
+
+  resources = {
+    category = starbase_modules
+    cost = {
+      alloys = 1000
+    }
+
+    upkeep = {
+      energy = 10
+    }
+  }
+
+  ai_build_outside_chokepoint = yes
+  ai_weight = {
+    weight = 10
+    modifier = {
+      factor = 2
+      exists = owner
+      owner = {
+        OR = {
+          is_preferred_weapons = weapon_type_energy
+          is_preferred_weapons = weapon_type_kinetic
+          is_preferred_weapons = weapon_type_explosive
+        }
+      }
+    }
+  }
+
+  show_in_tech = "tech_starbase_heavy_battery"
 }

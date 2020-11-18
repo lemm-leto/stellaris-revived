@@ -1,0 +1,14 @@
+﻿l_russian:
+  tech_quantum_compressor:0 "$building_quantum_compressor$"
+  tech_quantum_compressor_desc:0 "$building_quantum_compressor_desc$"
+  tech_quantum_compressor_2:0 "$building_quantum_compressor_2$"
+  tech_quantum_compressor_2_desc:0 "$building_quantum_compressor_2_desc$"
+  tech_quantum_compressor_3:0 "$building_quantum_compressor_3$"
+  tech_quantum_compressor_3_desc:0 "$building_quantum_compressor_3_desc$"
+
+  building_quantum_compressor:0 "Квантовый компрессор"
+  building_quantum_compressor_desc:0 "Достижения в области квантовой физики позволяют манипулировать частицами на самом элементарном уровне - квантовом для того, чтобы менять их физические и химические свойства."
+  building_quantum_compressor_2:0 "Квантовый процессор"
+  building_quantum_compressor_2_desc:0 "$building_quantum_compressor_desc$"
+  building_quantum_compressor_3:0 "Квантовый суперкомпрессор"
+  building_quantum_compressor_3_desc:0 "$building_quantum_compressor_desc$"
