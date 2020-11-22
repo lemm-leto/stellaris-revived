@@ -107,7 +107,7 @@ medium_battery = {
 }
 
 heavy_battery = {
-  icon = "GFX_starbase_heavy_battery"
+  icon = "GFX_starbase_hard_battery"
   section = "HEAVY_BATTERY_STARBASE_SECTION"
   construction_days = 720
 

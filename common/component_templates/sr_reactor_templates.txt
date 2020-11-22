@@ -1,9 +1,10 @@
-@starbase_power_1 = 4400
-@starbase_power_2 = 5800
-@starbase_power_3 = 7600
-@starbase_power_4 = 9000
-@starbase_power_5 = 12800
-@starbase_power_6 = 16800
+# x5 of base reactor power
+@starbase_power_1 = 5500
+@starbase_power_2 = 7250
+@starbase_power_3 = 9500
+@starbase_power_4 = 11250
+@starbase_power_5 = 16000
+@starbase_power_6 = 21000
 
 utility_component_template = {
 	key = "SR_STARBASE_FISSION_REACTOR"
@@ -21,6 +22,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 	upgrades_to = "SR_STARBASE_FUSION_REACTOR"
@@ -46,6 +48,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 	upgrades_to = "SR_STARBASE_COLD_FUSION_REACTOR"
@@ -71,6 +74,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 	upgrades_to = "SR_STARBASE_ANTIMATTER_REACTOR"
@@ -96,6 +100,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 	upgrades_to = "SR_STARBASE_ZERO_POINT_REACTOR"
@@ -121,6 +126,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 	upgrades_to = "SR_STARBASE_DARK_MATTER_REACTOR"
@@ -146,6 +152,7 @@ utility_component_template = {
 		starbase_starhold
 		starbase_starfortress
 		starbase_citadel
+		starbase_bastion
 		juggernaut
 	}
 

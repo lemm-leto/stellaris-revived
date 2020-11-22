@@ -198,6 +198,7 @@ building_quantum_compressor = {
 
 building_quantum_compressor_2 = {
 	base_buildtime = @b3_time
+	can_build = no
 
 	category = manufacturing
 
@@ -397,6 +398,7 @@ building_quantum_compressor_2 = {
 
 building_quantum_compressor_3 = {
 	base_buildtime = @b4_time
+	can_build = no
 
 	category = manufacturing
 

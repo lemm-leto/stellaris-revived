@@ -1,0 +1,299 @@
+swarden = {
+	potential = {
+		has_starbase_size > starbase_citadel
+		OR = {
+			has_starbase_module = heavy_hangar_bay
+			has_starbase_module = heavy_battery
+		}
+	}
+
+	weight_modifier = {
+    base = 150
+
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 0
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 1
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 2
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 3
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 4
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = gun_battery
+				count > 5
+			}
+    }
+
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 0
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 1
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 2
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 3
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 4
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = missile_battery
+				count > 5
+			}
+    }
+
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 0
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 1
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 2
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 3
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 4
+			}
+		}
+		modifier = {
+			add = 75
+			count_starbase_modules = {
+				type = hangar_bay
+				count > 5
+			}
+    }
+
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 2
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 3
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 4
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 5
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 6
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_hangar_bay
+				count > 7
+			}
+    }
+
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 2
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 3
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 4
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 5
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 6
+			}
+		}
+		modifier = {
+			add = 150
+			count_starbase_modules = {
+				type = heavy_battery
+				count > 7
+			}
+    }
+
+	}
+
+	ai_design = {
+		min = {
+			base = 0
+			factor = 0
+		}
+
+		ratio = {
+			base = 0.25
+			modifier = {
+				add = 0.10
+				exists = owner
+				owner = {
+					has_ethic = ethic_militarist
+				}
+			}
+			modifier = {
+				add = 0.1
+				exists = owner
+				owner = {
+					has_ethic = ethic_fanatic_militarist
+				}
+			}
+		}
+
+		# token followed by priority
+		buildings = {
+			target_uplink_computer = {
+				base = 1.00
+			}
+
+			command_center = {
+				base = 1.00
+			}
+
+			defense_grid = {
+				base = 1.00
+			}
+
+			communications_jammer = {
+				base = 0.90
+			}
+
+			disruption_field = {
+				base = 0.90
+			}
+
+			warp_fluctuator = {
+				base = 0.90
+      }
+
+      crew_quarters = {
+        base = 0.80
+      }
+
+      hydroponics_bay = {
+        base = 0.80
+      }
+		}
+
+		modules = {
+			heavy_battery = {
+				base = 1.00
+			}
+
+			heavy_hangar_bay = {
+				base = 1.00
+			}
+		}
+	}
+}

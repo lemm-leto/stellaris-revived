@@ -6,9 +6,17 @@ country_event = {
   hide_window = yes
   is_triggered_only = yes
 
+  trigger = {
+    NAND = {
+      is_primitive = yes
+      is_country_type = fallen_empire
+    }
+  }
+
   immediate = {
     if = {
       limit = {
+        exists = capital_scope
         NOR = {
           owner = { has_origin = origin_life_seeded }
           owner = { has_origin = origin_post_apocalyptic }

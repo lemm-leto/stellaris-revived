@@ -1,0 +1,45 @@
+ap_infinite_wardens = {
+  on_enabled = {
+		add_research_option = tech_starbase_6
+  }
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_technology_starbase_5"
+			has_technology = tech_starbase_5
+		}
+		custom_tooltip = {
+			fail_text = "requires_ap_eternal_vigilance"
+			has_ascension_perk = ap_eternal_vigilance
+		}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+	}
+
+	modifier = {
+		shipclass_starbase_damage_mult = 0.5
+		shipclass_starbase_hull_mult = 0.5
+		shipclass_military_station_damage_mult = 0.5
+		starbase_defense_platform_capacity_add = 10
+	}
+
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_infinite_wardens
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_civic = civic_inwards_perfection
+		}
+		modifier = {
+			factor = 1.5
+			is_xenophobe = yes
+		}
+	}
+}

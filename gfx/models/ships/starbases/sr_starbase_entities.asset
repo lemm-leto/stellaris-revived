@@ -1,0 +1,306 @@
+entity = {
+	name = "humanoid_01_starbase_bastion_entity"
+	pdxmesh = "humanoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "humanoid_01_starbase_bastion_section_entity"
+	pdxmesh = "humanoid_01_citadel_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "plantoid_01_starbase_bastion_entity"
+	pdxmesh = "plantoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "plantoid_01_starbase_bastion_section_entity"
+	pdxmesh = "plantoid_01_citadel_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "mammalian_01_starbase_bastion_entity"
+	pdxmesh = "mammalian_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "mammalian_01_starbase_bastion_section_entity"
+	pdxmesh = "mammalian_01_citadel_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "reptilian_01_starbase_bastion_entity"
+	pdxmesh = "reptilian_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "reptilian_01_starbase_bastion_section_entity"
+	pdxmesh = "reptilian_01_citadel_mesh"
+
+	locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_010" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_011" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_012" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_015" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "avian_01_starbase_bastion_entity"
+	pdxmesh = "avian_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "avian_01_starbase_bastion_section_entity"
+	pdxmesh = "avian_01_citadel_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "molluscoid_01_starbase_bastion_entity"
+	pdxmesh = "molluscoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "molluscoid_01_starbase_bastion_section_entity"
+	pdxmesh = "molluscoid_01_citadel_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+
+	attach = { root = "molluscoid_01_starbase_citadel_part2_entity" }
+}
+
+entity = {
+	name = "fungoid_01_starbase_bastion_entity"
+	pdxmesh = "fungoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "fungoid_01_starbase_bastion_section_entity"
+	pdxmesh = "fungoid_01_citadel_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = idle
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+
+		event = { time = 0 node = "dust_locator_01" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 0.33 node = "dust_locator_02" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 0.66 node = "dust_locator_03" particle = "dust_poff_effect" keep_particle = yes  sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+
+		event = { time = 6.66 node = "dust_locator_01" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 6.96 node = "dust_locator_02" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 7.3 node = "dust_locator_03" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+
+		event = { time = 13.33 node = "dust_locator_01" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 13.63 node = "dust_locator_02" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 13.96 node = "dust_locator_03" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+
+		event = { time = 20 node = "dust_locator_01" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 20.3 node = "dust_locator_02" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 20.63 node = "dust_locator_03" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+
+		event = { time = 26.66 node = "dust_locator_01" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 26.96 node = "dust_locator_02" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+		event = { time = 27.3 node = "dust_locator_03" particle = "dust_poff_effect" keep_particle = yes sound = { soundeffect = "fungoid_spaceport_cylinders" } }
+
+	}
+}
+
+entity = {
+	name = "arthropoid_01_starbase_bastion_entity"
+	pdxmesh = "arthropoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "arthropoid_01_starbase_bastion_section_entity"
+	pdxmesh = "arthropoid_01_citadel_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+}
+
+entity = {
+	name = "lithoid_01_starbase_bastion_entity"
+	pdxmesh = "lithoid_01_citadel_frame_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = idle }
+}
+
+entity = {
+	name = "lithoid_01_starbase_bastion_section_entity"
+	pdxmesh = "lithoid_01_citadel_mesh"
+
+	default_state = "idle"
+	state = {
+    name = "idle"
+    animation = idle
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+	attach = { "station" = "lithoid_01_starbase_core_entity"	}
+  game_data = {
+    emissive_recolor_crunch = 2.0
+  }
+}
+
+entity = {
+	name = "necroid_01_starbase_bastion_entity"
+	pdxmesh = "necroid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "necroid_01_starbase_bastion_section_entity"
+	pdxmesh = "necroid_01_citadel_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		 event = { time = 0 node = "light_locator_01" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_02" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_03" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_04" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_05" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_06" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_07" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_08" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 event = { time = 0 node = "light_locator_09" particle = "necroid_01_ship_light_effect" keep_particle = yes trigger_once = yes }
+		 start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
+		 start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
+		 start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
+	}
+
+		game_data = {
+			emissive_recolor_crunch = 2.0
+		}
+}
+
+entity = { name = "pirate_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "industrial_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "preindustrial_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "ancient_drone_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "guardian_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "ancient_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "drone_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "npf_01_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "npf_01_dirty_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }
+entity = { name = "techno_starbase_bastion_section_entity" clone="avian_01_starbase_bastion_section_entity" }

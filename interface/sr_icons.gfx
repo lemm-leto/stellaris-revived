@@ -15,7 +15,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name "GFX_starbase_heavy_battery"
-		texturefile = "gfx/interface/icons/modules/sb_heavy_battery.dds"
+		name = "GFX_starbase_hard_battery"
+		texturefile = "gfx/interface/icons/modules/sb_hard_battery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap_infinite_wardens"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_infinite_wardens.dds"
+		alwaystransparent = yes
 	}
 }
