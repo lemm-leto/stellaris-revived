@@ -4,6 +4,7 @@
 @citadel_maintenance_sr = 2
 @citadel_district_buildtime = 600
 
+# ToDo - add original districts
 district_citadel_city = {
 	base_buildtime = @citadel_district_buildtime
 	is_capped_by_modifier = no
