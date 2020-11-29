@@ -1,0 +1,17 @@
+music = {
+	name = "A Few Jumps Away"
+	file = "a_few_jumps_away.ogg"
+	volume = 0.62
+}
+
+music = {
+	name = "Discovery"
+	file = "discovery.ogg"
+	volume = 0.62
+}
+
+music = {
+	name = "Signal To Noise"
+	file = "signal_to_noise.ogg"
+	volume = 0.62
+}

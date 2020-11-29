@@ -338,8 +338,10 @@ country_event = {
 
   desc = {
     text = "sr_stories.1009.owner.desc"
-    any_owned_megastructure = {
-      is_megastructure_type = element_zero_core
+    trigger = {
+      any_owned_megastructure = {
+        is_megastructure_type = element_zero_core
+      }
     }
   }
 

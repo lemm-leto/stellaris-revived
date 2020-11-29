@@ -1,0 +1,11 @@
+song = {
+	name = "A Few Jumps Away"
+}
+
+song = {
+	name = "Discovery"
+}
+
+song = {
+	name = "Signal To Noise"
+}
