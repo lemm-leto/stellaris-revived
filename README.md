@@ -10,7 +10,8 @@ TBD
 TBD
 
 ## Credits
-
+### Fonts
+* Fonts used for RU & PL locales were integrated from GEKS mod https://steamcommunity.com/workshop/filedetails/?id=681483874
 ### Music
 * Signal To Noise by Scott Buckley | https://soundcloud.com/scottbuckley
   Music promoted by https://www.free-stock-music.com
