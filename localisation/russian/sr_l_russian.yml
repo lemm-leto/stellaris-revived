@@ -1,0 +1,36 @@
+﻿l_russian:
+  AWFUL:0 "Кошмарно."
+
+  ### DECISIONS ###
+  srt_show_status:0 "Текущий статус терраформинга"
+  srt_show_status_desc:0 "Открыть окно с информацией о показателях планеты, влияющих на терраформинг."
+  srt_show_status_window_open:0 "$srt_show_status_desc$"
+
+  ### EVENTS ###
+  srt_terraforming_window:0 "Статус терраформинга"
+
+  ### PLANET CLASSES (FICTION FOR TERRAFORMING LINKS) ###
+  pc_decrease_radiation_increase_ozone_layer:0 "Излучение: Увеличить озоновый слой"
+  pc_decrease_radiation_increase_ozone_layer_desc:0 "Запустить проект по облучению атмосферы жестким ультрафиолетовым излучением, что в конечном счете приведет к образованию и утолщению озонового слоя в верхних слоях атмосферы."
+
+  ### WINDOW ###
+  sr_terraforming.window.planet.basic_values:0 "Базовые значения"
+
+  sr_terraforming.window.planet.radiation:0 "[terraforming_planet.GetRadiation]"
+  sr_terraforming.window.planet.radiation.low:0 "Уровень ионизирующего излучения: §G[This.radiation]§! §BмЗв§!"
+  sr_terraforming.window.planet.radiation.low.tt:0 "Уровень ионизирующего излучения позволяет находиться на поверхности планеты живым существам, не опасаясь за состояние своего здоровья."
+  sr_terraforming.window.planet.radiation.medium:0 "Уровень ионизирующего излучения: §S[This.radiation]§! §BмЗв§!"
+  sr_terraforming.window.planet.radiation.medium.tt:0 "Уровень ионизирующего излучения позволяет проводить на планете несколько лет или даже десятилетий, однако о долговременном нахождении на поверхности без последствий для здоровья не может быть и речи."
+  sr_terraforming.window.planet.radiation.high:0 "Уровень ионизирующего излучения: §R[This.radiation]§! §BмЗв§!"
+  sr_terraforming.window.planet.radiation.high.tt:0 "Уровень ионизирующего излучения исключает нахождение на поверхности. Радиоактивная пустошь - лучшее описание для этого небесного тела."
+
+  srt.window.planet.gravity:0 "[terraforming_planet.GetGravity]"
+  srt.window.planet.gravity.low:0 "Уровень гравитации: §R[This.gravity]§! §BG§!"
+  srt.window.planet.gravity.low.tt:0 "Сила притяжения на этой плане слишком мала для того, чтобы обеспечить нормальное функционирование биологических видов."
+  srt.window.planet.gravity.medium:0 "Уровень гравитации: §G[This.gravity]§! §BG§!"
+  srt.window.planet.gravity.medium.tt:0 "Гравитация на этой планете достаточна для нахождения на ней в долгосрочной перспективе."
+  srt.window.planet.gravity.high:0 "Уровень гравитации: §R[This.gravity]§! §BG§!"
+  srt.window.planet.gravity.high.tt:0 "Все, кто пытался ступить на поверхность этой планеты - буквально чувствовали всю тяжесть нахождения на ней."
+
+  sr_element_zero:0 "Нулевой элемент"
+  sr_element_zero_desc:0 "Нулевой элемент представляет собой малоизученный химический элемент, который позволяет манипулировать темной материей."

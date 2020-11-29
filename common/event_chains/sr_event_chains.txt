@@ -1,0 +1,32 @@
+element_zero_stars_explosion_chain = {
+	picture = GFX_evt_exploding_sun
+  icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
+  counter = {
+		suns_exploded = {
+			max = 10
+		}
+	}
+}
+
+element_zero_technologies_chain = {
+	picture = GFX_evt_element_zero
+	icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
+	counter = {
+		element_zero_technologies_researched = {
+			max = 15
+		}
+	}
+}
+
+element_zero_megastructure_construction = {
+	picture = GFX_evt_element_zero
+	icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
+	counter = {
+		element_zero_core_tech = {
+			max = 1
+		}
+		element_zero_core = {
+			max = 1
+		}
+	}
+}

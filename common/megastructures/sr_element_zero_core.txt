@@ -1,0 +1,116 @@
+element_zero_core = {
+	entity = "matter_decompressor_stage_4_entity"
+	construction_entity = "construction_platform_entity"
+  portrait = "GFX_megastructure_construction_background"
+  entity_offset = { x = -20 y = -20}
+	rotate_to_center = yes
+	scale_offset = yes
+	place_entity_on_planet_plane = no
+
+	build_time = 7200
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 20000
+			influence = 500
+		}
+
+		upkeep = {
+			energy = 500
+		}
+	}
+
+  prerequisites = { "tech_element_zero_core" }
+	show_prereqs = yes
+
+  potential = {
+    has_global_flag = element_zero_crisis_initiated
+  }
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_neutron_star_pulsar"
+			NOT = {
+				is_star_class = sc_neutron_star
+				is_star_class = sc_pulsar
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_binary_trinary"
+			NOR = {
+				is_star_class = sc_binary_1
+				is_star_class = sc_binary_2
+				is_star_class = sc_binary_3
+				is_star_class = sc_binary_4
+				is_star_class = sc_binary_5
+				is_star_class = sc_binary_6
+				is_star_class = sc_binary_7
+				is_star_class = sc_binary_8
+				is_star_class = sc_binary_9
+				is_star_class = sc_binary_10
+				is_star_class = sc_trinary_1
+				is_star_class = sc_trinary_2
+				is_star_class = sc_trinary_3
+				is_star_class = sc_trinary_4
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_existing_megastructure"
+			has_no_non_gate_megastructure = yes
+		}
+	}
+
+	placement_rules = {
+		planet_possible = {
+			custom_tooltip = {
+				fail_text = "must_build_around_black_hole"
+				is_planet_class = pc_black_hole
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+		}
+	}
+
+	country_modifier = {
+		# enables triggered_opinion_of_element_zero_core
+	}
+
+	# root = system
+	# from = country
+	ai_weight = {
+		factor = 100
+	}
+
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+    remove_global_flag = element_zero_crisis_initiated
+    fromfrom.planet = {
+      save_event_target_as = element_zero_core
+    }
+    every_country = {
+      limit = {
+        is_country_type = default
+      }
+      country_event = { id = sr_stories.1009 }
+    }
+	}
+}

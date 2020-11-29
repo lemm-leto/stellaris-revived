@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "citadel_station_mesh"
+		file = "gfx/models/planets/citadel_station.mesh"
+		scale = 1.0
+	}
+}

@@ -1,5 +1,30 @@
 on_game_start_country = {
 	events = {
+    # Setup home worlds according to traits
     sr_game_start.1000
+  }
+}
+
+on_colonized = {
+	events = {
+    # Start element zero crisis
+    sr_stories.1000
+  }
+}
+
+on_bi_yearly_pulse = {
+  # Element zero crisis. Explode the sun
+  random_events = {
+    50 = 0
+    50 = sr_stories.1002
+  }
+}
+
+on_tech_increased = {
+  events = {
+    # Increase counter for element zero analysis chain
+    sr_stories.1006
+    # Increase counter for element zero core technology chain
+    sr_stories.1008
   }
 }

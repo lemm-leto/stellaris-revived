@@ -1,0 +1,12 @@
+triggered_opinion_of_element_zero_core = {
+	trigger = {
+		FROM = {
+			any_owned_megastructure = {
+        is_megastructure_type = element_zero_core
+			}
+		}
+	}
+	opinion = {
+		base = 100
+	}
+}

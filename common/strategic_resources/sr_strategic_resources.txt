@@ -1,0 +1,13 @@
+sr_element_zero = {
+	tradable = yes
+	market_amount = 5
+	market_price = 100
+	max = 15000
+
+	prerequisites = { "tech_mine_element_zero" }
+	visibility_prerequisite = { always = yes }
+
+	ai_weight = {
+		weight = 100
+	}
+}

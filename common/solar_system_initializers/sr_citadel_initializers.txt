@@ -1,0 +1,39 @@
+citadel_initializer = {
+	name = "NAME_Citadel_System"
+  class = "sc_b" # ToDo replace with nebula
+
+	flags = { citadel_system }
+
+  usage = misc_system_init
+	usage_odds = 999999
+  max_instances = 1
+
+  init_effect = {
+    create_nebula_1 = yes
+  }
+
+	#create the sun first. This is the minimum script required for a sun
+	planet = {
+		class = pc_b_star
+		orbit_distance = 0
+	}
+
+	#create a planet
+	planet = {
+		count = 1
+		name = "Citadel"
+
+		class = pc_citadel
+
+		orbit_distance = { min = 50 max = 90 }
+		orbit_angle = 0.52
+		size = 10
+		has_ring = no
+
+		home_planet = no
+		deposit_blockers = none
+
+		flags = { citadel_planet }
+	}
+
+}

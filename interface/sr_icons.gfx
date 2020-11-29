@@ -1,4 +1,6 @@
 spriteTypes = {
+
+	# Icons
 	spriteType = {
 		name = "GFX_starbase_medium_hangar_bay"
 		texturefile = "gfx/interface/icons/modules/sb_medium_hangar_bay.dds"
@@ -13,7 +15,6 @@ spriteTypes = {
 		name = "GFX_starbase_medium_battery"
 		texturefile = "gfx/interface/icons/modules/sb_medium_battery.dds"
 	}
-
 	spriteType = {
 		name = "GFX_starbase_hard_battery"
 		texturefile = "gfx/interface/icons/modules/sb_hard_battery.dds"
@@ -22,6 +23,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ap_infinite_wardens"
 		texturefile = "gfx/interface/icons/ascension_perks/ap_infinite_wardens.dds"
+		alwaystransparent = yes
+	}
+
+	# Event pictures
+	spriteType = {
+		name = "GFX_evt_exploding_sun"
+		texturefile = "gfx/event_pictures/exploding_sun.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_exploded_sun"
+		texturefile = "gfx/event_pictures/exploded_sun.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_element_zero"
+		texturefile = "gfx/event_pictures/element_zero.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
 }

@@ -1,0 +1,14 @@
+d_element_zero = {
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_element_zero = 1
+		}
+	}
+	station = shipclass_mining_station
+	is_for_colonizeable = no
+
+	drop_weight = {
+		weight = 0
+	}
+}

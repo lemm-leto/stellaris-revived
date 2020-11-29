@@ -1,0 +1,30 @@
+special_project = {
+	key = "ELEMENT_ZERO_EXPLODED_SUN"
+	event_chain = "element_zero_stars_explosion_chain"
+	# cost = 0
+	days_to_research = 720
+  tech_department = society_technology
+  timelimit = -1
+	picture = GFX_evt_exploded_sun
+	icon = "gfx/interface/icons/situation_log/situation_log_scanning_beam.dds"
+
+	event_scope = ship_event
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+
+	on_success = {
+		from = {
+			save_event_target_as = researched_sun
+		}
+    owner = {
+			# Silently increase number of stars researched
+			country_event = { id = sr_stories.1004 }
+			# Display window
+      country_event = { id = sr_stories.1005 }
+    }
+	}
+}
