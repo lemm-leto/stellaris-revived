@@ -1,0 +1,49 @@
+# Condition for limit criteria
+find_and_flag_species = {
+  if = {
+    limit = {
+      root = {
+        count_owned_pops = {
+          limit = {
+            OR = {
+              is_same_species = prev
+              is_subspecies = prev
+            }
+            NOR = {
+              species = {
+                has_species_flag = mas_merge_species_currently_processing
+                has_species_flag = merge_species_picked
+              }
+              has_trait = trait_self_modified
+            }
+          }
+          count >= $COUNT$
+        }
+      }
+    }
+    root = {
+      random_owned_pop_species = {
+        limit = {
+          count_pops = {
+            limit = {
+              OR = {
+                is_same_species = prevprev
+                is_subspecies = prevprev
+              }
+              NOR = {
+                species = {
+                  has_species_flag = mas_merge_species_currently_processing
+                }
+                has_trait = trait_self_modified
+              }
+            }
+            count >= $COUNT$
+          }
+        }
+        set_species_flag = merge_species_picked
+        set_species_flag = mas_merge_species_target_species
+        save_event_target_as = mas_target_species
+      }
+    }
+  }
+}

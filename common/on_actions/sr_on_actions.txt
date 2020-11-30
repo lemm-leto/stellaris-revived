@@ -12,7 +12,16 @@ on_colonized = {
   }
 }
 
+on_yearly_pulse = {
+  events = {
+    # Trigger species merge for all AI countries
+    sr_species.1000
+  }
+}
+
 on_bi_yearly_pulse = {
+  events = {
+  }
   # Element zero crisis. Explode the sun
   random_events = {
     50 = 0

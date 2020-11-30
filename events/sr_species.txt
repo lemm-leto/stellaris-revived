@@ -1,0 +1,166 @@
+namespace = sr_species
+
+# Trigger country scope event for each country with a random delay to avoid too much calculation at a single date
+event = {
+  id = sr_species.1000
+  hide_window = yes
+
+  is_triggered_only = yes
+
+  immediate = {
+    every_country = {
+      limit = {
+        AND = {
+          is_ai = yes
+          NOT = { is_country_type = fallen_empire }
+        }
+      }
+      country_event = {
+        id = sr_species.1001
+        days = 90
+        random = 90
+      }
+    }
+  }
+}
+
+# Actually merge species in the country
+country_event = {
+  id = sr_species.1001
+  hide_window = yes
+
+  is_triggered_only = yes
+
+  immediate = {
+		if = {
+			limit = {
+				count_exact_species = {
+					count > 1
+				}
+			}
+			every_owned_pop_species = {
+				limit = {
+					NOT = {
+						has_trait = trait_self_modified
+					}
+					root = {
+						count_exact_species = {
+							count > 1
+							limit = {
+								OR = {
+									is_same_species = prev
+									is_subspecies = prev
+								}
+							}
+						}
+					}
+				}
+
+        remove_species_flag = merge_species_picked
+				set_species_flag = mas_merge_species_currently_processing
+
+        find_and_flag_species = { COUNT = 5000 }
+        find_and_flag_species = { COUNT = 4900 }
+        find_and_flag_species = { COUNT = 4800 }
+        find_and_flag_species = { COUNT = 4700 }
+        find_and_flag_species = { COUNT = 4600 }
+        find_and_flag_species = { COUNT = 4500 }
+        find_and_flag_species = { COUNT = 4400 }
+        find_and_flag_species = { COUNT = 4300 }
+        find_and_flag_species = { COUNT = 4200 }
+        find_and_flag_species = { COUNT = 4100 }
+        find_and_flag_species = { COUNT = 4000 }
+        find_and_flag_species = { COUNT = 3900 }
+        find_and_flag_species = { COUNT = 3800 }
+        find_and_flag_species = { COUNT = 3700 }
+        find_and_flag_species = { COUNT = 3600 }
+        find_and_flag_species = { COUNT = 3500 }
+        find_and_flag_species = { COUNT = 3400 }
+        find_and_flag_species = { COUNT = 3300 }
+        find_and_flag_species = { COUNT = 3200 }
+        find_and_flag_species = { COUNT = 3100 }
+        find_and_flag_species = { COUNT = 3000 }
+        find_and_flag_species = { COUNT = 2900 }
+        find_and_flag_species = { COUNT = 2800 }
+        find_and_flag_species = { COUNT = 2700 }
+        find_and_flag_species = { COUNT = 2600 }
+        find_and_flag_species = { COUNT = 2500 }
+        find_and_flag_species = { COUNT = 2400 }
+        find_and_flag_species = { COUNT = 2300 }
+        find_and_flag_species = { COUNT = 2200 }
+        find_and_flag_species = { COUNT = 2100 }
+        find_and_flag_species = { COUNT = 2000 }
+        find_and_flag_species = { COUNT = 1900 }
+        find_and_flag_species = { COUNT = 1800 }
+        find_and_flag_species = { COUNT = 1700 }
+        find_and_flag_species = { COUNT = 1600 }
+        find_and_flag_species = { COUNT = 1500 }
+        find_and_flag_species = { COUNT = 1400 }
+        find_and_flag_species = { COUNT = 1300 }
+        find_and_flag_species = { COUNT = 1200 }
+        find_and_flag_species = { COUNT = 1100 }
+        find_and_flag_species = { COUNT = 1000 }
+        find_and_flag_species = { COUNT = 900 }
+        find_and_flag_species = { COUNT = 800 }
+        find_and_flag_species = { COUNT = 700 }
+        find_and_flag_species = { COUNT = 600 }
+        find_and_flag_species = { COUNT = 500 }
+        find_and_flag_species = { COUNT = 400 }
+        find_and_flag_species = { COUNT = 300 }
+        find_and_flag_species = { COUNT = 200 }
+        find_and_flag_species = { COUNT = 100 }
+        find_and_flag_species = { COUNT = 90 }
+        find_and_flag_species = { COUNT = 80 }
+        find_and_flag_species = { COUNT = 70 }
+        find_and_flag_species = { COUNT = 60 }
+        find_and_flag_species = { COUNT = 50 }
+        find_and_flag_species = { COUNT = 40 }
+        find_and_flag_species = { COUNT = 30 }
+        find_and_flag_species = { COUNT = 20 }
+        find_and_flag_species = { COUNT = 10 }
+        find_and_flag_species = { COUNT = 9 }
+        find_and_flag_species = { COUNT = 8 }
+        find_and_flag_species = { COUNT = 7 }
+        find_and_flag_species = { COUNT = 6 }
+        find_and_flag_species = { COUNT = 5 }
+        find_and_flag_species = { COUNT = 4 }
+        find_and_flag_species = { COUNT = 3 }
+        find_and_flag_species = { COUNT = 2 }
+        find_and_flag_species = { COUNT = 1 }
+
+				if = {
+					limit = {
+						root = {
+							count_owned_pop_species = {
+								count > 0
+								limit = {
+									has_species_flag = mas_merge_species_target_species
+								}
+							}
+						}
+					}
+					root = {
+						every_owned_pop = {
+							limit = {
+								is_being_purged = no
+								species = {
+									has_species_flag = mas_merge_species_currently_processing
+								}
+							}
+							change_species = event_target:mas_target_species
+						}
+					}
+				}
+				remove_species_flag = mas_merge_species_currently_processing
+				root = {
+					every_owned_pop_species = {
+						limit = {
+							has_species_flag = mas_merge_species_target_species
+						}
+						remove_species_flag = mas_merge_species_target_species
+					}
+				}
+			}
+		}
+	}
+}
