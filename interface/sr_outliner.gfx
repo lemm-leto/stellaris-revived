@@ -1,44 +1,37 @@
 spriteTypes = {
-  # hsv = 65 3 0
-	corneredTileSpriteType = {
-		name = "GFX_tile_outliner_dark_bg"
-		textureFile = "gfx/interface/tiles/outliner_dark_tile.dds"
-		borderSize = { x=80 y=80 }
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
 
 	spriteType = {
-		name = "GFX_outliner_dark_member_bg"
-		textureFile = "gfx/interface/buttons/outliner_dark_entry.dds"
+		name = "GFX_sr_outliner_member_bg"
+		textureFile = "gfx/interface/buttons/sr_outliner_entry.dds"
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
   }
 
 	# hsv = 130 3 0
 	corneredTileSpriteType = {
-		name = "GFX_glow_tile_dark_line"
-		textureFile = "gfx/interface/tiles/glow_tile_dark_line.dds"
+		name = "GFX_sr_outliner_header_bg"
+		textureFile = "gfx/interface/tiles/sr_outliner_header_bg.dds"
 		borderSize = { x=20 y=20 }
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	progressbarType = {
-		name = "GFX_outliner_planet_colonize_progressbar"
+		name = "GFX_sr_outliner_planet_colonize_progressbar"
 		color = { 1.0 1.0 1.0 }
 		colorTwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/progressbars/outliner_shiptask_full.dds"
 		textureFile2 = "gfx/interface/progressbars/outliner_shiptask_empty.dds"
-		size = { x = 135 y = 8 }
+		size = { x = 114 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
 	progressbarType = {
-		name = "GFX_outliner_planet_construction_progressbar"
+		name = "GFX_sr_outliner_planet_construction_progressbar"
 		color = { 1.0 1.0 1.0 }
 		colorTwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/progressbars/outliner_progress_full.dds"
 		textureFile2 = "gfx/interface/progressbars/outliner_progress_empty.dds"
-		size = { x = 60 y = 8 }
+		size = { x = 44 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 }

@@ -4,4 +4,4 @@ tags={
 	"Terraforming"
 }
 name="Stellaris Reborn"
-supported_version="2.8.0"
+supported_version="2.8.1"
