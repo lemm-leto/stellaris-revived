@@ -21,3 +21,11 @@
   name_list_AVIAN2:0 "Птицоиды 2"
   name_list_AVIAN3:0 "Птицоиды 3"
   name_list_AVIAN4:0 "Птицоиды 4"
+  name_list_INSECTOID1:0 "Инсектоиды 1"
+  name_list_INSECTOID2:0 "Инсектоиды 2"
+  name_list_INSECTOID3:0 "Инсектоиды 3"
+  name_list_INSECTOID4:0 "Инсектоиды 4"
+
+  # placeholders:
+  count_owned_pop_species_trigger:0 ""
+  effect_random_owned_pop_species:0 ""

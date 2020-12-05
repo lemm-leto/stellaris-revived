@@ -43,3 +43,47 @@ ap_infinite_wardens = {
 		}
 	}
 }
+
+ap_demiurge = {
+	on_enabled = {
+		add_research_option = tech_orbital_halo
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ap_galactic_wonders_utopia"
+			OR = {
+				has_ascension_perk = ap_galactic_wonders_utopia
+				has_ascension_perk = ap_galactic_wonders_utopia_and_megacorp
+				has_ascension_perk = ap_galactic_wonders_megacorp
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+	}
+
+	modifier = {
+		country_megastructure_build_cap_add = 1
+		megastructure_build_speed_mult = 1
+	}
+
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_demiurge
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_pacifist
+		}
+	}
+}

@@ -20,9 +20,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/sb_hard_battery.dds"
 	}
 
+	# Ascension perks
 	spriteType = {
 		name = "GFX_ap_infinite_wardens"
 		texturefile = "gfx/interface/icons/ascension_perks/ap_infinite_wardens.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_ap_demiurge"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_demiurge.dds"
 		alwaystransparent = yes
 	}
 

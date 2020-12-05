@@ -1,17 +1,54 @@
 ﻿l_russian:
-  tech_ascension_way:0 "Путь вознесения"
-  tech_ascension_way_desc:0 "Наши амбиции неутолимы."
-
+  ### ASCENSION PERKS ###
   ap_infinite_wardens:0 "Вечные стражи"
   ap_infinite_wardens_desc:0 "Наше стремление во что бы то ни стало защитить нашу территорию бесконечно и безгранично. Любой враг будет горько сожалеть о том, что решился вторгнуться в наше пространство."
   requires_ap_eternal_vigilance:0 "$TRIGGER_FAIL$Требуется бонус за стремление §Y$ap_eternal_vigilance$§!."
+  ap_demiurge:0 "Демиург"
+  ap_demiurge_desc:0 "Зачем ограничивать наши орбитальные сооружения тем, что уже изобретено? Давайте двигаться дальше, ведь мы истинные мастера"
+  requires_ap_galactic_wonders_utopia:0 "$TRIGGER_FAIL$Требуется бонус за стремление §Y$ap_galactic_wonders_utopia$§!"
 
+  ### STARBASES ###
   starbase_bastion:0 "Бастион"
   starbase_bastion_plural:0 "Бастионы"
-
   swarden:0 "Страж"
 
+  ### MEGASTRUCTURES ###
+  orbital_halo_1:0 "Орбитальное гало"
+  orbital_halo_1_DESC:0 "Искусственное кольцеобразное сооружение, построенное в точках Лангража на орбите колонизированной планеты. Расширяет экономические возможности планеты."
+  orbital_halo_1_MEGASTRUCTURE_DETAILS:0 "$orbital_halo_1_DESC$"
+  orbital_halo_2:0 "$orbital_halo_1$"
+  orbital_halo_2_DESC:0 "$orbital_halo_1_DESC$"
+  requires_no_orbital_halo:0 "$requires_no_existing_megastructure$"
+
+  ### PLANET CLASSES ###
+  pc_orbital_halo:0 "$orbital_halo_1$"
+  pc_orbital_halo_desc:0 "$orbital_halo_1_DESC$"
+  ORBITAL_HALO_PLANET_NAME:0 "Орбитальное гало планеты [FROM.from.planet.GetName]"
+
+  ### DISTRICTS ###
+  district_orbital_halo_housing:0 "Жилой район"
+  district_orbital_halo_housing_plural:0 "Жилые районы"
+  district_orbital_halo_housing_desc:0 "Жилой район данного гало предоставляет возможность комфортного, хотя и компактного проживания для собственного населения."
+  district_orbital_halo_energy:0 "Реакторный район"
+  district_orbital_halo_energy_plural:0 "Реакторные районы"
+  district_orbital_halo_energy_desc:0 "Районы промышленного производства энергии, расположенные на поверхности гало, позволяют вырабатывать энергокредиты, а также обеспечивают энергией аркологии, на которых они построены."
+  district_orbital_halo_science:0 "Научный район"
+  district_orbital_halo_science_plural:0 "Научные районы"
+  district_orbital_halo_science_desc:0 "Эти жилые районы, являющиеся центрами научных исследований, объединяют ученых самых разных областей наук."
+  district_orbital_halo_industry:0 "Индустриальный район"
+  district_orbital_halo_industry_plural:0 "Индустриальные районы"
+  district_orbital_halo_industry_desc:0 "На улицах этого района расположены мастерские со множеством ремесленников, а также предприятия различных отраслей промышленности."
+
+  ### TECHNOLOGIES ###
+  tech_orbital_halo:0 "$orbital_halo_1$"
+  tech_orbital_halo_desc:0 "$ordebit_halo_1_DESC$"
+  tech_ascension_way:0 "Путь вознесения"
+  tech_ascension_way_desc:0 "Наши амбиции неутолимы."
   tech_starbase_6:0 "$starbase_bastion$"
   tech_starbase_6_desc:0 "Составляется проект гигантской боевой станции, способной противостоять нескольким ударным флотилиям. В случае его реализации эти бастионы станут неприступными стражами наших границ."
   TECH_UNLOCK_BASTION_CONSTRUCTION_TITLE:0 "§HУлучшение космической базы:§! бастион"
   TECH_UNLOCK_BASTION_CONSTRUCTION_DESC:0 "§HБастион§!\nПосле улучшения звездного крепости до бастиона вы получаете практически неприступную космическую базу, где возможны наличие восьми сооружений и поддержка полного комплекта из шестнадцати модулей."
+
+  ### EVENTS ###
+  sr_ascension.1000.title:0 "Орбитальное гало планеты [orbital_halo.GetName] завершено"
+  sr_ascension.1000.desc:0 "Орбитальное гало планеты [orbital_halo.GetName] завершено и готово к колонизации."

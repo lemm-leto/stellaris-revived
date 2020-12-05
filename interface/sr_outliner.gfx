@@ -34,4 +34,14 @@ spriteTypes = {
 		size = { x = 44 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
+
+	progressbarType = {
+		name = "GFX_sr_outliner_sheep_construction_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colorTwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/progressbars/outliner_shiptask_full.dds"
+		textureFile2 = "gfx/interface/progressbars/outliner_shiptask_empty.dds"
+		size = { x = 120 y = 8 }
+		effectFile = "gfx/FX/progress.lua"
+	}
 }

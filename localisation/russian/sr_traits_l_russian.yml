@@ -17,7 +17,7 @@
 
   trait_insectoid:0 "Инсектоид"
   trait_insectoid_desc:0 "§LНасекомые — класс беспозвоночных членистоногих животных. Необычайное разнообразие форм насекомых является их поразительной особенностью. Недолгий срок жизни насекомых и повышенная скорость метаболизма приводит к дополнительным затратам на содержание населения.§!\n"
-  trait_insectoid_effect:0 "Предпочитают любые виды миров, кроме холодных.\n\n$MOD_POP_GROWTH_SPEED$: §G+50%§!\n$mod_planet_jobs_minerals_produces_mult$: §G+15%§!\n$mod_planet_pops_upkeep_mult$: §R+50%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_continental$: §G100%§!\n$pc_tropical$: §G100%§!\n$pc_arid$: §G100%§!\n$pc_desert$: §G100%§!\n$pc_savannah$: §G100%§!\n$pc_ocean$: §G100%§!\n$pc_alpine$: §H40%§!\n$pc_tundra$: §R10%§!\n$pc_arctic$: §R10%§!"
+  trait_insectoid_effect:0 "Предпочитают пустынные миры.\n\n$MOD_POP_GROWTH_SPEED$ §G+25%§!\n$mod_planet_jobs_minerals_produces_mult$ §G+15%§!\n$mod_planet_pops_upkeep_mult$ §R+15%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_desert$ §G100%§!\n$pc_arid$ §G75%§!\n$pc_savannah$ §G75%§!\n$pc_continental$ §H50%§!\n$pc_tropical$ §G75%§!\n$pc_tundra$ §G75%§!\n$pc_alpine$ §R10%§!\n$pc_arctic$ §R10%§!\n$pc_ocean$ §R10%§!"
 
   trait_plasmoid:0 "Плазмоид"
   trait_plasmoid_desc:0 "§LЭкзотическая форма жизни, способная существовать только на поверхности звезд. Их постижение за гранью возможного для большинства цивилизаций.§!\n"

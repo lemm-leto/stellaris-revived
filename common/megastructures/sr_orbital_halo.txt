@@ -1,0 +1,140 @@
+orbital_halo_1 = {
+	entity = "construction_platform_entity"
+	construction_entity = "construction_platform_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = no
+	entity_offset = { x = -7 y = -7 }
+	build_time = 1800
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 5000
+			influence = 300
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	prerequisites = { "tech_orbital_halo" }
+	show_prereqs = yes
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+	}
+
+	placement_rules = {
+		planet_possible = {
+      custom_tooltip = {
+        fail_text = "requires_colony"
+        is_colony  = yes
+      }
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_orbital_halo"
+				NOT = { has_planet_flag = orbital_halo_built }
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+
+		modifier = {
+			factor = 0.1
+			starbase = { NOT = { has_starbase_size >= starbase_starfortress } }
+		}
+
+		modifier = {
+			factor = 0.1
+			any_neighbor_system = {
+				exists = owner
+				NOT = {
+					owner = { is_same_value = from }
+				}
+			}
+		}
+	}
+
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+    fromfrom.planet = {
+      set_planet_flag = orbital_halo_built
+    }
+	}
+}
+
+# Temporarily used for creating specific habitable or structural sections.
+orbital_halo_2 = {
+	entity = ""
+	construction_entity = "orbital_halo_full_entity"
+	portrait = "GFX_megastructure_construction_background"
+
+	build_time = 4800
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 10000
+		}
+	}
+
+	upgrade_from = {
+		orbital_halo_1
+	}
+
+	prerequisites = { "tech_orbital_halo" }
+
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+    spawn_planet = {
+			class = "pc_orbital_halo"
+			location = fromfrom.planet
+			orbit_location = yes
+			# orbit_angle_offset = 0
+			init_effect = {
+				set_name = "ORBITAL_HALO_PLANET_NAME"
+				set_planet_entity = {
+					entity = "orbital_halo_habitable_entity_01_entity"
+					graphical_culture = fromfrom
+				}
+				surveyed = {
+					set_surveyed = yes
+					surveyor = FROM
+				}
+				set_all_comms_surveyed = yes
+				set_planet_flag = megastructure
+			}
+    }
+    fromfrom.planet = {
+			set_planet_flag = has_megastructure
+			save_event_target_as = orbital_halo
+    }
+    remove_megastructure = fromfrom
+    from = {
+      country_event = {
+        id = sr_ascension.1000
+      }
+    }
+	}
+}

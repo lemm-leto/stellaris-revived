@@ -1,0 +1,15 @@
+namespace = sr_ascension
+
+country_event = {
+  id = sr_ascension.1000
+  title = "sr_ascension.1000.title"
+	desc = "sr_ascension.1000.desc"
+	picture = GFX_evt_city_planet
+	location = event_target:orbital_halo
+
+  is_triggered_only = yes
+
+  option = {
+    name = "OK"
+  }
+}

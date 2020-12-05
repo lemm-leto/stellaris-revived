@@ -1,0 +1,841 @@
+INSECTOID1 = {
+	category = "Insectoid"
+	ship_names = {
+
+		generic = {
+			Vul-Tra Zik-Mit Sho-Dan Vid-Tak Kod-Mok Hum-Lat Rik-Hen Utr-Fas Pol-Tup Rom-Mor Irk-Sas Vik-Zul Zar-Pak Cor-Bad Tar-Zim Hur-Zam Vol-Tur Ima-Rug Ult-Amo Ara-Fal Fik-Yma Pok-Zor Rel-Tik Bak-Tas Rem-Suk Ula-Fon Fej-Bon Rak-Tar Mik-Zul Vad-Bak Hen-Tas Mok-Ilm Zuk-Tor San-Tar Imi-Ysk Vid-Hur Ham-Cor Cin-Nic Alk-Tar Zir-Zir Uni-Pok Las-Fik Tir-Fej Mon-Tor Kos-Lar Vim-Der Pot-Aka Taq-Ulu Ben-Bon Ack-Ack Lir-Pak Nur-Ang Dan-Ock Rek-Tir Cul-Cam Ilm-Ata Roj-Bim Dar-Fam Ata-Jol Tim-Tam Oro-Uri Pod-Cat Dir-Pok Dik-Dik Yna-Tor Can-Can Wir-Tra Nid-Elu Vol-Shu Ini-Ris Ath-Rum Pon-Far Rog-Wil Ita-Fon Mik-Jol Hom-Tak Ete-Dar Tar-Kin Tin-Tin Des-Ari Tol-Tum Gar-Gan Mos-Pak Cap-Tyr Ins-Hal Vor-Kot Spi-Kar Kon-Dor Car-Mas Iri-Lar Pur-Tok Che-Kov Rid-Sta Tiz-Val Orn-Dak Zia-Dol Ram-Nid Kar-Kar Ram-Rod Wix-Ald Bol-Bol Ron-Mor Mor-Dor Cha-Cha Cha-Cha Igu-Ana Iga-Tur-Kan Bir-Ing-Los Bav-Orl-Ing Hol-Der-Tan Den-Lan-Lom Dib-Vik-Has Per-Ush-Nad San-Kur-Ini Sin-Ran-Tor Pas-Nal-Vil Rir-Gol-Gib Eri-Gun-Nug Ler-Ini-Tok Was-Gar-Nog Gir-Pan-Pok Yta-Mab-Zor Sal-Dim-Dim Son-Omm-Agi Tur-Tan-Tol Hik-Ton-Dul Puk-Nar-Zin Lis-Ham-Dok Hov-Les-Ram Ima-Hun-Ima Tor-Tor-Dia Wik-Lar-Ish Haj-Ath-Umm Ita-Ita-Dum Sum-Con-Dam Tra-Les-Ete Era-Arm-Erv Vir-Tik-Zol Kur-Zad-Din Mot-Lim-Nog Tur-Fan-Tik Had-Ham-Hir Ini-Ini-Wor Doc-Ram-Bol Vis-Vil-Vik Pof-Hok-Gak Fel-Dar-Ima Fir-Vim-Cot Jan-Tak-Era Jin-Jum-Jan Pij-Jor-Cor Ter-Ras-Nog Hil-Dor-Bit Eti-Del-Ann Odo-Rax-Ari Rim-Ber-Tor Ral-Eth-Ian Oth-For-Das
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+
+	}
+
+	fleet_names = {
+		random_names = {
+			"Tarkil-Vu Navy Cluster" "Pakkan-Ye Navy Cluster" "Lorgis-Fa Navy Cluster" "Urtaka-Sa Navy Cluster" "Valgar-Je Navy Cluster" "Inilka-Pa Navy Cluster"
+		}
+		sequential_name = "%O% Navy Cluster"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Pod"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Pod"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Pod"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Droid Pod"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Droid Defense Pod"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Commando Pod"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Pod"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Pod"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Garrison Pod"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Droid Garrison Pod"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Vord-Ka-Torb Mirg-Vu-Karp Jorg-Se-Krop Reld-Te-Hirk Parg-Ki-Torp Terk-Ba-Pont Virm-Ri-Gand Iram-Je-Otak Larb-Ti-Darm Utam-Ja-Borm Pind-Ra-Vosk Verm-Te-Birg Itil-Sa-Domb Urak-Fe-Tond Urba-Ta-Nack Orol-Ju-Bakk Lirg-Na-Korm Tilk-Ti-Darb Suet-Re-Pold Sisk-In-Atab Taku-Ra-Molk Rima-Su-Kari Posk-Ja-Tori Karm-Ne-Tura
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta Ib-Na Ek-Ir Er-Ba Bo-Ki Ri-Gu Ro-Ab Uv-Ko Fa-Ra Ol-So Bo-Gu So-Ka Mi-Ti Va-Ku Ki-Va Si-Na Bo-Ka Po-Ra Na-Sa Ta-Ri Ma-Ku Im-Po Su-Bo Ti-Ra Va-Ri Uk-Ni Er-Ma Ev-Li Ul-Ba Pe-Ti Ja-Ju
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta
+			}
+
+			regnal_second_names = {
+				Mok
+			}
+		}
+	}
+}
+
+INSECTOID2 = {
+	category = "Insectoid"
+	ship_names = {
+		generic = {
+			Rit-Lar Rit-Lesuk Rit-Kep Rit-Far Rit-Vul Rit-Lefr Rit-Truhk Rit-Fex Rit-Zud Rit-Flaxr Rit-Puwk Rit-Kwyr Rit-Wod Rit-Yuz Rit-Lox Rit-Wrol Rit-Acx Rit-Mun Rit-Fah Rit-Kex Wer-For Wer-Hyl Wer-Zlo Wer-Par Wer-Vol Wer-Vur Wer-Firl Wer-Igu Zof-Fleru Zof-Gulak Zof-Luar Zof-Erdu Zof-Arob Zof-Kula Zof-Kow Zof-Zolx Zof-Mul Zof-Faz Zof-Wrek Zof-Bozr Zof-Riy Zof-Jov Zof-Vig Zof-Glix Zof-Ghan Zof-Inri Zof-Ilug Zof-Ritr Zof-Fahd Pas-Eru Pas-Gentru Pas-Zardoz Pas-Gurl Pas-Fyri Pas-Kuteq Pas-Fogd Pas-Kinen Pas-Trogd Pas-Elag Pas-Wiru Pas-Drei Pas-Wur Pas-Yron
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Zorretfi-La Attack Swarm" "Kulltren-Vu Attack Swarm" "Klowmedt-Ro Attack Swarm" "Lorakign-Yl Attack Swarm" "Lykurnsed-Gi Attack Swarm" "Enlilju-Qa Attack Swarm" "Potlwudz-Pa Attack Swarm" "Mortsyn-Ro Attack Swarm" "Trebdna-We Attack Swarm"
+		}
+		sequential_name = "%O% Attack Swarm"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Endo Forces"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Exo Forces"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Exo Forces"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Exo Forces"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Endo Forces"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Exo Forces"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Enslaved Forces"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Mimeo Group"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Forces"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Mecha Group"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Mecha Defenses"
+		}
+
+		psionic_army = {
+			sequential_name = "The Psi-Lords %R%"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Ravagers"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "The Surpassing Ones %R%"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Endo Garrison Forces"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Mecha Garrison Group"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Vurl-Zaldr Vurl-Takren Vurl-Patred Vurl-Kadnaq Vurl-Qalp Vurl-Tackr Vurl-Palod Vurl-Yadir Vurl-Raxl Vurl-Kawned Vurl-Paqod Vurl-Ladnz Vurl-Gaqts Vurl-Zajet Vurl-Raqqa Vurl-Qallid Vurl-Mapt Vurl-Vayi Vurl-Watre Vurl-Pangit Vurl-Xagh Vurl-Tavd Vurl-Gand Vurl-Ladt Vurl-Yaw Vurl-Pagh Vurl-Rabb
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Igvi-Inor Igvi-Azut Igvi-Wil Igvi-Leinad Igvi-Riem Kul-Tan Kul-Ryg Kul-Arng Kul-Pox Kul-Ruz Kul-Lern Kul-Inul Kul-Reil Kul-Yterd Kul-Wox Kul-Sarw Obr-Fulg Obr-Thy Obr-Lend Obr-Pilx Obr-Wun Obr-Few Obr-Pwot Obr-Kuld Obr-Tazn Obr-Zuf Obr-Saz Obr-Luyt Obr-Keq Obr-Qoid
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Igvi-Inor Igvi-Azut Igvi-Wil Igvi-Leinad Igvi-Riem Kul-Tan Kul-Ryg
+			}
+
+			regnal_second_names = {
+				Zakon
+			}
+		}
+	}
+}
+
+INSECTOID3 = {
+	category = "Insectoid"
+	ship_names = {
+		generic = {
+			"Hulkrab Muxi" "Inklac Muxi" "Opalc Muxi" "Xactiz Muxi" "Knak Muxi" "Hulkrab Spectrac" "Inklac Spectrac" "Opalc Spectrac" "Xactiz Spectrac" "Knak Spectrac" "Hulkrab Nixpac" "Inklac Nixpac" "Opalc Nixpac" "Xactiz Nixpac" "Knak Nixpac" "Hulkrab Trobbjax" "Inklac Trobbjax" "Opalc Trobbjax" "Xactiz Trobbjax" "Knak Trobbjax" "Hulkrab Maqtrac" "Inklac Maqtrac" "Opalc Maqtrac" "Xactiz Maqtrac" "Knak Maqtrac" "Hulkrab Krabblax" "Inklac Krabblax" "Opalc Krabblax" "Xactiz Krabblax" "Knak Krabblax" "Hulkrab Upcix" "Inklac Upcix" "Opalc Upcix" "Xactiz Upcix" "Knak Upcix" "Hulkrab Ybbax" "Inklac Ybbax" "Opalc Ybbax" "Xactiz Ybbax" "Knak Ybbax" "Hulkrab Lobball" "Inklac Lobball" "Opalc Lobball" "Xactiz Lobball" "Knak Lobball" "Hulkrab Mezotix" "Inklac Mezotix" "Opalc Mezotix" "Xactiz Mezotix" "Knak Mezotix" "Hulkrab Polljac" "Inklac Polljac" "Opalc Polljac" "Xactiz Polljac" "Knak Polljac" "Hulkrab Betklox" "Inklac Betklox" "Opalc Betklox" "Xactiz Betklox" "Knak Betklox" "Hulkrab Vicopoc" "Inklac Vicopoc" "Opalc Vicopoc" "Xactiz Vicopoc" "Knak Vicopoc" "Hulkrab Blatox" "Inklac Blatox" "Opalc Blatox" "Xactiz Blatox" "Knak Blatox" "Hulkrab Dunybb" "Inklac Dunybb" "Opalc Dunybb" "Xactiz Dunybb" "Knak Dunybb" "Hulkrab Stroxtan" "Inklac Stroxtan" "Opalc Stroxtan" "Xactiz Stroxtan" "Knak Stroxtan"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Baktax Husk Squadron" "Kabbloc Husk Squadron" "Vactix Husk Squadron" "Polatricall Husk Squadron" "Jaktox Husk Squadron" "Mekadanc Husk Squadron" "Lutkrac Husk Squadron" "Plattryc Husk Squadron" "Sekadex Husk Squadron"
+		}
+		sequential_name = "%O% Husk Squadron"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defensive Cast"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Offensive Cast"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Offensive Cast"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Offensive Cast"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defensive Cast"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Offensive Cast"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Servitude Swarm"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Swarm"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Swarm"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robo-Ticks"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robo-Emplacements"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Sorcerers"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Cast"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Brutes"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Cast"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Robo-Ticks"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Pulklac Ovoc" "Swak Ovoc" "Xant Ovoc" "Zuppox Ovoc" "Avlik Zajkax" "Utpol Zajkax" "Zaktic Zajkax" "Kolkex Zajkax" "Wekyp Ypacibb" "Aklac Ypacibb" "Qwilk Ypacibb" "Omax Ypacibb" "Pomic Krac" "Anacin Krac" "Xazibb Krac" "Moc Krac" "Allox Haxizabb" "Cixiv Haxizabb" "Hajpoc Haxizabb" "Waxop Haxizabb" "Bakirix Laxtric" "Nobhax Laxtric" "Spectocax Laxtric" "Bobbic Laxtric" "Trabbxol Tymcrix" "Awixall Tymcrix" "Pobbnic Tymcrix" "Buktryx Tymcrix" "Moxfroc Oxocodolf" "Hullpax Oxocodolf" "Raxibb Oxocodolf" "Zalibbac Oxocodolf"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Luk Ytella Pilax Xybber Inic Zukir Fattic Kibin Rakex Pallyt Frakir Cilxin Ibbac Ztykatt Lobbuk Knav Klobbax Axan Apinix Lop Inax Xalin Unipak Bokall Zaox Krytic Xaspec Xumlobb Pokbatt Crumklac Polfukir Lertrak Ekir Yprak Salklon Valknek Utynik Trobhak Xyp
+			}
+
+			# Always combined with a first name
+			second_names = {
+				Kabanaca Vartinaca Aspinaca Ytanaca Upiverta Xabbaverta Farkiverta Inaverta Poxinirkis Inaxinirkis Lobbinirkis Utinirkis Lopetkin Huketkin Ekbokin Xankikin Crumtika Yptika Lobbtika Qatika Umlatika
+			}
+
+			regnal_first_names = {
+				Pan'dolf Xan'dolf Lan'dolf Xyp'dolf Typ'dolf Cixi'dolf Lop'dolf Kol'dolf
+			}
+
+			regnal_second_names = {
+				Leexidanaca Zaapritanaca Omaakixanaca Klobbaxanaca
+			}
+		}
+	}
+}
+
+INSECTOID4 = {
+	category = "Insectoid"
+	ship_names = {
+
+		generic = {
+			sik'Ib'Al sik'Ra'Tu sik'Va'Ba sik'Nu'Ku sik'Sa'Sa sik'Ve'To sik'Re'Ra sik'Vi'Va sik'Qa'Re sik'El'Re sik'To'Ba sik'Er'Ko mok'Ta'Vi mok'Zu'Ra mok'Ze'Va mok'Ve'Ta mok'Ib'Ga mok'Ba'Ri mok'Or'Pi mok'Ra'Ta mok'Sa'La mok'Ym'Ve bak'Ta'Ta bak'Ni'Va bak'Ir'Za bak'Ur'Ma bak'Av'Ta bak'Ir'Ba bak'Ma'Na bak'Ta'Zi bak'Ri'Ve bak'Yr'Ye iba'Sa'Ni iba'Ka'To iba'Ke'Zu iba'In'Ve iba'Se'Ta iba'Qu'Tu iba'Ge'Va iba'No'Ka iba'Na'Be iba'Po'Zo iba'Yr'Ti kor'Ne'Bi kor'Sa'Zi kor'Ti'Ba kor'Nu'Vi kor'Di'Za kor'Be'Ze kor'Ni'Or kor'Pa'Li kor'Se'Ta kor'Ur'Da kor'Ti'Ya kor'Be'Ke kor'Di'Pi kor'Te'Ko kor'Le'Ta puk'Na'Sa puk'Vy'Va puk'Bo'Li puk'Ze'Na puk'Mi'Pi puk'Bi'Na puk'Ir'Ul puk'Te'Mi puk'Si'Ta puk'Qo'Ri puk'Qo'Qa puk'Bi'Vi puk'Er'Ir puk'An'Ta puk'Ve'Za
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+
+	}
+
+	fleet_names = {
+		random_names = {
+			"Deep Space Flotilla" "Special Reaction Flotilla" "Punitive Response Flotilla" "Rapid Pursuit Flotilla" "Frontier Patrol Flotilla"
+		}
+		sequential_name = "%O% Assault Flotilla"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Pod"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Pod"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Pod"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Droid Pod"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Droid Defense Pod"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Commando Pod"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Pod"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Pod"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Pod"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Droid Pod"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				s'Vak'N-Ta g'Vik'I-Zi i'Bek'V-Ti b'Nil'T-Ka b'Kin'A-Bi b'Ren'K-Za s'Tik'M-Ki s'Nal'U-Bu s'Vel'N-Ve g'Tal'R-Ab g'Til'P-Tu g'Zak'V-Ni g'Pek'G-Ro g'Bik'E-Sa i'Von'Z-An i'Tel'D-Na i'Zel'V-Go i'Ren'O-An i'Sab'S-Op s'Kas'T-Ek s'Kir'P-An s'Ima'K-In p'Ana'Z-Vi p'Tol'V-Na p'Rin'O-Vi p'Rak'U-Ga p'Nik'A-Ti
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Ir'B An'K Su'V Te'K In'D Ar'I Be'K Bi'V Ve'K Vi'T Al'D De'B Il'T Ra'B Ra'I Bu'S Se'K Si'V
+			}
+
+			# Always combined with a first name
+			second_names = {
+				se'Ska ba'Riv or'Tob ni'Var ki'Rav si'Kor va'Bir ra'Tov il'Tek po'Kar tu'Vak er'Bik
+			}
+
+			regnal_first_names = {
+				Ir'B An'K Su'V Te'K In'D Ar'I Be'K
+			}
+
+			regnal_second_names = {
+				se'Ska
+			}
+		}
+	}
+}

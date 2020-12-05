@@ -54,3 +54,27 @@ tech_starbase_6 = {
 		}
 	}
 }
+
+tech_orbital_halo = {
+	cost = @tier5cost2
+	area = engineering
+	category = { voidcraft }
+	tier = 5
+	prerequisites = { "tech_ring_world" }
+	weight = 0
+
+	potential = {
+		host_has_dlc = "Utopia"
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

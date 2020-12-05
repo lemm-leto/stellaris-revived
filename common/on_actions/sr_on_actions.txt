@@ -12,7 +12,7 @@ on_colonized = {
   }
 }
 
-on_yearly_pulse = {
+on_five_year_pulse = {
   events = {
     # Trigger species merge for all AI countries
     sr_species.1000
