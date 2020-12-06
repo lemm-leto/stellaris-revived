@@ -115,7 +115,7 @@ PRIMATOID = {
 		home_system = Alvus
 		name_list = "HUM2"
 	}
-	
+
 	alari = {
 		name = Alari
 		plural = Alari
@@ -3489,5 +3489,29 @@ NECROID = {
 		home_planet = Exiter
 		home_system = "Grim Shepherd"
 		name_list = "NECROID4"
+	}
+}
+
+PLASMOID = {
+	alpha = {
+		name = Alpha
+		plural = Alphas
+		home_planet = Alpha
+		home_system = "Alpha Beta"
+		name_list = "PLASMOID1"
+	}
+	omega = {
+		name = Omega
+		plural = Omegas
+		home_planet = Omega
+		home_system = "Omega Yotta"
+		name_list = "PLASMOID2"
+	}
+	zetta = {
+		name = Tau
+		plural = Taus
+		home_planet = Tau
+		home_system = "Tau Kappa"
+		name_list = "PLASMOID3"
 	}
 }

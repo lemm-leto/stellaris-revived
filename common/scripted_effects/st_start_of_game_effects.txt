@@ -1,0 +1,19 @@
+generate_start_plasma_ditricts = {
+  add_district_and_planet_size_if_needed_effect = {
+    district = district_plasma_housing
+  }
+
+	while = {
+    count = 2
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_plasma_energy
+    }
+  }
+
+  while = {
+    count = 1
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_plasma_industry
+    }
+  }
+}

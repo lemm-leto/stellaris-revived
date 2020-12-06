@@ -283,35 +283,30 @@ trait_plasmoid = {
 	custom_tooltip = trait_plasmoid_effect
 
 	modifier = {
+		# Specific
+		leader_age = 500
 		# Buff
-		planet_jobs_energy_produces_mult = 5.0
-		planet_jobs_specialist_produces_mult = 2.0
+		planet_jobs_energy_produces_mult = 0.25
+		planet_jobs_specialist_produces_mult = 0.15
 		# Debuff
-    pop_growth_speed = -0.8
+    pop_growth_speed = -0.15
 
 		# Main habitability
-		pc_b_star_habitability = 1.0
-		pc_a_star_habitability = 1.0
-		pc_f_star_habitability = 1.0
-		pc_g_star_habitability = 1.0
-		pc_k_star_habitability = 1.0
-		pc_m_star_habitability = 1.0
-		pc_m_giant_star_habitability = 1.0
+    pc_plasma_habitability = 1.0
 
 		# Secondary habitability
-
 		# Tertiary habitability
+		# Rare habitability
 
-		# No habitability
-    pc_continental_habitability = -2.0
-    pc_tropical_habitability = -2.0
+		# Restrict habitability
     pc_arid_habitability = -2.0
-    pc_desert_habitability = -2.0
     pc_savannah_habitability = -2.0
-    pc_ocean_habitability = -2.0
-		pc_alpine_habitability = -2.0
+		pc_continental_habitability = -2.0
+    pc_tropical_habitability = -2.0
 		pc_tundra_habitability = -2.0
-    pc_arctic_habitability = -2.0
+		pc_alpine_habitability = -2.0
+		pc_arctic_habitability = -2.0
+		pc_ocean_habitability = -2.0
 	}
 }
 

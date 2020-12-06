@@ -1,0 +1,632 @@
+﻿PLASMOID1 = {
+	category = "Plasmoid"
+
+	ship_names = {
+
+		generic = {
+			Urgl-Durgl Ump Umpl-Dumpl Urgl-Dash Urgl-Durgl-Dash Urgl-Blarg Urgl-Gluptor Urgl-Urudash Urgl-Glor Urgl-Glemish Urgl-Glupta Urgl-Glagg Urgl-Gluha Urgl-Glurg Urgl-Thump Urgl-Dook Urgl-Glem Urgl-Ogle Urgl-Schlopp Glegg-Blash Glegg-Plusch Glegg-Lorsh Glegg-Lugg Glegg-Lurk Glegg-Blork Glegg-Schmopp Glegg-Ulasch Glegg-Luggmusch Glegg-Luggsor Glegg-Glopp Glegg-Dash Glegg-Durgl Glegg-Glor Glegg-Urudash Hurgl-Blopp Hurgl-Durgl Hurgl-Ator Hurgl-Glopp Hurgl-Dash Hurgl-Ogle Hurgl-Blabb Globbeldoock Gobblap Globbelduck Globbeldor Gobbelator Urgleator Gurgleator Glegginator Globbelator Rolgurator Blarpator Gobblator Gjorpusator Lumulator Klegginator Schleminator Ugglogator Blurp'Ator Ag'Lator Gluck'Ator Gluckldorinator Blorpinator Uggledaschdosch Uggluggator Schlabbadosch Glabbadosch Plosch-Gloschinator
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Flerm Starfleet" "Blarp Starfleet" "Ugglog Starfleet" "Gegeporia Starfleet" "Mugdahl Starfleet" "Globbelius Starfleet" "Glolindus Starfleet" "Hortius Starfleet" "Dabberidook Starfleet" "Lumelius Starfleet" "Rolgur Starfleet" "Tumpus Starfleet" "Gjorpus Starfleet" "Schmortis Starfleet" "Pomplus Starfleet"
+		}
+		sequential_name = "%O%  Starfleet"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Thrall Division"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Division"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Division"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robotic Strike Force"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Defense Force"
+		}
+
+		psionic_army = {
+			sequential_name = "%R% Psi-Force"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Force"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Biomorph Force"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Force"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Mechanized Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Flerm Blarp Schlabb Ugglog Gegeporia "Blig Ugglog" Mugdahl Glumplog Glarp Florp Schmoria Gleggebore Blep Florp Glagglebore Schlemming Grohundia Schleggmas Schluggeria Phlegmia Glegmus Schmeg Glump Uggiboria Blurp Phleg Geggamoja Slemmig Gaggusch Glagaluff Oschla Bleg Ugglebore Uggudasch Blorkus Schplorp Blaggadosch Glorg Ugglundia Flems Klegg Gloskl Schlemmer Regurgia Phlog Blug Kleggebore Smeggle Blorpa Ungodahl Bleggoplapp Klegmor Ungus Glugglosch Gluckldor Uggledasch
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Klegg Glort Glumpus Mjort Geggis Schlugger Bjort Smeggle Klort Odjort Vort Gobber Globber Bompur Glabber Ump Glugg Ugg'Lugg Glorp Glabber-Globber Slemmel Glu Schlopp Opp Glupp Gablort Dook Balg Dooklor Lort Schmort Dabber Wook Plort Dibber-Dabber Slempropp Dobbgor Duk-Schnukk Blorp Loomper Bloomp Ilg Lomper Gluugin Glumdor Glopp Glummi Gluuk Ljorm Gabore Rog Klagg Glajm Glomper Loomp Shprlegg Ulg Oomp Glorp Lorg Flerm Blarp Ugglog Mugdahl Glump Glarp Blort
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Globbelius Glolindus Hortius Dabberidook Lumelius Rolgur Tumpus Gjorpus Schmortis Pomplus
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+}
+
+PLASMOID2 = {
+  category = "Plasmoid"
+
+	ship_names = {
+
+		generic = {
+			Seper'Elegion Seper'Setnassel Seper'Hundramel Seper'Grenalion Seper'Fundroleth Seper'Sagredioth Seper'Curenrod Seper'Tulethendral Seper'Huvendrog Seper'Vyliged Seper'Tarudog Seper'Calendol Seper'Essunad Seper'Hugaderol Seper'Aldinor Seper'Cerunthon Seper'Massagreth Seper'Tuandok Seper'Nossundem Seper'Duacedron Seper'Karob Seper'Arogo Seper'Vaylor Seper'Tirb Seper'Eskag Seper'Borog Seper'Masol Vuki'Targ Vuki'Boron Vuki'Salpossa Vuki'Patora Vuki'Argas Vuki'Holagor Vuki'Spako Vuki'Raman Vuki'Sotra Vuki'Vado Vuki'Uram Vuki'Elagar Vuki'Ennak Vuki'Tarba Vuki'Irios Vuki'Satrak Vuki'Endur Vuki'Ulator Vuki'Spaddok Vuki'Kitnak Vuki'Pokra Vuki'Higran Vuki'Farab Vuki'Storg
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Assault Corps" "First Order Corps" "Strike Corps" "Stellar Corps" "Exo Corps" "Void Corps" "Aether Corps" "Horizon Corps" "Battle Corps" "Galactic Corps" "Astral Corps"
+		}
+		sequential_name = "%O% Extraorbital Corps"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Army"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Army"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Army"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Division"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Division"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robot Division"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robot Garrison"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psionic Army"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Division"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Warrior Division"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Army"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Occupation Robot Army"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Safalon Lancord Drogena Yoergen Pendalor Tyntregal Camburen Cemlanth Suboramon Cumelod Condeus Genith Belores Agstur Fridgalen Annuend Sadolic Talienoc Angleruth Cranodeth Colbath Sturgos Vagalod Yirka Basturon Penthokka Ibilass Isika Corealla Gisiru Gaborina Avanna Avasur Fridgga Epensur
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales Suclien Ganarth Thoraul Merould Galedur Sassodem Cluthar Guldorn Yodegud Sassomun Colaut Derom
+			}
+
+			# Always combined with a first name
+			second_names = {
+				"cur'Padarn" "cur'Vandom" "cur'Hussel" "cur'Yuhal" "cur'Fargeth" "cur'Yalim" "dol'Fulm" "dol'Luch" "dol'Gath" "dol'Harne" "dol'Gilue" "dol'Thrad" "had'Tond" "had'Sald" "had'Marn" "had'Ugrit" "had'Fuleth" "had'Rolunt" "ov'Dren" "ov'Gut"
+			}
+
+			regnal_first_names = {
+				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales
+			}
+
+			regnal_second_names = {
+				cur'Padarn
+			}
+		}
+	}
+}
+
+PLASMOID3 = {
+  category = "Plasmoid"
+
+	ship_names = {
+		generic = {
+			"Nevabb Avabb" "Afiv Avabb" "Sava Avabb" "Povav Avabb" "Simfin Avabb" "Sulabb Avabb" "Yrliva Avabb" "Ysabbiva Addfin" "Omadd Addfin" "Fingav Addfin" "Halav Addfin" "Mogonava Abb Ybb" "Sepava Abb Ybb" "Vvina Abb Ybb" "Drivafin Abb Ybb" "Drivafin Avabb" "Vvina Avabb" "Sepava Avabb" "Mogonava Avabb" "Halav Avabb" "Fingav Avabb" "Omadd Avabb" "Urigavv Addfin" "Yrliva Addfin" "Sulabb Addfin" "Simfin Addfin" "Povav Abb Ybb" "Afiv Abb Ybb" "Sava Abb Ybb" "Afiv Abb Ybb" "Qavabb Avabb" "Qarilav Avabb" "Qillfin Avabb" "Vifin Avabb" "Zerav Avabb" "Zevabb Avabb" "Vvibb Avabb" "Vivvabb Addfin" "Baliav Addfin" "Asibbava Addfin" "Mavabb Addfin" "Obb Abb Ybb" "Abber Abb Ybb" "Dolavv Abb Ybb" "Finrebin Abb Ybb"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Avvabb Mycelium Carriers" "Hurabb Mycelium Carriers" "Juavfin Mycelium Carriers" "Moleniva Mycelium Carriers" "Guavad Mycelium Carriers" "Polovv Mycelium Carriers" "Vvujnibb Mycelium Carriers" "Zebbilv Mycelium Carriers" "Arlabb Mycelium Carriers" "Fesv Mycelium Carriers" "Morebbava Mycelium Carriers" "Bunsdav Mycelium Carriers" "Huvva Mycelium Carriers" "Vvinfinava Mycelium Carriers" "Finafiva Mycelium Carriers" "Ymdav Mycelium Carriers"
+		}
+		sequential_name = "%O% Mycelium Carriers"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Stronghold Outfit"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Cordyceps Command"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Cordyceps Command"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Cordyceps Command"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Stronghold Outfit"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Cordyceps Command"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Spore-Host Swarm"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Meiosis Platoon"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Platoon"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robo Caps"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robo-Protectors"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psilocybin Force"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xeno-Spore Army"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Death Caps"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Patrol"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Robo Patrol"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Avv Civa" "Sibbyn Civa" "Davfin Civa" "Filavan Civa" "Grobbsal Civa" "Huvv Civa" "Javillop Civa" "Lasgova Civa" "Qvoboll Civa" "Wanavafin Civa" "Efin viba-Filavv" "Rivva viba-Filavv" "Yvve viba-Filavv" "Uva viba-Filavv" "Iplibb viba-Filavv" "Obbiv viba-Filavv" "Ponsava viba-Filavv" "Zedva viba-Filavv" "Xurgav viba-Filavv" "Cinfinev viba-Filavv" "Vurgiv Vvada" "Bovven Vvada" "Nebba Vvada" "Maddfiv Vvada" "Arlav Vvada" "Sepiava Vvada" "Dvig Vvada" "Favib Vvada" "Grospalvin Vvada" "Hugivv Vvada"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				Abbava Ciava Addavv Paddava Avafin Vvafad Addfin Avvava Cifin Cibbav Huava Laravv Vinavv Uravv Uavafin Addadd Finadd Qovval Waddabb Eriva Rivvyl Dulava Yavan Ufin Ivv Obanva Pezava Asgova Sabbiva Davafin Fopva Gabbadd Haddadd Juv Lollfin Cevvabavv Vaddava Bubadd Navvbad Maivava
+			}
+
+			# Always combined with a first name
+			second_names = {
+				uvi-Averfin uvi-Sonnavtab uvi-Doglavv uvi-Favva uvi-Gallvav uvi-Havfin uvi-Joadd uvi-Livve uvi-Ajbvav uvi-Colv uvi-Crellfin uvi-Vvi uvi-Balviva uvi-Naddfinava uvi-Mava uvi-Waddiv uvi-Evvfin uvi-Ravadd uvi-Yidfrilv uvi-Uhliavan uvi-Ipav uvi-Oveliadd uvi-Pivvava
+			}
+
+			regnal_first_names = {
+				Zavabb Xavabava Zadd Xincava Zivacan Xibbavac Zifin
+			}
+
+			regnal_second_names = {
+				Qalvrfin Qamvs Qivv Quava
+			}
+		}
+	}
+}

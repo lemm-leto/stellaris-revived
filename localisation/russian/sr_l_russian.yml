@@ -9,6 +9,24 @@
   ### EVENTS ###
   srt_terraforming_window:0 "Статус терраформинга"
 
+  ### DISTRICTS ###
+  district_plasma_housing:0 "$district_orbital_halo_housing$"
+  district_plasma_housing_plural:0 "$district_orbital_halo_housing_plural$"
+  district_plasma_housing_desc:0 "$district_orbital_halo_housing_desc$"
+  district_plasma_energy:0 "$district_orbital_halo_energy$"
+  district_plasma_energy_plural:0 "$district_orbital_halo_energy_plural$"
+  district_plasma_energy_desc:0 "$district_orbital_halo_energy_desc$"
+  district_plasma_science:0 "$district_orbital_halo_science$"
+  district_plasma_science_plural:0 "$district_orbital_halo_science_plural$"
+  district_plasma_science_desc:0 "$district_orbital_halo_science_desc$"
+  district_plasma_industry:0 "$district_orbital_halo_industry$"
+  district_plasma_industry_plural:0 "$district_orbital_halo_industry_plural$"
+  district_plasma_industry_desc:0 "$district_orbital_halo_industry_desc$"
+
+  ### PLANET CLASSES ###
+  pc_plasma:0 "Плазменная структура"
+  pc_plasma_desc:0 "Плазменная структура отличается от известных типов планет. Жить на ней без значительных затрат на техническое обеспечение могут только плазменные формы жизни."
+
   ### PLANET CLASSES (FICTION FOR TERRAFORMING LINKS) ###
   pc_decrease_radiation_increase_ozone_layer:0 "Излучение: Увеличить озоновый слой"
   pc_decrease_radiation_increase_ozone_layer_desc:0 "Запустить проект по облучению атмосферы жестким ультрафиолетовым излучением, что в конечном счете приведет к образованию и утолщению озонового слоя в верхних слоях атмосферы."

@@ -1,0 +1,6 @@
+@living_standard_plasmoid_energy_shared_burden = 6.0
+@living_standard_plasmoid_energy_very_high = 15.0
+@living_standard_plasmoid_energy_high = 7.5
+@living_standard_plasmoid_energy_normal = 3.75
+@living_standard_plasmoid_energy_low = 1.5
+@living_standard_plasmoid_energy_very_low = 0.75

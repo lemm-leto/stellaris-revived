@@ -20,8 +20,8 @@
   trait_insectoid_effect:0 "Предпочитают пустынные миры.\n\n$MOD_POP_GROWTH_SPEED$ §G+25%§!\n$mod_planet_jobs_minerals_produces_mult$ §G+15%§!\n$mod_planet_pops_upkeep_mult$ §R+15%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_desert$ §G100%§!\n$pc_arid$ §G75%§!\n$pc_savannah$ §G75%§!\n$pc_continental$ §H50%§!\n$pc_tropical$ §G75%§!\n$pc_tundra$ §G75%§!\n$pc_alpine$ §R10%§!\n$pc_arctic$ §R10%§!\n$pc_ocean$ §R10%§!"
 
   trait_plasmoid:0 "Плазмоид"
-  trait_plasmoid_desc:0 "§LЭкзотическая форма жизни, способная существовать только на поверхности звезд. Их постижение за гранью возможного для большинства цивилизаций.§!\n"
-  trait_plasmoid_effect:0 "Предпочитают только звезды.\n\n$mod_planet_jobs_energy_produces_mult$ §G+500%§!\n$mod_planet_jobs_specialist_produces_mult$ §G+200%§!\n$MOD_POP_GROWTH_SPEED$ §R-80%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_b_star$ §G100%§!\n$pc_a_star$ §G100%§!\n$pc_f_star$ §G100%§!\n$pc_g_star$ §G100%§!\n$pc_k_star$ §G100%§!\n$pc_m_star$ §G100%§!\n$pc_m_giant_star$ §G100%§!"
+  trait_plasmoid_desc:0 "§LЭкзотическая форма жизни, способная существовать только на плазменных телах. Их постижение за гранью возможного для большинства цивилизаций.§!\n"
+  trait_plasmoid_effect:0 "Предпочитают только плазменные миры.\n\n$mod_planet_jobs_energy_produces_mult$ §G+25%§!\n$mod_planet_jobs_specialist_produces_mult$ §G+15%§!\n$MOD_POP_GROWTH_SPEED$ §R-15%§!\n\n$MOD_POP_ENVIRONMENT_TOLERANCE$\n$pc_plasma$ §G100%§!"
 
   trait_plantoid:0 "Плантоиды"
   trait_plantoid_desc:0 "§LПлантоиды — класс живых существ, чья эволюция берет свое начало от растительной среды своей планеты. Медленный метаболизм и малоподвижный образ жизни позволяет плантоидам жить столетиями. Фотосинтетические способности дают преимущества плантоидам и позволяют вырабатывать больше энергии.§!\n"

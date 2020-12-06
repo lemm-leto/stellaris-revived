@@ -1,4 +1,4 @@
-INSECTOID1 = {
+﻿INSECTOID1 = {
 	category = "Insectoid"
 	ship_names = {
 

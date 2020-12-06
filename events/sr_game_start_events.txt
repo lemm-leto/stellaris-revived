@@ -30,11 +30,22 @@ country_event = {
         else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
         else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
         else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
+        else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
+        else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
+        else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
 
-        remove_all_buildings = yes
+        if = {
+          limit = {
+            NOT = { owner_species = { has_trait = trait_plasmoid } }
+          }
+          remove_all_buildings = yes
 
-        generate_start_deposits_and_blockers = yes
-        generate_start_buildings_and_districts = yes
+          generate_start_deposits_and_blockers = yes
+          generate_start_buildings_and_districts = yes
+        }
+        else = {
+          generate_start_plasma_ditricts = yes
+        }
 
         if = {
           limit = { owner = { has_origin = origin_mechanists } }

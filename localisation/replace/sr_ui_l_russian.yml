@@ -8,7 +8,6 @@
   name_list_PRIMATOID5:0 "Приматоиды 5"
   name_list_PRIMATOID6:0 "Приматоиды 6"
   name_list_PRIMATOID7:0 "Приматоиды 7"
-  name_list_PRIMATOID8:0 "Приматоиды 8"
   name_list_OCEANID1:0 "Океаниды 1"
   name_list_OCEANID2:0 "Океаниды 2"
   name_list_OCEANID3:0 "Океаниды 3"
@@ -25,6 +24,9 @@
   name_list_INSECTOID2:0 "Инсектоиды 2"
   name_list_INSECTOID3:0 "Инсектоиды 3"
   name_list_INSECTOID4:0 "Инсектоиды 4"
+  name_list_PLASMOID1:0 "Плазмоиды 1"
+  name_list_PLASMOID2:0 "Плазмоиды 2"
+  name_list_PLASMOID3:0 "Плазмоиды 3"
 
   # placeholders:
   count_owned_pop_species_trigger:0 ""
