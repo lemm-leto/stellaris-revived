@@ -1,0 +1,501 @@
+# Bureaucratic
+
+# Regular
+tech_bureaucratic_levels_1 = {
+  cost = @tier3cost1
+  area = society
+  tier = 3
+  category = { statecraft }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  potential = {
+    is_regular_empire = yes
+	}
+
+  modifier = {
+		description = district_bureaucratic_tech_effect
+	}
+
+  weight_modifier = {
+		modifier = {
+			factor = 0
+			num_owned_planets < 2
+    }
+    modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+  }
+
+  ai_weight = {
+    factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_bureaucratic_levels_2 = {
+  cost = @tier4cost1
+  area = society
+  tier = 4
+  category = { statecraft }
+  prerequisites = { "tech_bureaucratic_levels_1" }
+  weight = @tier4weight1
+
+  potential = {
+    is_regular_empire = yes
+	}
+
+  modifier = {
+		description = district_bureaucratic_tech_effect
+	}
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+# Hive
+tech_synapse_clusters_1 = {
+  cost = @tier3cost1
+  area = society
+  tier = 3
+  category = { statecraft }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  potential = {
+    is_hive_empire = yes
+	}
+
+  modifier = {
+		description = district_synapse_tech_effect
+	}
+
+  weight_modifier = {
+		modifier = {
+			factor = 0
+			num_owned_planets < 2
+    }
+    modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+  }
+
+  ai_weight = {
+    factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_synapse_clusters_2 = {
+  cost = @tier4cost1
+  area = society
+  tier = 4
+  category = { statecraft }
+  prerequisites = { "tech_synapse_clusters_1" }
+  weight = @tier4weight1
+
+  potential = {
+    is_hive_empire = yes
+	}
+
+  modifier = {
+		description = district_synapse_tech_effect
+	}
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+# Machine
+tech_extranet_1 = {
+  cost = @tier3cost1
+  area = society
+  tier = 3
+  category = { statecraft }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  potential = {
+    is_machine_empire = yes
+	}
+
+  modifier = {
+		description = district_coordinator_tech_effect
+	}
+
+  weight_modifier = {
+		modifier = {
+			factor = 0
+			num_owned_planets < 2
+    }
+    modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+  }
+
+  ai_weight = {
+    factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_extranet_2 = {
+  cost = @tier4cost1
+  area = society
+  tier = 4
+  category = { statecraft }
+  prerequisites = { "tech_extranet_1" }
+  weight = @tier4weight1
+
+  potential = {
+    is_machine_empire = yes
+	}
+
+  modifier = {
+		description = district_coordinator_tech_effect
+	}
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+# Science
+tech_science_optimization_1 = {
+  cost = @tier3cost1
+  area = physics
+  tier = 3
+  category = { computing }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  modifier = {
+    description = district_science_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_computing"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_computing"
+      }
+    }
+  }
+}
+
+tech_science_optimization_2 = {
+  cost = @tier4cost1
+  area = physics
+  tier = 4
+  category = { computing }
+  prerequisites = { "tech_science_optimization_1" }
+  weight = @tier4weight1
+
+  modifier = {
+    description = district_science_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_computing"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_computing"
+      }
+    }
+  }
+}
+
+# Industry
+tech_industry_miniaturization_1 = {
+  cost = @tier3cost1
+  area = engineering
+  tier = 3
+  category = { industry }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  modifier = {
+    description = district_industry_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }
+    }
+  }
+}
+
+tech_industry_miniaturization_2 = {
+  cost = @tier4cost1
+  area = engineering
+  tier = 4
+  category = { industry }
+  prerequisites = { "tech_industry_miniaturization_1" }
+  weight = @tier4weight1
+
+  modifier = {
+    description = district_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }
+    }
+  }
+}
+
+# Civilian
+tech_public_spaces_1 = {
+  cost = @tier3cost1
+  area = society
+  tier = 3
+  category = { statecraft }
+  prerequisites = { "tech_housing_2" }
+  weight = @tier3weight1
+
+  potential = {
+    OR = {
+      is_gestalt = no
+      has_valid_civic = civic_machine_servitor
+    }
+  }
+
+  modifier = {
+    description = district_civilian_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+tech_public_spaces_2 = {
+  cost = @tier4cost1
+  area = society
+  tier = 4
+  category = { statecraft }
+  prerequisites = { "tech_public_spaces_1" }
+  weight = @tier4weight1
+
+  potential = {
+    OR = {
+      is_gestalt = no
+      has_valid_civic = civic_machine_servitor
+    }
+  }
+
+  modifier = {
+    description = district_civilian_tech_effect
+  }
+
+  weight_modifier = {
+    modifier = {
+      factor = 0
+      num_owned_planets < 2
+    }
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+
+  ai_weight = {
+    factor = 2
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}

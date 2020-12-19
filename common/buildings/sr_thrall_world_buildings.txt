@@ -1,0 +1,38 @@
+building_slave_factory = {
+	base_buildtime = @b1_time
+
+	category = government
+
+	base_cap_amount = 1
+
+	potential = {
+		exists = owner
+		owner = {
+      has_ascension_perk = ap_slavery_state
+      has_technology = tech_slave_factory
+    }
+		has_modifier = slave_colony
+  }
+
+  prerequisites = {
+    "tech_slave_factory"
+	}
+
+	planet_modifier = {
+		pop_growth_speed = 2.0
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1200
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}

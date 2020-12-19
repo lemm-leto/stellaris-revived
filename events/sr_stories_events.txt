@@ -366,6 +366,6 @@ country_event = {
     end_event_chain = "element_zero_megastructure_construction"
     end_event_chain = "element_zero_technologies_chain"
     end_event_chain = "element_zero_stars_explosion_chain"
-    # ToDo - add new technologies options
+    set_country_flag = element_zero_techs_available # ToDo add technologies
   }
 }

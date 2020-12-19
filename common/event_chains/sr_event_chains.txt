@@ -3,7 +3,7 @@ element_zero_stars_explosion_chain = {
   icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
   counter = {
 		suns_exploded = {
-			max = 10
+			max = 3
 		}
 	}
 }
@@ -13,7 +13,7 @@ element_zero_technologies_chain = {
 	icon = "gfx/interface/icons/situation_log/situation_log_physics.dds"
 	counter = {
 		element_zero_technologies_researched = {
-			max = 15
+			max = 5
 		}
 	}
 }

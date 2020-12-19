@@ -78,3 +78,24 @@ tech_orbital_halo = {
 		}
 	}
 }
+
+tech_slave_factory = {
+  cost = @tier5cost1
+  area = society
+  tier = 5
+  category = { statecraft }
+  prerequisites = {
+		"tech_slave_colonies"
+  }
+  weight = 0
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}

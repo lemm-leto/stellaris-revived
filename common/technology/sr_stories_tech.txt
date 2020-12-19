@@ -5,7 +5,7 @@ tech_element_zero_analysis = {
 	tier = 5
 	is_rare = yes
 	category = { particles }
-	levels = 15
+	levels = 5
 	weight = 70
 
 	potential = {
@@ -53,6 +53,58 @@ tech_element_zero_core = {
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+tech_element_zero_jump_drive = {
+	cost = @tier5cost2
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	ai_update_type = all
+	is_rare = yes
+	is_dangerous = yes
+	prerequisites = { "tech_zero_point_power" }
+	weight = @tier5weight2
+	is_dangerous = yes
+	is_reverse_engineerable = yes
+
+	feature_flags = {
+		jump_method
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_ELEMENT_ZERO_JUMPDRIVE_TITLE"
+			desc = "TECH_UNLOCK_ELEMENT_ZERO_JUMPDRIVE_DESC"
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = element_zero_techs_available
+		}
+	}
+
+	weight_modifier = {
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = { host_has_dlc = "Utopia" }
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = tech_psi_jump_drive_1 }
 			}
 		}
 	}

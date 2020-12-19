@@ -1,6 +1,6 @@
 citadel_initializer = {
 	name = "NAME_Citadel_System"
-  class = "sc_b" # ToDo replace with nebula
+  class = "sc_b"
 
 	flags = { citadel_system }
 
@@ -34,6 +34,10 @@ citadel_initializer = {
 		deposit_blockers = none
 
 		flags = { citadel_planet }
+
+		init_effect = {
+			add_deposit = d_citadel_presidium
+		}
 	}
 
 }

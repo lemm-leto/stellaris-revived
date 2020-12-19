@@ -1,0 +1,16 @@
+d_citadel_presidium = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+
+	potential = {
+		is_planet_class = pc_citadel
+	}
+
+	planet_modifier = {
+		building_citadel_embassy_max = 5
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}

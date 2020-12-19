@@ -1,0 +1,11 @@
+spriteTypes = {
+  # progressbartype = {
+	# 	name = "GFX_building_progressbar"
+	# 	color = { 1.0 1.0 1.0 }
+	# 	colortwo = { 1.0 1.0 1.0 }
+	# 	textureFile1 = "gfx/interface/progressbars/queue_progressbar.dds"
+	# 	textureFile2 = "gfx/interface/progressbars/queue_progressbar_empty.dds"
+	# 	size = { x = 120 y = 10 }
+	# 	effectFile = "gfx/FX/progress_startend.lua"
+	# }
+}

@@ -65,3 +65,7 @@
 
   ### OPINION MODIFIERS ###
   triggered_opinion_of_element_zero_core:0 "Сооружение ядра эффекта массы"
+
+  ### BUILDINGS ###
+  building_citadel_embassy:0 "Посольство Цитадели"
+  building_citadel_embassy_desc:0 "Комплекс посольских зданий, используемых для постоянных дипломатических миссий."

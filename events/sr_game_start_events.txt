@@ -14,6 +14,7 @@ country_event = {
   }
 
   immediate = {
+    # Adjust starting world
     if = {
       limit = {
         exists = capital_scope
@@ -63,6 +64,58 @@ country_event = {
             }
           }
           add_building = building_necrophage_elevation_chamber
+        }
+      }
+    }
+
+    capital_scope.solar_system = {
+      closest_system = {
+        limit = { has_star_flag = neighbor_t1_first_colony }
+        max_steps = 3
+        random_system_planet = {
+          limit = {
+            is_colonizable = yes
+            is_colony = no
+            has_planet_flag = prescripted_ideal
+          }
+
+          if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
+          else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
+          else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
+          else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
+          else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
+          else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
+          else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+
+          if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+
+          reroll_planet = yes
+        }
+      }
+      closest_system = {
+        limit = { has_star_flag = neighbor_t2_second_colony }
+        max_steps = 6
+        random_system_planet = {
+          limit = {
+            is_colonizable = yes
+            is_colony = no
+            has_planet_flag = prescripted_ideal
+          }
+
+          if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
+          else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
+          else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
+          else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
+          else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
+          else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
+          else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+
+          if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+
+          reroll_planet = yes
+        }
+        last_created_country = {
+          randomise_early_primitive_age_effect = yes
         }
       }
     }

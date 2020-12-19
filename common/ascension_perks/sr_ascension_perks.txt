@@ -51,14 +51,6 @@ ap_demiurge = {
 
 	possible = {
 		custom_tooltip = {
-			fail_text = "requires_ap_galactic_wonders_utopia"
-			OR = {
-				has_ascension_perk = ap_galactic_wonders_utopia
-				has_ascension_perk = ap_galactic_wonders_utopia_and_megacorp
-				has_ascension_perk = ap_galactic_wonders_megacorp
-			}
-		}
-		custom_tooltip = {
 			fail_text = "requires_ascension_perks_2"
 			num_ascension_perks > 1
 		}
@@ -66,7 +58,7 @@ ap_demiurge = {
 
 	modifier = {
 		country_megastructure_build_cap_add = 1
-		megastructure_build_speed_mult = 1
+		megastructure_build_speed_mult = 0.15
 	}
 
 	potential = {
@@ -85,5 +77,37 @@ ap_demiurge = {
 			factor = 3
 			has_ethic = ethic_fanatic_pacifist
 		}
+	}
+}
+
+ap_slavery_state = {
+	on_enabled = {
+		add_research_option = tech_slave_factory
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+	}
+
+	modifier = {
+		pop_category_slave_upkeep_mult = -0.2
+	}
+
+	potential = {
+		OR = {
+			is_authoritarian = yes
+			is_xenophobe = yes
+			has_ethic = ethic_gestalt_consciousness
+		}
+		NOT = {
+			has_ascension_perk = ap_slavery_state
+		}
+	}
+
+	ai_weight = {
+		factor = 0 # ToDo add usage
 	}
 }

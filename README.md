@@ -1,5 +1,4 @@
-# Stellaris Revived: Terrforming
-This mod aims to improve terraforming experience in Stellaris by adding step-by-step terraforming with megastructures and unique buildings.
+# Stellaris Reborn
 
 Feel free to open any issues both in English and Russian.
 
@@ -10,6 +9,8 @@ TBD
 TBD
 
 ## Credits
+### MISC
+* Some elements were inspired by Mass Effect devloped by Bioware and EA
 ### Fonts
 * Fonts used for RU & PL locales were integrated from GEKS mod https://steamcommunity.com/workshop/filedetails/?id=681483874
 ### Music

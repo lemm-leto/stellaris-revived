@@ -1,0 +1,34 @@
+@cost5 = 30
+
+@power5 = -40
+
+utility_component_template = {
+	key = "ELEMENT_ZERO_JUMP_DRIVE"
+	size = small
+	icon = "GFX_ship_part_element_zero_jump_drive"
+	icon_frame = 1
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost5
+		}
+	}
+	ftl = yes
+	jumpdrive = yes
+	ship_modifier = {
+    ship_windup_mult = -0.8
+    ship_winddown_mult = -0.5
+		ship_speed_mult = 0.30
+		ship_evasion_mult = 0.15
+		ship_ftl_jumpdrive_range_mult = 1.0
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special shipclass_starbase }
+	prerequisites = { "tech_element_zero_jump_drive" }
+	component_set = "ftl_components"
+}

@@ -401,7 +401,7 @@ trait_plantoid = {
 
 	modifier = {
 		pop_growth_speed = -0.1
-		country_energy_produces_mult = 0.15
+		planet_jobs_energy_produces_mult = 0.15
 
 		# Main habitability
     pc_tropical_habitability = 1.0

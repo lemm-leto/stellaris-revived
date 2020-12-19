@@ -31,6 +31,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ascension_perks/ap_demiurge.dds"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_ap_slavery_state"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_slavery_state.dds"
+		alwaystransparent = yes
+	}
 
 	# Event pictures
 	spriteType = {
