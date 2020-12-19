@@ -37,12 +37,14 @@ district_bureaucratic = {
 		job_bureaucrat_add = 2
 	}
 
+	# Technologies improvement
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
 				has_technology = "tech_bureaucratic_levels_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -54,12 +56,51 @@ district_bureaucratic = {
 		potential = {
 			exists = owner
 			owner = {
+				has_technology = "tech_bureaucratic_levels_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_bureaucrat_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				has_technology = "tech_bureaucratic_levels_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			planet_housing_add = 1
 			job_bureaucrat_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = "tech_bureaucratic_levels_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 5
+			job_bureaucrat_add = 5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			uses_district_set = city_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_bureaucrat_add = 2
 		}
 	}
 
@@ -143,6 +184,35 @@ district_hive_node = {
 			owner = {
 				has_technology = "tech_synapse_clusters_1"
 			}
+			NOT = { uses_district_set = ring_world }
+		}
+		modifier = {
+			planet_housing_add = 1
+			job_synapse_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = "tech_synapse_clusters_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_synapse_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = "tech_synapse_clusters_2"
+			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -156,10 +226,11 @@ district_hive_node = {
 			owner = {
 				has_technology = "tech_synapse_clusters_2"
 			}
+			uses_district_set = ring_world
 		}
 		modifier = {
-			planet_housing_add = 1
-			job_synapse_drone_add = 1
+			planet_housing_add = 4
+			job_synapse_drone_add = 4
 		}
 	}
 
@@ -230,6 +301,35 @@ district_uplink_node = {
 			owner = {
 				has_technology = tech_extranet_1
 			}
+			NOT = { uses_district_set = ring_world }
+		}
+		modifier = {
+			planet_housing_add = 1
+			job_coordinator_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_extranet_1
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_coordinator_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_extranet_2
+			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -243,10 +343,11 @@ district_uplink_node = {
 			owner = {
 				has_technology = tech_extranet_2
 			}
+			uses_district_set = ring_world
 		}
 		modifier = {
-			planet_housing_add = 1
-			job_coordinator_add = 1
+			planet_housing_add = 4
+			job_coordinator_add = 4
 		}
 	}
 
@@ -281,12 +382,18 @@ district_science = {
 	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
-		always = yes
+		NOT = {
+			uses_district_set = ring_world
+			uses_district_set = habitat
+		}
 	}
 
 	potential = {
-		always = yes
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = slave_colony
+			uses_district_set = ring_world
+			uses_district_set = habitat
+		}
 	}
 
 	allow = {
@@ -334,6 +441,16 @@ district_science = {
 		}
 		modifier = {
 			job_calculator_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			uses_district_set = city_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_researcher_add = 2
 		}
 	}
 
@@ -520,6 +637,7 @@ district_foundry = {
 		planet_housing_add = 2
 	}
 
+	# Common Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -550,6 +668,7 @@ district_foundry = {
 		}
 	}
 
+	# Technologies housing
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -570,6 +689,7 @@ district_foundry = {
 		}
 	}
 
+	# Technologies L1 Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -577,6 +697,7 @@ district_foundry = {
 				is_hive_empire = yes
 				has_technology = "tech_industry_miniaturization_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_alloy_drone_add = 1
@@ -587,9 +708,25 @@ district_foundry = {
 		potential = {
 			exists = owner
 			owner = {
+				is_hive_empire = yes
+				has_technology = "tech_industry_miniaturization_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_alloy_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_machine_empire = yes
 				has_technology = "tech_industry_miniaturization_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_fabricator_add = 1
@@ -600,9 +737,25 @@ district_foundry = {
 		potential = {
 			exists = owner
 			owner = {
+				is_machine_empire = yes
+				has_technology = "tech_industry_miniaturization_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_fabricator_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_regular_empire = yes
 				has_technology = "tech_industry_miniaturization_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_foundry_add = 1
@@ -613,9 +766,26 @@ district_foundry = {
 		potential = {
 			exists = owner
 			owner = {
+				is_regular_empire = yes
+				has_technology = "tech_industry_miniaturization_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_foundry_add = 3
+		}
+	}
+
+	# Technologies L2 Jobs
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_hive_empire = yes
 				has_technology = "tech_industry_miniaturization_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_alloy_drone_add = 1
@@ -626,9 +796,25 @@ district_foundry = {
 		potential = {
 			exists = owner
 			owner = {
+				is_hive_empire = yes
+				has_technology = "tech_industry_miniaturization_2"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_alloy_drone_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_machine_empire = yes
 				has_technology = "tech_industry_miniaturization_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_fabricator_add = 1
@@ -639,12 +825,43 @@ district_foundry = {
 		potential = {
 			exists = owner
 			owner = {
+				is_hive_empire = yes
+				has_technology = "tech_industry_miniaturization_2"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_fabricator_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_regular_empire = yes
 				has_technology = "tech_industry_miniaturization_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_foundry_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_technology = "tech_industry_miniaturization_2"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_foundry_add = 4
 		}
 	}
 
@@ -730,6 +947,7 @@ district_factory = {
 		planet_housing_add = 2
 	}
 
+	# Common Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -750,6 +968,7 @@ district_factory = {
 		}
 	}
 
+	# Technologies housing
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -774,6 +993,7 @@ district_factory = {
 		}
 	}
 
+	# Technologies L1 Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -781,6 +1001,7 @@ district_factory = {
 				is_regular_empire = yes
 				has_technology = "tech_industry_miniaturization_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_artisan_add = 1
@@ -791,9 +1012,25 @@ district_factory = {
 		potential = {
 			exists = owner
 			owner = {
+				is_regular_empire = yes
+				has_technology = "tech_industry_miniaturization_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_artisan_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_gestalt = yes
 				has_technology = "tech_industry_miniaturization_1"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_artisan_drone_add = 1
@@ -804,9 +1041,26 @@ district_factory = {
 		potential = {
 			exists = owner
 			owner = {
+				is_gestalt = yes
+				has_technology = "tech_industry_miniaturization_1"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_artisan_drone_add = 3
+		}
+	}
+
+	# Technologies L2 Jobs
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_regular_empire = yes
 				has_technology = "tech_industry_miniaturization_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_artisan_add = 1
@@ -817,12 +1071,43 @@ district_factory = {
 		potential = {
 			exists = owner
 			owner = {
+				is_regular_empire = yes
+				has_technology = "tech_industry_miniaturization_2"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_artisan_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
 				is_gestalt = yes
 				has_technology = "tech_industry_miniaturization_2"
 			}
+			NOT = { uses_district_set = ring_world }
 		}
 		modifier = {
 			job_artisan_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+				has_technology = "tech_industry_miniaturization_2"
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 3
+			job_artisan_drone_add = 4
 		}
 	}
 
@@ -863,6 +1148,10 @@ district_cultural = {
 				has_valid_civic = civic_machine_servitor
 			}
 		}
+		NOR = {
+			uses_district_set = city_world
+			uses_district_set = habitat
+		}
 	}
 
 	potential = {
@@ -872,6 +1161,10 @@ district_cultural = {
 				is_gestalt = no
 				has_valid_civic = civic_machine_servitor
 			}
+		}
+		NOR = {
+			uses_district_set = city_world
+			uses_district_set = habitat
 		}
 	}
 
@@ -889,6 +1182,7 @@ district_cultural = {
 		planet_housing_add = 2
 	}
 
+	# Common Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -931,6 +1225,62 @@ district_cultural = {
 		}
 	}
 
+	# Ring World adjustments
+	triggered_planet_modifier = {
+		potential = {
+			uses_district_set = ring_world
+		}
+		modifier = {
+			planet_housing_add = 6
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			job_entertainer_add = 3
+			job_culture_worker_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_valid_civic = civic_warrior_culture
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			job_duelist_add = 3
+			job_culture_worker_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+				has_valid_civic = civic_machine_servitor
+			}
+			uses_district_set = ring_world
+		}
+		modifier = {
+			job_bio_trophy_add = 9
+			job_maintenance_drone_add = 3
+		}
+	}
+
+	# Technologies Housing
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -955,6 +1305,7 @@ district_cultural = {
 		}
 	}
 
+	# Technologies Jobs
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -1075,11 +1426,19 @@ district_commercial = {
 	show_on_uncolonized = {
 		exists = from
 		from = { is_gestalt = no }
+		NOR = {
+			uses_district_set = habitat
+			uses_district_set = ring_world
+		}
 	}
 
 	potential = {
 		exists = owner
 		owner = { is_gestalt = no }
+		NOR = {
+			uses_district_set = habitat
+			uses_district_set = ring_world
+		}
 	}
 
 	resources = {
@@ -1112,6 +1471,30 @@ district_commercial = {
 			owner = { is_fallen_empire_spiritualist = yes }
 		}
 		modifier = {
+			job_manager_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = no }
+			uses_district_set = city_world
+		}
+		modifier = {
+			planet_housing_add = 2
+			job_clerk_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+			uses_district_set = city_world
+		}
+		modifier = {
+			planet_housing_add = 2
 			job_manager_add = 2
 		}
 	}

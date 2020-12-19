@@ -380,7 +380,7 @@ tech_industry_miniaturization_2 = {
   weight = @tier4weight1
 
   modifier = {
-    description = district_tech_effect
+    description = district_industry_tech_effect
   }
 
   weight_modifier = {

@@ -47,7 +47,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "planet_view"
 		orientation = upper_left
-		size = { width = 850 height = 850 }
+		size = { width = 880 height = 850 }
 		moveable = yes
 		position = { x = 300 y = 200 }
 		clipping = no
@@ -71,7 +71,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "planet_view_bg"
-			size = { width = 850 height = 810 }
+			size = { width = 880 height = 810 }
 			position = { x = 0 y = 0 }
 
 			background = {
@@ -132,7 +132,7 @@ guiTypes = {
 			buttonType = {
 				name = "previous_planet"
 				quadTextureSprite = "GFX_button_left"
-				position = { x = 0 y = 4 }
+				position = { x = 35 y = 4 }
 				#orientation = upper_left
 				#	shortcut = "SHIFT + TAB"
 				clicksound = "click"
@@ -142,7 +142,7 @@ guiTypes = {
 			buttonType = {
 				name = "next_planet"
 				quadTextureSprite = "GFX_button_right"
-				position = { x = 36 y = 4 }
+				position = { x = 70 y = 4 }
 				#orientation = upper_left
 				#	shortcut = "TAB"
 				clicksound = "click"
@@ -152,13 +152,13 @@ guiTypes = {
 			buttonType = {
 				name = "move_capital"
 				quadTextureSprite = "GFX_fleet_action_button_move_capital"
-				position = { x = 80 y = 4 }
+				position = { x = 105 y = 4 }
 			}
 
 			buttonType = {
 				name = "zoom_to_planet_button"
 				quadTextureSprite = "GFX_fleetview_focus"
-				position = { x = 111 y = 4 }
+				position = { x = 141 y = 4 }
 				pdx_tooltip = "ZOOM_TO_PLANET"
 				shortCut = "q"
 				tooltip_mode_enabled = yes
@@ -167,7 +167,7 @@ guiTypes = {
 			buttonType = {
 				name = "close"
 				quadTextureSprite = "GFX_close"
-				position = { x = -43 y = 4 }
+				position = { x = -13 y = 4 }
 				shortcut = "ESCAPE"
 				clicksound = "back_click"
 				actionShortcut = "cancel"
@@ -178,7 +178,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "planet_portrait_window"
-			size = { width = 560 height = 175 }
+			size = { width = 580 height = 175 }
 			position = { x = 14 y = 47 }
 
 			containerWindowType = {
@@ -262,37 +262,6 @@ guiTypes = {
 				maxHeight = 20
 				fixedSize = yes
 				format = right
-				alwaysTransparent = yes
-			}
-		}
-
-		# Trade value
-		containerWindowType = {
-			name = "trade_value_window"
-			size = { width = 78 height = 48 }
-			position = { x = 467 y = 110 }
-
-			background = {
-				name = "background"
-				spriteType = "GFX_dark_area_cut"
-			}
-
-			iconType = {
-				name = "trade_value_icon"
-				spriteType = "GFX_planetview_trade_value"
-				position = { x = 5 y = 8 }
-			}
-
-			instantTextBoxType = {
-				name = "trade_value_amount"
-				font = "malgun_goth_24"
-				position = { x = 30 y = 12 }
-				text = "5"
-				maxWidth = 50
-				maxHeight = 20
-				fixedSize = yes
-				format = center
-				orientation = upper_left
 				alwaysTransparent = yes
 			}
 		}
@@ -458,7 +427,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "planet_devastation"
 			size = { width = 180 height = 35 }
-			position = { x = 360 y = 110 }
+			position = { x = 280 y = 110 }
 
 			background = {
 				name = "background"
@@ -530,7 +499,7 @@ guiTypes = {
 		# Actions & Planet Info
 		containerWindowType = {
 			name = "planet_actions_window"
-			position = { x = 570 y = 62 }
+			position = { x = 600 y = 62 }
 			size = { width = 289 height = 170 }
 
 			iconType = {
@@ -927,7 +896,7 @@ guiTypes = {
 					### Districts Container Window
 					containerWindowType = {
 						name = "districts_window"
-						size = { width = 270 height = 485 }
+						size = { width = 300 height = 485 }
 						position = { x = 11 y = 50 }
 
 						background = {
@@ -940,7 +909,7 @@ guiTypes = {
 						containerWindowType = {
 							name = "planet_num_districts"
 							size = { width = 70 height = 45 }
-							position = { x = 192 y = 2 }
+							position = { x = 224 y = 2 }
 
 
 							background = {
@@ -973,7 +942,7 @@ guiTypes = {
 							position = { x = 9 y = 44 }
 							size = { width = 270 height = 200 }
 							format = "UPPER_LEFT"
-							slotsize = { width = 130 height = 60 }
+							slotsize = { width = 145 height = 60 }
 							add_horizontal = yes
 							max_slots_horizontal = 2
 						}
@@ -981,7 +950,7 @@ guiTypes = {
 						# Planet Features
 						containerWindowType = {
 							name = "deposits_summary_window"
-							size = { width = 250 height = 40 }
+							size = { width = 280 height = 40 }
 							position = { x = 10 y = 435 }
 
 							background = {
@@ -1005,7 +974,7 @@ guiTypes = {
 							containerWindowType = {
 								name = "blocker_deposits_window"
 								size = { width = 100 height = 30 }
-								position = { x = 190 y = 10 }
+								position = { x = 220 y = 10 }
 								iconType = {
 									name = "blocker_deposit_frame"
 									spriteType = "GFX_blocker_icon"
@@ -1030,7 +999,7 @@ guiTypes = {
 							containerWindowType = {
 								name = "rare_deposits_window"
 								size = { width = 90 height = 30 }
-								position = { x = 100 y = 10 }
+								position = { x = 120 y = 10 }
 
 								iconType = {
 									name = "blocker_deposit_frame"
@@ -1093,7 +1062,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "planet_desc_window"
-					position = { x = 290  y = 50 }
+					position = { x = 320  y = 50 }
 					size = { width = 545 height = 240 }
 
 					background = {
@@ -1141,7 +1110,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "terraforming_panel"
 				size = { width = 264 height = 40 }
-				position = { x = 290 y = 495 }
+				position = { x = 320 y = 495 }
 
 				background = {
 						name = "terraforming_background"
@@ -1265,7 +1234,7 @@ guiTypes = {
 				containerWindowType = {
 					name = "planetary_resources"
 					size = { width = 264 height = 125 }
-					position = { x = 290 y = 359 }
+					position = { x = 320 y = 359 }
 
 					background = {
 						name = "output_background"
@@ -1321,13 +1290,44 @@ guiTypes = {
 					}
 				}
 
+				# Trade value
+				containerWindowType = {
+					name = "trade_value_window"
+					size = { width = 78 height = 48 }
+					position = { x = 467 y = -90 }
+
+					background = {
+						name = "background"
+						spriteType = "GFX_dark_area_cut"
+					}
+
+					iconType = {
+						name = "trade_value_icon"
+						spriteType = "GFX_planetview_trade_value"
+						position = { x = 5 y = 8 }
+					}
+
+					instantTextBoxType = {
+						name = "trade_value_amount"
+						font = "malgun_goth_24"
+						position = { x = 30 y = 12 }
+						text = "5"
+						maxWidth = 50
+						maxHeight = 20
+						fixedSize = yes
+						format = center
+						orientation = upper_left
+						alwaysTransparent = yes
+					}
+				}
+
 			#<---------------------------- Buildings ----------------------------->
 
 				# Buildings
 				containerWindowType = {
 					name = "title_buildings"
 					size = { width = 264 height = 300 }
-					position = { x = 290 y = 50 }
+					position = { x = 320 y = 50 }
 
 					background = {
 							position = { x = 0 y = 0 }
@@ -1352,7 +1352,7 @@ guiTypes = {
 
 				gridBoxType = {
 					name = "buildings_box"
-					position = { x = 303 y = 96 }
+					position = { x = 333 y = 96 }
 					size = { width = 205 height = 205 }
 					format = "UPPER_LEFT"
 					slotsize = { width = 60 height = 60 }
@@ -1367,7 +1367,7 @@ guiTypes = {
 				containerWindowType = {
 					name = "designation_info"
 					size = { width = 270 height = 125}
-					position = { x = 569 y = 50 }
+					position = { x = 599 y = 50 }
 
 					background = {
 						name = "designation_info_background"
@@ -1477,7 +1477,7 @@ guiTypes = {
 				containerWindowType = {
 					name = "sector_info"
 					size = { width = 270 height = 40 }
-					position = { x = 570 y = 50 }
+					position = { x = 600 y = 50 }
 
 					buttonType = {
 						name = "sector_action_button"
@@ -1527,7 +1527,7 @@ guiTypes = {
 				containerWindowType = {
 					name = "build_queue"
 					size = { width = 270 height = 350 }
-					position = { x = 569 y = 184 }
+					position = { x = 599 y = 184 }
 
 					background = {
 						name = "build_queue_background"
@@ -3312,7 +3312,7 @@ guiTypes = {
 
 			origo = center
 			orientation = center
-			show_position = { x = 574 y = -16 }
+			show_position = { x = 590 y = -16 }
 			hide_position = { x = 594 y = -17 }
 			animation_time = 0
 			animation_type = decelerated
@@ -4411,7 +4411,7 @@ guiTypes = {
 
 		iconType = {
 			name = "icon"
-			spriteType = "GFX_district_box_icon"
+			spriteType = "GFX_district_box_icon_small"
 			position = {x = 0 y = 0}
 		}
 	}
@@ -4484,11 +4484,11 @@ guiTypes = {
 			# non-residential districts
 			gridBoxType = {
 				name = "district_box_grid"
-				size = { width = 65 height = 45 }
+				size = { width = 80 height = 45 }
 				position = { x = 8 y = 5 }
 				format = "UPPER_LEFT"
 				slotsize = { width = 15 height = 15 }
-				max_slots_horizontal = 4
+				max_slots_horizontal = 5
 				max_slots_vertical = 3
 				add_horizontal = yes
 			}

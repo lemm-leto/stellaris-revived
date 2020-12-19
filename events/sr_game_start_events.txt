@@ -35,18 +35,10 @@ country_event = {
         else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
         else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
 
-        if = {
-          limit = {
-            NOT = { owner_species = { has_trait = trait_plasmoid } }
-          }
-          remove_all_buildings = yes
+        remove_all_buildings = yes
 
-          generate_start_deposits_and_blockers = yes
-          generate_start_buildings_and_districts = yes
-        }
-        else = {
-          generate_start_plasma_ditricts = yes
-        }
+        generate_start_deposits_and_blockers = yes
+        generate_start_buildings_and_districts = yes
 
         if = {
           limit = { owner = { has_origin = origin_mechanists } }
@@ -68,56 +60,165 @@ country_event = {
       }
     }
 
-    capital_scope.solar_system = {
-      closest_system = {
-        limit = { has_star_flag = neighbor_t1_first_colony }
-        max_steps = 3
-        random_system_planet = {
-          limit = {
-            is_colonizable = yes
-            is_colony = no
-            has_planet_flag = prescripted_ideal
+    if = {
+      limit = { exists = capital_scope }
+      capital_scope = {
+        # Add new districts
+        if = {
+          limit = { owner = { is_hive_empire = yes} }
+          change_planet_size = 1
+          add_district = district_hive_node
+
+          if = {
+            limit = { NOT = { owner = { has_origin = origin_void_dwellers } } }
+            change_planet_size = 1
+            add_district = district_foundry
+          } else = {
+            solar_system = {
+              random_system_planet = {
+                limit = { has_planet_flag = void_dweller_habitat_2 }
+                change_planet_size = 1
+                add_district = district_foundry
+              }
+            }
           }
 
-          if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
-          else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
-          else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
-          else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
-          else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
-          else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
-          else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+          if = {
+            limit = {
+              NOR = {
+                owner = { has_origin = origin_shattered_ring }
+                owner = { has_origin = origin_void_dwellers }
+              }
+            }
+            change_planet_size = 1
+            add_district = district_science
+          }
+        } else_if = {
+          limit = { owner = { is_machine_empire = yes } }
 
-          if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+          change_planet_size = 1
+          add_district = district_uplink_node
 
-          reroll_planet = yes
-        }
-      }
-      closest_system = {
-        limit = { has_star_flag = neighbor_t2_second_colony }
-        max_steps = 6
-        random_system_planet = {
-          limit = {
-            is_colonizable = yes
-            is_colony = no
-            has_planet_flag = prescripted_ideal
+          if = {
+            limit = { NOT = { owner = { has_origin = origin_void_dwellers } } }
+            change_planet_size = 1
+            add_district = district_foundry
+
+            if = {
+              limit = { owner = { has_civic = civic_machine_servitor } }
+              change_planet_size = 1
+              add_district = district_factory
+            }
+          } else = {
+            solar_system = {
+              random_system_planet = {
+                limit = { has_planet_flag = void_dweller_habitat_2 }
+                if = {
+                  limit = { owner = { has_civic = civic_machine_servitor } }
+                  change_planet_size = 1
+                  add_district = district_factory
+                }
+                change_planet_size = 1
+                add_district = district_foundry
+              }
+            }
           }
 
-          if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
-          else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
-          else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
-          else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
-          else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
-          else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
-          else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+          if = {
+            limit = {
+              NOR = {
+                owner = { has_origin = origin_shattered_ring }
+                owner = { has_origin = origin_void_dwellers }
+              }
+            }
+            change_planet_size = 1
+            add_district = district_science
+          }
 
-          if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+        } else = {
+          change_planet_size = 1
+          add_district = district_bureaucratic
 
-          reroll_planet = yes
-        }
-        last_created_country = {
-          randomise_early_primitive_age_effect = yes
+          if = {
+            limit = { NOT = { owner = { has_origin = origin_void_dwellers } } }
+            change_planet_size = 2
+            add_district = district_foundry
+            add_district = district_factory
+          } else = {
+            solar_system = {
+              random_system_planet = {
+                limit = { has_planet_flag = void_dweller_habitat_2 }
+                change_planet_size = 2
+                add_district = district_foundry
+                add_district = district_factory
+              }
+            }
+          }
+
+          if = {
+            limit = {
+              NOR = {
+                owner = { has_origin = origin_shattered_ring }
+                owner = { has_origin = origin_void_dwellers }
+              }
+            }
+            change_planet_size = 1
+            add_district = district_science
+          }
         }
       }
     }
+
+    # capital_scope.solar_system = {
+    #   closest_system = {
+    #     limit = { has_star_flag = neighbor_t1_first_colony }
+    #     max_steps = 3
+    #     random_system_planet = {
+    #       limit = {
+    #         is_colonizable = yes
+    #         is_colony = no
+    #         has_planet_flag = prescripted_ideal
+    #       }
+
+    #       if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
+    #       else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
+    #       else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
+    #       else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
+    #       else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
+    #       else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
+    #       else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+
+    #       if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+
+    #       reroll_planet = yes
+    #     }
+    #   }
+    #   closest_system = {
+    #     limit = { has_star_flag = neighbor_t2_second_colony }
+    #     max_steps = 6
+    #     random_system_planet = {
+    #       limit = {
+    #         is_colonizable = yes
+    #         is_colony = no
+    #         has_planet_flag = prescripted_ideal
+    #       }
+
+    #       if = { limit = { owner_species = { has_trait = trait_primatoid } } change_pc = pc_continental }
+    #       else_if = { limit = { owner_species = { has_trait = trait_oceanid } } change_pc = pc_ocean }
+    #       else_if = { limit = { owner_species = { has_trait = trait_reptiloid } } change_pc = pc_desert }
+    #       else_if = { limit = { owner_species = { has_trait = trait_avian } } change_pc = pc_tropical }
+    #       else_if = { limit = { owner_species = { has_trait = trait_insectoid } } change_pc = pc_desert }
+    #       else_if = { limit = { owner_species = { has_trait = trait_plasmoid } } change_pc = pc_plasma }
+    #       else_if = { limit = { owner_species = { has_trait = trait_necrophage } } change_pc = pc_continental } # ToDo change
+
+    #       if = { limit = { owner = { has_origin = origin_post_apocalyptic } } change_pc = pc_nuked }
+
+    #       reroll_planet = yes
+    #     }
+    #     last_created_country = {
+    #       randomise_early_primitive_age_effect = yes
+    #     }
+    #   }
+    # }
   }
 }
