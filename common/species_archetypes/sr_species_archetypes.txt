@@ -31,8 +31,7 @@ MACHINE = {
 }
 
 PRESAPIENT = {
-	species_trait_points = @species_trait_points
-	species_max_traits = @species_max_traits
+	inherit_trait_points_from = BIOLOGICAL
 }
 
 OTHER = {}

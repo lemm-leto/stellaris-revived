@@ -1,0 +1,49 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_srt_blue_strip"
+		texturefile = "gfx/interface/icons/ui/blue_strip.dds" # ToDo - replace with custom
+	}
+
+	spriteType = {
+		name = "GFX_srt_yellow_strip"
+		texturefile = "gfx/interface/icons/ui/yellow_strip.dds" # ToDo - replace with custom
+	}
+
+	spriteType = {
+		name = "GFX_srt_red_strip"
+		texturefile = "gfx/interface/icons/ui/red_strip.dds" # ToDo - replace with custom
+	}
+
+	spriteType = {
+		name = "GFX_srt_window_portrait"
+		texturefile = "gfx/interface/srt/window/srt_background.dds" # ToDo - replace with custom
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_has_downtrodden"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_hasvassal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_is_downtrodden"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_isvassal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_stadium_background"
+		textureFile = "gfx/interface/planetview/galactic_stadium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_evt_galactic_stadium"
+		texturefile = "gfx/event_pictures/galactic_stadium.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_element_zero_jump_drive"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_element_zero_jump_drive.dds"
+	}
+}

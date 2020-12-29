@@ -54,14 +54,7 @@ guiTypes = {
 
 		if_resolution = {
 			max_height = 680
-			size = { width = @view_w height = 680 }
-
-			show_position = { x = 35 y = 40 }
-			hide_position = { x = -800 y = 40 }
-			animation_time = 200
-			animation_type = decelerated
-			show_sound = "select_click"
-			moveable = no
+			size = { width = 600 height = 680 }
 		}
 
 		backGround = {
@@ -1636,7 +1629,6 @@ guiTypes = {
 			smoothListboxType = {
 				name = "pop_categories_list"
 				position = { x = 20 y = 100 }
-				background = ""
 				size = { x = 526 y = 326 }
 				scrollbarType = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }
@@ -3364,7 +3356,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "deposits_list"
 					position = { x = 15 y = 60 }
-					background = ""
 					size = { x = 250 y = 500 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -3540,7 +3531,6 @@ guiTypes = {
 					smoothListboxType = {
 						name = "upgrades_list"
 						position = { x = 15 y = 30 }
-						background = ""
 						size = { x = 250 y = 350 }
 						scrollbarType = "standardlistbox_slider"
 						borderSize = { x = 0 y = 0 }
@@ -4090,7 +4080,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "terraform_list"
 					position = { x = 15 y = 60 }
-					background = ""
 					size = { x = 250 y = 500 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4208,7 +4197,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "decisions_list"
 					position = { x = 5 y = 60 }
-					background = ""
 					size = { x = 280 y = 560 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4251,7 +4239,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "designations_list"
 					position = { x = 5 y = 60 }
-					background = ""
 					size = { x = 280 y = 560 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4293,7 +4280,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "constructions_list"
 					position = { x = 15 y = 75 }
-					background = ""
 					size = { x = 250 y = 540 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4322,7 +4308,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "district_constructions_list"
 					position = { x = 15 y = 60 }
-					background = ""
 					size = { x = 250 y = 500 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4350,7 +4335,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "species_select_list"
 					position = { x = 15 y = 60 }
-					background = ""
 					size = { x = 250 y = 500 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -4379,7 +4363,6 @@ guiTypes = {
 				smoothListboxType = {
 					name = "recruitment_list"
 					position = { x = 15 y = 60 }
-					background = ""
 					size = { x = 250 y = 500 }
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
@@ -5096,7 +5079,6 @@ guiTypes = {
 			smoothListboxType = {
 				name = "jobs_list"
 				position = { x = 0 y = 3 }
-				background = ""
 				size = { x = 514 y = 210 }
 				scrollbarType = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }

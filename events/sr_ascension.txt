@@ -13,3 +13,17 @@ country_event = {
     name = "OK"
   }
 }
+
+country_event = {
+  id = sr_ascension.1001
+  title = "sr_ascension.1001.title"
+	desc = "sr_ascension.1001.desc"
+	picture = GFX_evt_galactic_stadium
+	location = event_target:galactic_stadium
+
+  is_triggered_only = yes
+
+  option = {
+    name = "OK"
+  }
+}

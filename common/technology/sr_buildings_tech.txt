@@ -14,7 +14,7 @@ tech_quantum_compressor = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
@@ -24,7 +24,7 @@ tech_quantum_compressor = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
@@ -45,7 +45,7 @@ tech_quantum_compressor_2 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
@@ -55,7 +55,7 @@ tech_quantum_compressor_2 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
@@ -76,7 +76,7 @@ tech_quantum_compressor_3 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
@@ -86,7 +86,7 @@ tech_quantum_compressor_3 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = engineering
+				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}

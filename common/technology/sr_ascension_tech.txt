@@ -56,11 +56,10 @@ tech_starbase_6 = {
 }
 
 tech_orbital_halo = {
-	cost = @tier5cost2
+	cost = @tier4cost2
 	area = engineering
 	category = { voidcraft }
-	tier = 5
-	prerequisites = { "tech_ring_world" }
+	tier = 4
 	weight = 0
 
 	potential = {
@@ -76,6 +75,22 @@ tech_orbital_halo = {
 				has_trait = "leader_trait_expertise_voidcraft"
 			}
 		}
+	}
+}
+
+tech_galactic_stadium = {
+	cost = @tier4cost2
+	area = engineering
+	category = { voidcraft }
+	tier = 4
+	weight = 0
+
+	potential = {
+		host_has_dlc = "Utopia"
+	}
+
+	ai_weight = {
+		factor = 10
 	}
 }
 

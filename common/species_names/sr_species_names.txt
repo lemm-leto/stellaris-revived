@@ -1272,7 +1272,7 @@ INSECTOID = {
 		plural = Screkli
 		home_planet = Screkan
 		home_system = Baccotri
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	xanyr = {
@@ -1280,7 +1280,7 @@ INSECTOID = {
 		plural = Xanyrans
 		home_planet = Xana
 		home_system = Podpu
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	zaacplot = {
@@ -1304,7 +1304,7 @@ INSECTOID = {
 		plural = Opalglecians
 		home_planet = Opalag
 		home_system = Gacagga
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	valurt = {
@@ -1312,7 +1312,7 @@ INSECTOID = {
 		plural = Valurtians
 		home_planet = Valu
 		home_system = Lorcral
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	natfankan = {
@@ -1336,7 +1336,7 @@ INSECTOID = {
 		plural = Zaxxoids
 		home_planet = Za-Oxx
 		home_system = Oxx-Oxx
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	dabbax = {
@@ -1344,7 +1344,7 @@ INSECTOID = {
 		plural = Dabaxans
 		home_planet = "Dabba Naxan"
 		home_system = Polkran
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	zemmerpuk = {
@@ -1368,7 +1368,7 @@ INSECTOID = {
 		plural = Ytrellanids
 		home_planet = Ytra
 		home_system = Mak'Onux
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	savixqast = {
@@ -1376,7 +1376,7 @@ INSECTOID = {
 		plural = Savix'Qastians
 		home_planet = "Savixq"
 		home_system = Qastliani
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	qopinjaxi = {
@@ -1400,7 +1400,7 @@ INSECTOID = {
 		plural = Sakytians
 		home_planet = "Sakyt Ux"
 		home_system = Hullfax
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	backatta = {
@@ -1408,7 +1408,7 @@ INSECTOID = {
 		plural = Backattans
 		home_planet = Backatta
 		home_system = "Ba Grax"
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	xaplo = {
@@ -1432,7 +1432,7 @@ INSECTOID = {
 		plural = Eruxoans
 		home_planet = "Eruxo Prime"
 		home_system = Oprimax
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	spuxulac = {
@@ -1440,7 +1440,7 @@ INSECTOID = {
 		plural = Spuxulacans
 		home_planet = "Greater Spuxulac"
 		home_system = Hayxacca
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	multyx = {
@@ -1464,7 +1464,7 @@ INSECTOID = {
 		plural = Ztrakporans
 		home_planet = Ztrakpor
 		home_system = Ztrakpor-Ohdri
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	tchaaskeran = {
@@ -1472,7 +1472,7 @@ INSECTOID = {
 		plural = Tchaaskerans
 		home_planet = Tchaa'Pol
 		home_system = Tchaa'Pol-Kolse
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	yaxkalock = {
@@ -1496,7 +1496,7 @@ INSECTOID = {
 		plural = Themlari
 		home_planet = Them
 		home_system = Themmel
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	tezhnid = {
@@ -1504,7 +1504,7 @@ INSECTOID = {
 		plural = Tezhnids
 		home_planet = Tezhnar
 		home_system = Tizhnig
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	pithok = {
@@ -1528,7 +1528,7 @@ INSECTOID = {
 		plural = Thimoids
 		home_planet = Thimodurus
 		home_system = Thimagga
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	rutharian = {
@@ -1536,7 +1536,7 @@ INSECTOID = {
 		plural = Rutharians
 		home_planet = Rutharia
 		home_system = Ruthor
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	jhabbanid = {
@@ -1560,7 +1560,7 @@ INSECTOID = {
 		plural = Ik-Nur-Vals
 		home_planet = Ik
 		home_system = Ir-Vol-Ta
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	haddam = {
@@ -1568,7 +1568,7 @@ INSECTOID = {
 		plural = Haddam
 		home_planet = "Haddi Saras"
 		home_system = Haddorim
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	xeltek = {
@@ -1592,7 +1592,7 @@ INSECTOID = {
 		plural = Hantak
 		home_planet = Hantakka
 		home_system = Takaros
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	rontor = {
@@ -1600,7 +1600,7 @@ INSECTOID = {
 		plural = Rontori
 		home_planet = "Rontus Prime"
 		home_system = Rontus
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	talakkur = {
@@ -1624,7 +1624,7 @@ INSECTOID = {
 		plural = Athallids
 		home_planet = "Athull Jor"
 		home_system = Athull
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	entheri = {
@@ -1632,7 +1632,7 @@ INSECTOID = {
 		plural = Entheri
 		home_planet = Enth
 		home_system = "Na Ethor"
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	chimm = {
@@ -1656,7 +1656,7 @@ INSECTOID = {
 		plural = Yibraki
 		home_planet = "Yibar Prime"
 		home_system = Yibar
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	qiramulan = {
@@ -1664,7 +1664,7 @@ INSECTOID = {
 		plural = Qiramulan
 		home_planet = "Greater Qirus"
 		home_system = Qirus
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	ethir = {
@@ -1688,7 +1688,7 @@ INSECTOID = {
 		plural = Piraks
 		home_planet = Pirokko
 		home_system = Pirazur
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	izki = {
@@ -1696,7 +1696,7 @@ INSECTOID = {
 		plural = Izki
 		home_planet = "Izk Center"
 		home_system = Izk
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 
 	pakari = {
@@ -1720,7 +1720,7 @@ INSECTOID = {
 		plural = Maggars
 		home_planet = Magga
 		home_system = Maggur
-		name_list = "ART1"
+		name_list = "INSECTOID1"
 	}
 
 	krithakkan = {
@@ -1728,7 +1728,7 @@ INSECTOID = {
 		plural = Krithakkans
 		home_planet = Krith
 		home_system = Karka
-		name_list = "ART2"
+		name_list = "INSECTOID2"
 	}
 }
 
@@ -2652,7 +2652,7 @@ OCEANID = {
 		plural = Malwegollans
 		home_planet = Wegolla
 		home_system = "Wegolla Upta"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	alvothari = {
@@ -2684,7 +2684,7 @@ OCEANID = {
 		plural = Havollans
 		home_planet = Havo
 		home_system = "Havolla Gath"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	ymacera = {
@@ -2716,7 +2716,7 @@ OCEANID = {
 		plural = Havariggans
 		home_planet = Rigga
 		home_system = "Ha-Va'Ri"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	slerpanor = {
@@ -2748,7 +2748,7 @@ OCEANID = {
 		plural = Obadinans
 		home_planet = Obadin
 		home_system = "Odaka"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	yalon = {
@@ -2780,7 +2780,7 @@ OCEANID = {
 		plural = Andigonji
 		home_planet = Gonji
 		home_system = An'Onj
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	grollferp = {
@@ -2812,7 +2812,7 @@ OCEANID = {
 		plural = Domannans
 		home_planet = Domannica
 		home_system = Petoll-Pu
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	wacegi = {
@@ -2844,7 +2844,7 @@ OCEANID = {
 		plural = Moij-Huxgans
 		home_planet = Maij
 		home_system = Huxganniga
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	Aztani = {
@@ -2868,7 +2868,7 @@ OCEANID = {
 		plural = Ymorz
 		home_planet = Ymoria
 		home_system = "Ymor Za"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	bilnoc = {
@@ -2900,7 +2900,7 @@ OCEANID = {
 		plural = Elaaminids
 		home_planet = Elaam
 		home_system = "Ela Gaan"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	heejam = {
@@ -2932,7 +2932,7 @@ OCEANID = {
 		plural = Gorothi
 		home_planet = Goroth
 		home_system = Gor
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	connisthian = {
@@ -2964,7 +2964,7 @@ OCEANID = {
 		plural = Dabulans
 		home_planet = Dabul
 		home_system = "Demes Qhi"
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	uthabulan = {
@@ -2996,7 +2996,7 @@ OCEANID = {
 		plural = Tebbrans
 		home_planet = Tebbor
 		home_system = Tebbaris
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	kundaric = {
@@ -3028,7 +3028,7 @@ OCEANID = {
 		plural = Sebans
 		home_planet = Sebannica
 		home_system = Sebto-Ka
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	jakly = {
@@ -3060,7 +3060,7 @@ OCEANID = {
 		plural = Xabiri
 		home_planet = "Xabir Prime"
 		home_system = Xabir
-		name_list = "MOL3"
+		name_list = "OCEANID3"
 	}
 
 	jubaran = {

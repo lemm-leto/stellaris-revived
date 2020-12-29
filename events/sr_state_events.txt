@@ -1,0 +1,77 @@
+namespace = sr_state
+
+country_event = {
+  id = sr_state.1000
+  hide_window = yes
+  is_triggered_only = yes
+
+  trigger = {
+    is_subject_type = downtrodden
+    exists = overlord
+  }
+
+  immediate = {
+    while = {
+      count = 10
+      random_owned_pop = {
+        limit = {
+          NOT = { has_pop_flag = downtrodden_target }
+        }
+        set_pop_flag = downtrodden_target
+      }
+    }
+
+    overlord = {
+      if = {
+        limit = { any_planet_within_border = { has_modifier = slave_colony } }
+        random_owned_planet = {
+          limit = { has_modifier = slave_colony }
+          save_event_target_as = downtrodden_planet
+        }
+      } else = {
+        random_owned_planet = {
+          limit = { is_capital = yes }
+          save_event_target_as = downtrodden_planet
+        }
+      }
+    }
+
+    every_owned_pop = {
+      limit = { has_pop_flag = downtrodden_target }
+      event_target:downtrodden_planet = {
+        log = "Resettle the pop [This.GetName] [from.GetName] [fromfrom.GetName] [downtrodden_planet.GetName]"
+        create_pop = {
+          species = from
+          ethos = from
+        }
+      }
+      kill_pop = yes
+    }
+
+    overlord = {
+      create_message = {
+        type = MESSAGE_DOWNTRODDEN_POPS_ENSLAVED
+        localization = MESSAGE_DOWNTRODDEN_POPS_ENSLAVED_OVERLORD
+        days = 30
+        target = overlord
+        variable = {
+          type = name
+          localization = PLANET
+          scope = event_target:downtrodden_planet
+        }
+      }
+    }
+
+    create_message = {
+      type = MESSAGE_DOWNTRODDEN_POPS_ENSLAVED
+      localization = MESSAGE_DOWNTRODDEN_POPS_ENSLAVED
+      days = 30
+      target = this
+      variable = {
+        type = name
+        localization = PLANET
+        scope = event_target:downtrodden_planet
+      }
+    }
+  }
+}

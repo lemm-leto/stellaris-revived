@@ -380,7 +380,6 @@ district_plasma_industry = {
 	}
 
 	ai_resource_production = {
-    consumer_goods = 1
     alloys = 1
 		trigger = {
 			always = yes

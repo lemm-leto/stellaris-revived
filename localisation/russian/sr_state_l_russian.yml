@@ -1,0 +1,7 @@
+﻿l_russian:
+  SUBJECT_downtrodden:0 "Угнетенный"
+  SUBJECT_DESC_downtrodden:0 "Угнетенные находятся в подчинении к своему сюзерену. Они обладают полными дипломатическими возможностями, могут расширять свои территории, сражаются вместе с сюзереном, а также платят подать в виде ресурсов и рабов."
+
+  MESSAGE_DOWNTRODDEN_POPS_ENSLAVED_TITLE:0 "Подать в виде рабов"
+  MESSAGE_DOWNTRODDEN_POPS_ENSLAVED_OVERLORD:0 "Угнетенная нами страна отдала нам подать в виде рабов на планету $PLANET|Y$."
+  MESSAGE_DOWNTRODDEN_POPS_ENSLAVED:0 "Будучи угнетенными, мы отдали рабов на планету $PLANET|Y$."

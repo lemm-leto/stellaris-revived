@@ -12,13 +12,6 @@ on_colonized = {
   }
 }
 
-on_five_year_pulse = {
-  events = {
-    # Trigger species merge for all AI countries
-    # sr_species.1000
-  }
-}
-
 on_bi_yearly_pulse = {
   events = {
   }
@@ -26,6 +19,19 @@ on_bi_yearly_pulse = {
   random_events = {
     50 = 0
     50 = sr_stories.1002
+  }
+}
+
+on_five_year_pulse = {
+  events = {
+    # Trigger species merge for all AI countries
+    # sr_species.1000
+  }
+}
+
+on_decade_pulse_country = {
+  events = {
+    sr_state.1000
   }
 }
 

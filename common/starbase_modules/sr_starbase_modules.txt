@@ -39,7 +39,7 @@ heavy_hangar_bay = {
 
 	potential = {
 		exists = owner
-		owner = { has_technology = tech_starbase_heavy_hangar_bay }
+		owner = { has_technology = "tech_starbase_heavy_hangar_bay" }
 	}
 
 	resources = {

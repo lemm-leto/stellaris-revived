@@ -1,0 +1,61 @@
+galactic_stadium = {
+	entity = "galactic_stadium_entity" #ToDo update
+	construction_entity = "construction_platform_entity"
+	portrait = "GFX_galactic_stadium_background"
+	place_entity_on_planet_plane = no
+  entity_offset = { x = -27 y = -27 }
+  build_outside_gravity_well = no
+  build_time = 1800
+
+	resources = {
+		category = megastructures
+		cost = {
+      alloys = 5000
+      influence = 100
+		}
+
+		produces = {
+      unity = 100
+      energy = 100
+		}
+	}
+
+	prerequisites = { "tech_galactic_stadium" }
+	show_prereqs = yes
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_surveyed_system"
+			NOT = {
+				any_system_planet = {
+					is_surveyed = {
+						who = prev.from
+						status = no
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_existing_megastructure"
+			NOT = {
+				has_megastructure = galactic_stadium
+			}
+    }
+	}
+
+	country_modifier = {
+		planet_amenities_mult = 0.05
+	}
+
+	on_build_complete = {
+		set_star_flag = galactic_stadium_built
+		from = {
+			country_event = { id = sr_ascension.1001 }
+		}
+	}
+}

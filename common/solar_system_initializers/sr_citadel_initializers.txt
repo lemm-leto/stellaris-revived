@@ -26,7 +26,7 @@ citadel_initializer = {
 		class = pc_citadel
 
 		orbit_distance = { min = 50 max = 90 }
-		orbit_angle = 0.52
+		orbit_angle = random
 		size = 10
 		has_ring = no
 

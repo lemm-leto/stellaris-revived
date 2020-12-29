@@ -99,6 +99,10 @@ PRE_ART = {
 		"art12"
 		"art15"
 	}
+
+	use_climate_preference = no
+
+	trait = "trait_insectoid"
 }
 
 PRE_MOL = {
@@ -119,6 +123,10 @@ PRE_MOL = {
 		"mol1"
 		"mol3"
 	}
+
+	use_climate_preference = no
+
+	trait = "trait_primatoid"
 }
 
 PRE_FUN = {
@@ -141,6 +149,10 @@ PRE_FUN = {
 		"fun9"
 		"fun13"
 	}
+
+	use_climate_preference = no
+
+	trait = "trait_plantoid"
 }
 
 AI = {

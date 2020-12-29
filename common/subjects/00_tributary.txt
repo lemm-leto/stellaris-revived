@@ -1,33 +1,20 @@
-downtrodden = {
+tributary = {
 	can_expand = yes
-	can_be_integrated = yes
-	joins_overlord_wars = yes
+	joins_overlord_wars = no
 	calls_overlord_to_war = yes
 	can_do_diplomacy = yes
 
-	diplo_threat = 0.75
-
-	subject_tax_rate = {
-		minerals = 0.05
-    energy = 0.05
-    food = 0.05
-    alloys = 0.05
-    consumer_goods = 0.05
-    volatile_motes = 0.05
-    exotic_gases = 0.05
-    rare_crystals = 0.05
+	can_switch_to = {
+		vassal protectorate
 	}
 
-	overlord_resources = {
-		category = subjects
-		produces = {
-			influence = 0.5
-		}
+	subject_tax_rate = {
+		minerals = 0.25
+		energy = 0.25
 	}
 
 	potential = {
-		is_country_type = default
-		from = { has_ascension_perk = ap_slavery_state }
+		from = { is_country_type = default }
 	}
 
 	effect = {
@@ -39,16 +26,6 @@ downtrodden = {
 			}
 			set_subject_of = {
 				who = none
-			}
-			break = yes
-		}
-		if = {
-			limit = {
-				from = { has_valid_civic = civic_inwards_perfection }
-			}
-			set_subject_of = {
-				who = from
-				subject_type = tributary
 			}
 			break = yes
 		}
@@ -129,23 +106,21 @@ downtrodden = {
 		}
 		if = {
 			limit = {
-				from = {
-					NOT = { has_authority = auth_corporate }
-					has_ascension_perk = ap_slavery_state
-				}
+				from = { has_ascension_perk = ap_slavery_state }
 			}
 			set_subject_of = {
 				who = from
 				subject_type = downtrodden
 			}
+			break = yes
 		}
 		if = {
 			limit = {
-				from = { NOT = { has_authority = auth_corporate } }
+				from = { has_authority = auth_corporate }
 			}
 			set_subject_of = {
 				who = from
-				subject_type = vassal
+				subject_type = subsidiary
 			}
 			break = yes
 		}

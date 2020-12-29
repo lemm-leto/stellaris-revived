@@ -4,7 +4,7 @@ sr_element_zero = {
 	market_price = 100
 	max = 15000
 
-	prerequisites = { "tech_mine_element_zero" }
+	prerequisites = { "tech_element_zero_analysis" }
 	visibility_prerequisite = { always = yes }
 
 	ai_weight = {

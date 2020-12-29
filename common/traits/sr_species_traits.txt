@@ -12,8 +12,8 @@ trait_primatoid = {
 
 	modifier = {}
 
-	leader_age_min = 30
-	leader_age_max = 60
+	leader_age_min = 15	# 80 / 6 = 13.33 (rounding)
+	leader_age_max = 65 # 80 * 5 / 6 = 66.66 (rounding)
 
 	allowed_archetypes = { CARBONOID }
 	ai_weight = {
@@ -25,28 +25,38 @@ trait_primatoid = {
   custom_tooltip = trait_primatoid_effect
 
 	modifier = {
-		# Buff
-    pop_growth_speed = 0.25
-		planet_jobs_engineering_research_produces_mult = 0.15
-		# Debuff
+		# Biological
+		leader_age = 0
+		pop_growth_speed = 0.15
+		pop_environment_tolerance = 0.25
+
+		# Social
+    pop_amenities_usage_mult = -0.15
+		planet_jobs_engineering_research_produces_mult = 0.25
 		planet_pops_consumer_goods_upkeep_mult = 0.15
 
     # Main habitability
 		pc_continental_habitability = 1.0
 
 		# Secondary habitability
-    pc_savannah_habitability = 0.75
     pc_tropical_habitability = 0.75
+    pc_ocean_habitability = 0.75
 
     # Tertiary habitability
     pc_alpine_habitability = 0.5
-    pc_arid_habitability = 0.5
+    pc_arctic_habitability = 0.5
     pc_tundra_habitability = 0.5
 
     # Rare habitability
-    pc_ocean_habitability = 0.25
-    pc_arctic_habitability = 0.25
-    pc_desert_habitability = 0.25
+    pc_savannah_habitability = 0.25
+    pc_arid_habitability = 0.25
+		pc_desert_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
 	}
 }
 
@@ -64,8 +74,8 @@ trait_oceanid = {
 
 	modifier = {}
 
-	leader_age_min = 5
-	leader_age_max = 25
+	leader_age_min = 5		# 50 / 6 = 8 (rounding)
+	leader_age_max = 25		# 50 * 5 / 6 = 42 (rounding)
 
 	allowed_archetypes = { CARBONOID }
 	ai_weight = {
@@ -77,29 +87,38 @@ trait_oceanid = {
 	custom_tooltip = trait_oceanid_effect
 
 	modifier = {
-		leader_age = -25
-		# Buff
-		pop_happiness = 0.25
-		pop_housing_usage_mult = -0.15
-		# Debuff
+		# Biological
+		leader_age = -30
+		pop_growth_speed = 0.25
 		pop_environment_tolerance = -0.15
 
+		# Social
+		pop_housing_usage_mult = -0.15
+		pop_happiness = 0.25
+    pop_environment_tolerance = -0.15
+
 		# Main habitability
-    pc_ocean_habitability = 1.0
+		pc_ocean_habitability = 1.0
 
 		# Secondary habitability
+    pc_tropical_habitability = 0.75
     pc_continental_habitability = 0.75
-		pc_tropical_habitability = 0.75
 
-		# Tertiary habitability
+    # Tertiary habitability
     pc_arctic_habitability = 0.5
-		pc_tundra_habitability = 0.5
-		pc_alpine_habitability = 0.5
+    pc_tundra_habitability = 0.5
+    pc_alpine_habitability = 0.5
 
     # Rare habitability
-    pc_arid_habitability = 0.25
-    pc_desert_habitability = 0.25
     pc_savannah_habitability = 0.25
+    pc_arid_habitability = 0.25
+		pc_desert_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
 	}
 }
 
@@ -109,7 +128,7 @@ trait_reptiloid = {
 
 	sorting_priority = 20
 
-	initial = no
+	initial = yes
 	randomized = no
 	modification = no
 	forced_happiness = no
@@ -117,8 +136,8 @@ trait_reptiloid = {
 
 	modifier = {}
 
-	leader_age_min = 10
-	leader_age_max = 40
+	leader_age_min = 20
+	leader_age_max = 110
 
 	allowed_archetypes = { CARBONOID }
 	ai_weight = {
@@ -130,29 +149,38 @@ trait_reptiloid = {
 	custom_tooltip = trait_reptiloid_effect
 
 	modifier = {
-		leader_age = -15
-		# Buff
+		# Biological
+		leader_age = 50
+		pop_growth_speed = 0.15
+		pop_environment_tolerance = -0.25
+
+		# Social
 		army_damage_mult = 0.25
-		planet_jobs_alloys_produces_mult = 0.15
-		# Debuff
+    planet_jobs_alloys_produces_mult = 0.15
 		pop_government_ethic_attraction = -0.15
 
 		# Main habitability
-    pc_desert_habitability = 1.00
+		pc_desert_habitability = 1.0
 
 		# Secondary habitability
     pc_arid_habitability = 0.75
     pc_savannah_habitability = 0.75
 
-		# Tertiary habitability
+    # Tertiary habitability
     pc_continental_habitability = 0.5
     pc_ocean_habitability = 0.5
     pc_tropical_habitability = 0.5
 
     # Rare habitability
-		pc_tundra_habitability = 0.1
-		pc_alpine_habitability = 0.1
-    pc_arctic_habitability = 0.1
+    pc_tundra_habitability = 0.25
+    pc_alpine_habitability = 0.25
+		pc_arctic_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
 	}
 }
 
@@ -170,7 +198,7 @@ trait_avian = {
 
 	modifier = {}
 
-	leader_age_min = 25
+	leader_age_min = 15
 	leader_age_max = 80
 
 	allowed_archetypes = { CARBONOID }
@@ -183,28 +211,38 @@ trait_avian = {
 	custom_tooltip = trait_avian_effect
 
 	modifier = {
-		# Buff
-		pop_housing_usage_mult = -0.25
+		# Biological
+		leader_age = 20
+		pop_growth_speed = 0.05
+		pop_environment_tolerance = -0.15
+
+		# Social
 		planet_jobs_food_produces_mult = 0.15
-		# Debuff
+    pop_housing_usage_mult = -0.25
 		pop_amenities_usage_mult = 0.15
 
 		# Main habitability
-    pc_tropical_habitability = 1.0
+		pc_savannah_habitability = 1.0
 
 		# Secondary habitability
-    pc_continental_habitability = 0.75
-		pc_savannah_habitability = 0.75
+    pc_arid_habitability = 0.75
+    pc_desert_habitability = 0.75
 
-		# Tertiary habitability
-    pc_arid_habitability = 0.5
-    pc_desert_habitability = 0.5
+    # Tertiary habitability
+    pc_continental_habitability = 0.5
     pc_ocean_habitability = 0.5
+    pc_tropical_habitability = 0.5
 
-		# Rare habitability
-		pc_alpine_habitability = 0.1
-		pc_tundra_habitability = 0.1
-    pc_arctic_habitability = 0.1
+    # Rare habitability
+    pc_tundra_habitability = 0.25
+    pc_alpine_habitability = 0.25
+		pc_arctic_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
 	}
 }
 
@@ -220,8 +258,8 @@ trait_insectoid = {
 	forced_happiness = no
 	immortal_leaders = no
 
-	leader_age_min = 2
-	leader_age_max = 15
+	leader_age_min = 3
+	leader_age_max = 16
 
 	allowed_archetypes = { CARBONOID }
 	ai_weight = {
@@ -233,28 +271,100 @@ trait_insectoid = {
 	custom_tooltip = trait_insectoid_effect
 
 	modifier = {
-		# Buff
-    pop_growth_speed = 0.25
+		# Biological
+		leader_age = -60
+		pop_growth_speed = 0.1
+		pop_environment_tolerance = 0.1
+
+		# Social
 		planet_jobs_minerals_produces_mult = 0.15
-		# Debuff
+    planet_jobs_society_research_produces_mult = 0.25
 		planet_pops_upkeep_mult = 0.15
 
 		# Main habitability
-    pc_desert_habitability = 1.0
+		pc_arid_habitability = 1.0
 
 		# Secondary habitability
-    pc_arid_habitability = 0.75
+    pc_desert_habitability = 0.75
     pc_savannah_habitability = 0.75
 
-		# Tertiary habitability
-		pc_continental_habitability = 0.5
+    # Tertiary habitability
+    pc_continental_habitability = 0.5
     pc_tropical_habitability = 0.5
-		pc_tundra_habitability = 0.5
+    pc_ocean_habitability = 0.5
 
-		# Rare habitability
-		pc_alpine_habitability = 0.1
-		pc_arctic_habitability = 0.1
-    pc_ocean_habitability = 0.1
+    # Rare habitability
+    pc_tundra_habitability = 0.25
+    pc_alpine_habitability = 0.25
+		pc_arctic_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
+	}
+}
+
+trait_plantoid = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+
+	sorting_priority = 20
+
+	initial = yes
+	randomized = no
+	modification = no
+	forced_happiness = no
+	immortal_leaders = no
+
+	modifier = {}
+
+	leader_age_min = 50 	# 300 / 6 = 50
+	leader_age_max = 250 	# 300 * 5 / 6 = 250
+
+	allowed_archetypes = { CARBONOID }
+	ai_weight = {
+		weight = 0
+	}
+
+	icon = "gfx/interface/icons/traits/trait_plantoid.dds"
+
+	custom_tooltip = trait_plantoid_effect
+
+	modifier = {
+		# Biological
+		leader_age = 300
+		pop_growth_speed = -0.15
+		pop_environment_tolerance = 0.15
+
+		# Social
+		planet_jobs_energy_produces_mult = 0.15
+    pop_happiness = 0.25
+		pop_housing_usage_mult = 0.15
+
+    # Main habitability
+		pc_tropical_habitability = 1.0
+
+		# Secondary habitability
+    pc_continental_habitability = 0.75
+    pc_ocean_habitability = 0.75
+
+    # Tertiary habitability
+    pc_arid_habitability = 0.5
+    pc_desert_habitability = 0.5
+    pc_savannah_habitability = 0.5
+
+    # Rare habitability
+    pc_alpine_habitability = 0.25
+    pc_arctic_habitability = 0.25
+		pc_tundra_habitability = 0.25
+
+		# Restrict from possible colonization
+		pc_plasma_habitability = -2.0
+		pc_nuked_habitability = -2.0
+		# pc_volcano_habitability = -2.0
+		# pc_high_pressure_habitability = -2.0
 	}
 }
 
@@ -370,52 +480,5 @@ trait_extremophile = {
 		pc_k_star_habitability = -2.0
 		pc_m_star_habitability = -2.0
 		pc_m_giant_star_habitability = -2.0
-	}
-}
-
-trait_plantoid = {
-	cost = 0
-	potential_crossbreeding_chance = 0
-
-	sorting_priority = 20
-
-	initial = no
-	randomized = no
-	modification = no
-	forced_happiness = no
-	immortal_leaders = no
-
-	modifier = {}
-
-	leader_age_min = 50
-	leader_age_max = 250
-
-	allowed_archetypes = { CARBONOID }
-	ai_weight = {
-		weight = 0
-	}
-
-	icon = "gfx/interface/icons/traits/trait_plantoid.dds"
-
-	custom_tooltip = trait_plantoid_effect
-
-	modifier = {
-		pop_growth_speed = -0.1
-		planet_jobs_energy_produces_mult = 0.15
-
-		# Main habitability
-    pc_tropical_habitability = 1.0
-    pc_arid_habitability = 0.9
-		pc_tundra_habitability = 0.9
-
-		# Secondary habitability
-    pc_continental_habitability = 0.5
-    pc_savannah_habitability = 0.5
-		pc_alpine_habitability = 0.5
-
-		# Tertiary habitability
-    pc_ocean_habitability = 0.1
-    pc_arctic_habitability = 0.1
-    pc_desert_habitability = 0.1
 	}
 }

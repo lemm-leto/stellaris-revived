@@ -1,0 +1,77 @@
+entity = {
+	name = "arthropoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "arthropoid_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "avian_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "avian_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "mammalian_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "mammalian_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "humanoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "humanoid_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "plantoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "plantoid_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "fungoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "fungoid_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "molluscoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "molluscoid_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "reptilian_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "reptilian_01_thinktank_part1_entity" }
+}
+
+entity = {
+	name = "lithoid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "lithoid_01_thinktank_part1_entity" }
+
+	game_data = {
+		emissive_recolor_crunch = 2.0
+	}
+}
+
+entity = {
+	name = "necroid_01_galactic_stadium_entity"
+	locator = { name = "root"	position = { 0 0 0 } }
+
+	attach = { "root" = "necroid_01_thinktank_part1_entity" }
+
+	game_data = {
+		emissive_recolor_crunch = 2.0
+	}
+}

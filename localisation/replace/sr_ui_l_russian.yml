@@ -31,3 +31,10 @@
   # placeholders:
   count_owned_pop_species_trigger:0 ""
   effect_random_owned_pop_species:0 ""
+  mod_pc_citadel_habitability:0 ""
+  trait_pc_citadel_preference:0 ""
+  trait_pc_citadel_preference_desc:0 ""
+  trait_pc_plasma_preference:0 ""
+  trait_pc_plasma_preference_desc:0 ""
+
+  machine_defense_plural:0 "$machine_defense$"

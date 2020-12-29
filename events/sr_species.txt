@@ -10,10 +10,8 @@ event = {
   immediate = {
     every_country = {
       limit = {
-        AND = {
-          is_ai = yes
-          NOT = { is_country_type = fallen_empire }
-        }
+        is_ai = yes
+        NOT = { is_country_type = fallen_empire }
       }
       country_event = {
         id = sr_species.1001

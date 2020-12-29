@@ -1,8 +1,8 @@
-﻿l_russian:
+﻿l_english:
 
   ### PLANET CLASSES ###
-  pc_citadel:0 "Цитадель"
-  pc_citadel_desc:0 "Эта огромная конструкция была создана более миллиарда лет неизвестной расой предтеч. Цитадель — гигантская конструкция в форме пятиконечной звезды. Центральное кольцо диаметром в 10 километров занимает центр Цитадели, окружённое пятью «рукавами», каждый из которых имеет протяжённость в 25 км и ширину в 5 км. В основании расположены системы рециркуляции отходов. Они производят разного рода искусственную органику, которую можно употреблять в пищу. Эта органическая масса распространяется бесплатно и обладает высокими питательными свойствами, но почти не имеет вкуса и очень неприятна на вид. Бедные обитатели Цитадели охотно ей питаются, добавляя в неё соусы и специи для вкуса. Привозная еда — это роскошь и знак благосостояния."
+  pc_citadel:0 "The Citadel"
+  pc_citadel_desc:0 "Supposedly constructed by the long-extinct precursor race, this colossal deep-space station serves as the capital of the Galactic Council. Gravity is simulated through rotation, and is a comfortable 1.02 standard G's on the Wards and a light 0.3 standard G's on the Presidium Ring.\nTotal Length (Open) 44.7 km\nDiameter (Open) 12.8 km\nGross Weight 7.11 billion metric tons."
 
   ### CITADEL DISTRICTS ###
   district_citadel_city:0 "$district_rw_city$"
@@ -51,13 +51,13 @@
   ELEMENT_ZERO_EXPLODED_SUN_DESC:0 "Нам необходимо изучить останки светила, которое недавно неожиданно коллапсировало под воздействием темной материи."
 
   ### TECHNOLOGIES ###
-  tech_element_zero_analysis:0 "Обработка данных по нулевому элементу"
-  tech_element_zero_analysis_desc:0 "Нулевой элемент - загадочная сущность, которая манипулирует темной материи и приводит к преждевременному старению звезд."
-  element_zero_analysis:0 "Нам необходимо выяснить базовые физические свойства нулевого элемента, чтобы предотвратить коллапсирование звезд."
-  tech_element_zero_core:0 "Ядро эффекта массы"
-  tech_element_zero_core_desc:0 "Постройка ядра эффекты массы позволит нам предотвратить дальнейшее коллапсирование звезд."
+  tech_element_zero_analysis:0 "Element Zero Data Analysis"
+  tech_element_zero_analysis_desc:0 "Element zero is a mysterious element which can manipulate dark matter and as a result leads to star collapse."
+  element_zero_analysis:0 "We should get acquinted with a physical properties of the element zero to prevent star collapsing."
+  tech_element_zero_core:0 "Mass Effect Core"
+  tech_element_zero_core_desc:0 "When building this megastructure we can be sure that we're capable of stopping stars collapsing."
   tech_element_zero_jump_drive:0 "$ELEMENT_ZERO_JUMP_DRIVE$"
-  tech_element_zero_jump_drive_desc:0 "Открыв тот факт, что нулевой элемент может влиять на массу вещества, мы можем значительно увеличить возможности наших двигателей."
+  tech_element_zero_jump_drive_desc:0 "Now, when we know that element zero can manipulate the mass, we can improve our drives dramatically."
 
   ### MEGASTRUCTURES ###
   element_zero_core:0 "Ядро эффекта массы"
@@ -73,8 +73,8 @@
   building_citadel_embassy_desc:0 "Комплекс посольских зданий, используемых для постоянных дипломатических миссий."
 
   ### SHIP COMPONENTS ###
-  ELEMENT_ZERO_JUMP_DRIVE:0 "Прыжковый двигатель на нулевом элементе"
+  ELEMENT_ZERO_JUMP_DRIVE:0 "Element Zero Jump Drive"
 
   ### RESOURCES ###
-  sr_element_zero:0 "Нулевой элемент"
-  sr_element_zero_desc:0 "Нулевой элемент представляет собой малоизученный химический элемент, который позволяет манипулировать темной материей."
+  sr_element_zero:0 "Element Zero"
+  sr_element_zero_desc:0 "Element zero is an unknown chemical element which allows to mannipulate the dark matter."

@@ -47,6 +47,7 @@ ap_infinite_wardens = {
 ap_demiurge = {
 	on_enabled = {
 		add_research_option = tech_orbital_halo
+		add_research_option = tech_galactic_stadium
 	}
 
 	possible = {
@@ -100,11 +101,9 @@ ap_slavery_state = {
 		OR = {
 			is_authoritarian = yes
 			is_xenophobe = yes
-			has_ethic = ethic_gestalt_consciousness
 		}
-		NOT = {
-			has_ascension_perk = ap_slavery_state
-		}
+		NOT = { has_ascension_perk = ap_slavery_state	}
+		NOT = { has_authority = auth_corporate }
 	}
 
 	ai_weight = {
