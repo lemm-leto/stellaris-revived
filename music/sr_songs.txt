@@ -9,3 +9,23 @@ song = {
 song = {
 	name = "Signal To Noise"
 }
+
+song = {
+	name = "Curiosity"
+}
+
+song = {
+	name = "Infinitely"
+}
+
+song = {
+	name = "Spatium"
+}
+
+song = {
+	name = "Nebula"
+}
+
+song = {
+	name = "Solace"
+}

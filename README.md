@@ -26,3 +26,23 @@ TBD
   Music promoted by https://www.free-stock-music.com
   Attribution 4.0 International (CC BY 4.0)
   https://creativecommons.org/licenses/by/4.0/
+* Curiosity by Alexander Nakarada | https://www.serpentsoundstudios.com
+  Music promoted by https://www.free-stock-music.com
+  Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+* Infinitely by Keys of Moon | https://soundcloud.com/keysofmoon
+  Music promoted by https://www.free-stock-music.com
+  Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+* Solace by Scott Buckley | https://soundcloud.com/scottbuckley
+  Music promoted by https://www.free-stock-music.com
+  Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+* Spatium by Keys of Moon | https://soundcloud.com/keysofmoon
+  Music promoted by https://www.free-stock-music.com
+  Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+* Nebula by Savfk | https://www.youtube.com/savfkmusic
+  Music promoted by https://www.free-stock-music.com
+  Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
